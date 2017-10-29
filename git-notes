@@ -47,3 +47,7 @@ LIST FILES BEING TRACKED: git ls-tree -r master --name-only
   CHARLEY AND PULL CHANGES ONTO CHARLEY. (CHARLEY WILL BACK UP
   FILES TO THE LOCAL EXTERNAL DRIVE AT 1 AM AND WILL BACK UP
   FILES TO DROPBOX EVERY MINUTE.
+- TO GET PLAIN TEXT TO SEND TO JOHN AS docx file:
+    -RUN htlatex paper.tex
+        -This will output a .html file. Copy and paste text
+         from .html file into Word and send as .docx.
