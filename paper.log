@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.10)  28 OCT 2017 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.9)  28 OCT 2017 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,38 +245,55 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box54
 \rot@mess@toks=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/endfloat/endfloat.sty
-Package: endfloat 2011/12/25 v2.5d LaTeX2e package puts figures and tables at e
-nd (jdm)
-\c@posttable=\count109
-\efloat@postttt=\write3
-\@ef@tttopen=\count110
-\c@postfigure=\count111
-\efloat@postfff=\write4
-\@ef@fffopen=\count112
-)
+
+! LaTeX Error: File `endfloat.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `nomarkers' for package `endfloat'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.714 \usepackage
+                 {lineno}
+? 
+
+! LaTeX Error: Unknown option `tablesfirst' for package `endfloat'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.714 \usepackage
+                 {lineno}
+? 
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count113
+\linenopenalty=\count109
 \output=\toks21
-\linenoprevgraf=\count114
+\linenoprevgraf=\count110
 \linenumbersep=\dimen123
 \linenumberwidth=\dimen124
-\c@linenumber=\count115
-\c@pagewiselinenumber=\count116
-\c@LN@truepage=\count117
-\c@internallinenumber=\count118
-\c@internallinenumbers=\count119
+\c@linenumber=\count111
+\c@pagewiselinenumber=\count112
+\c@LN@truepage=\count113
+\c@internallinenumber=\count114
+\c@internallinenumbers=\count115
 \quotelinenumbersep=\dimen125
 \bframerule=\dimen126
 \bframesep=\dimen127
 \bframebox=\box55
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@extraauth=\count120
-\c@loopnum=\count121
-\thanksnum=\count122
-\savethanksnum=\count123
+\c@extraauth=\count116
+\c@loopnum=\count117
+\thanksnum=\count118
+\savethanksnum=\count119
 )
 (/usr/share/texmf/tex/generic/tex4ht/tex4ht.sty
 version 2008-10-27-17:23
@@ -302,7 +319,7 @@ version 2009-01-07-07:11
 version 2008-10-27-17:23
 
 --- needs --- tex4ht paper ---
-\tmp:cnt=\count124
+\tmp:cnt=\count120
 \openout15 = `paper.tmp'.
 
 (./paper.tmp)
@@ -311,8 +328,8 @@ version 2008-10-27-17:23
 --- Note --- for XML code, use the command line option `xml' or `xhtml'
 --------------------------------------
  (./paper.xref)
-\:refout=\write5
-\openout5 = `paper.xref'.
+\:refout=\write3
+\openout3 = `paper.xref'.
 
  (/usr/share/texmf/tex/generic/tex4ht/html4.4ht
 version 2009-05-18-23:01
@@ -406,8 +423,8 @@ version 2009-05-18-23:01
 --------------------------------------
 \openout15 = `paper.4ct'.
 
-\:tocout=\write6
-\openout6 = `paper.4tc'.
+\:tocout=\write4
+\openout4 = `paper.4tc'.
 
 
 (/usr/share/texmf/tex/generic/tex4ht/html4.4ht
@@ -663,15 +680,6 @@ version 2009-05-18-23:01
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
 version 2009-05-18-23:01
 ))
-(/usr/share/texmf/tex/generic/tex4ht/endfloat.4ht
-version 2009-05-21-09:32
-
-(/usr/share/texmf/tex/generic/tex4ht/html4.4ht
-version 2009-05-18-23:01
-)
-(/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
-version 2009-05-18-23:01
-))
 (/usr/share/texmf/tex/generic/tex4ht/lineno.4ht
 version 2009-05-21-09:32
 
@@ -750,17 +758,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
- [1] [2]
-AED endfloat: Processing end Figures and Tables [3] [4
-
-] (./paper.aux) ) 
+ [1] [2] [3]
+(./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 6751 strings out of 493030
- 78173 string characters out of 6136260
- 275618 words of memory out of 5000000
- 10087 multiletter control sequences out of 15000+600000
+ 6580 strings out of 494954
+ 75467 string characters out of 6181004
+ 267894 words of memory out of 5000000
+ 9674 multiletter control sequences out of 15000+600000
  20400 words of font info for 56 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  34i,6n,37p,718b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.dvi (4 pages, 11236 bytes).
+Output written on paper.dvi (3 pages, 11084 bytes).
