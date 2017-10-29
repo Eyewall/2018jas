@@ -1,0 +1,2 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\xdef 0{0}\advance \interlinepenalty \linenopenalty \linenoprevgraf \prevgraf \global \holdinginserts \thr@@ \@@@par \@tempdima \prevdepth \setbox \@tempboxa \hbox {}\dp \@tempboxa =\@tempdima \prevdepth -\@m \p@ \kern -\@tempdima \box \@tempboxa \global \holdinginserts 0\advance \interlinepenalty -\linenopenalty 
