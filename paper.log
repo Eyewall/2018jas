@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.10)  13 NOV 2017 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  15 NOV 2017 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (./ametsoc.cls
 \c@section=\count79
 \c@subsection=\count80
@@ -251,38 +251,55 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box54
 \rot@mess@toks=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/endfloat/endfloat.sty
-Package: endfloat 2011/12/25 v2.5d LaTeX2e package puts figures and tables at e
-nd (jdm)
-\c@posttable=\count110
-\efloat@postttt=\write3
-\@ef@tttopen=\count111
-\c@postfigure=\count112
-\efloat@postfff=\write4
-\@ef@fffopen=\count113
-)
+
+! LaTeX Error: File `endfloat.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `nomarkers' for package `endfloat'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.714 \usepackage
+                 {lineno}
+? 
+
+! LaTeX Error: Unknown option `tablesfirst' for package `endfloat'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.714 \usepackage
+                 {lineno}
+? 
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count114
+\linenopenalty=\count110
 \output=\toks21
-\linenoprevgraf=\count115
+\linenoprevgraf=\count111
 \linenumbersep=\dimen123
 \linenumberwidth=\dimen124
-\c@linenumber=\count116
-\c@pagewiselinenumber=\count117
-\c@LN@truepage=\count118
-\c@internallinenumber=\count119
-\c@internallinenumbers=\count120
+\c@linenumber=\count112
+\c@pagewiselinenumber=\count113
+\c@LN@truepage=\count114
+\c@internallinenumber=\count115
+\c@internallinenumbers=\count116
 \quotelinenumbersep=\dimen125
 \bframerule=\dimen126
 \bframesep=\dimen127
 \bframebox=\box55
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@extraauth=\count121
-\c@loopnum=\count122
-\thanksnum=\count123
-\savethanksnum=\count124
+\c@extraauth=\count117
+\c@loopnum=\count118
+\thanksnum=\count119
+\savethanksnum=\count120
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
@@ -306,16 +323,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count121
 \scratchdimen=\dimen128
 \scratchbox=\box56
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count122
+\nofMParguments=\count123
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count128
+\MPscratchCnt=\count124
 \MPscratchDim=\dimen129
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
 \everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -412,23 +429,22 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-AED endfloat: Processing end Figures and Tables [3] (./paper.aux) ) 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4176 strings out of 493029
- 54328 string characters out of 6136234
- 124515 words of memory out of 5000000
- 7617 multiletter control sequences out of 15000+600000
- 33909 words of font info for 79 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 4015 strings out of 494953
+ 51945 string characters out of 6180978
+ 116800 words of memory out of 5000000
+ 7207 multiletter control sequences out of 15000+600000
+ 35016 words of font info for 80 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
  38i,10n,37p,271b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (3 pages, 53364 bytes).
+{
+/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (3 pages, 54409 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
