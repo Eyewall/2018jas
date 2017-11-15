@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  15 NOV 2017 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.9)  15 NOV 2017 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper.tex
+**paper
 (./paper.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
@@ -250,14 +250,12 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rotFPbot=\skip51
 \rot@float@box=\box54
 \rot@mess@toks=\toks20
+) (./endfloat.sty
+\c@postfig=\count110
+\@postfigs=\write3
+\c@posttbl=\count111
+\@posttbls=\write4
 )
-
-! LaTeX Error: File `endfloat.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
 
 ! LaTeX Error: Unknown option `nomarkers' for package `endfloat'.
 
@@ -280,27 +278,31 @@ l.714 \usepackage
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count110
+\linenopenalty=\count112
 \output=\toks21
-\linenoprevgraf=\count111
+\linenoprevgraf=\count113
 \linenumbersep=\dimen123
 \linenumberwidth=\dimen124
-\c@linenumber=\count112
-\c@pagewiselinenumber=\count113
-\c@LN@truepage=\count114
-\c@internallinenumber=\count115
-\c@internallinenumbers=\count116
+\c@linenumber=\count114
+\c@pagewiselinenumber=\count115
+\c@LN@truepage=\count116
+\c@internallinenumber=\count117
+\c@internallinenumbers=\count118
 \quotelinenumbersep=\dimen125
 \bframerule=\dimen126
 \bframesep=\dimen127
 \bframebox=\box55
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@extraauth=\count117
-\c@loopnum=\count118
-\thanksnum=\count119
-\savethanksnum=\count120
-) (./paper.aux)
+\c@extraauth=\count119
+\c@loopnum=\count120
+\thanksnum=\count121
+\savethanksnum=\count122
+) (./paper.aux
+
+LaTeX Warning: Label `fig:modbudres' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -317,22 +319,21 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 105.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
+\scratchcounter=\count123
 \scratchdimen=\dimen128
 \scratchbox=\box56
-\nofMPsegments=\count122
-\nofMParguments=\count123
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count124
+\MPscratchCnt=\count126
 \MPscratchDim=\dimen129
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -429,25 +430,130 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./paper.aux) ) 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+(./paper.bbl)
+\openout3 = `paper.fff'.
+
+ (paper.fff)
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.255 \begin{figure}
+                    [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.262 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.269 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.276 \begin{figure}
+                    [ht]
+? 
+[4] (./paper.lof
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 1.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 1.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 1.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
+\tf@lof=\write5
+\openout5 = `paper.lof'.
+
+ [5
+
+
+] (./paper.fff
+<figures/fig01_vmax+pmin.png, id=23, 780.9175pt x 1437.37pt>
+File: figures/fig01_vmax+pmin.png Graphic file (type png)
+
+<use figures/fig01_vmax+pmin.png>
+Package pdftex.def Info: figures/fig01_vmax+pmin.png used on input line 3.
+(pdftex.def)             Requested size: 228.0pt x 419.65591pt.
+ [6
+
+ <./figures/fig01_vmax+pmin.png>]
+<figures/fig02_n2-24hr-avgs.png, id=27, 1547.7825pt x 1561.835pt>
+File: figures/fig02_n2-24hr-avgs.png Graphic file (type png)
+
+<use figures/fig02_n2-24hr-avgs.png>
+Package pdftex.def Info: figures/fig02_n2-24hr-avgs.png used on input line 11.
+(pdftex.def)             Requested size: 468.0pt x 472.24803pt.
+ [7
+
+ <./figures/fig02_n2-24hr-avgs.png>]
+<figures/fig03_R-Z_mod+bud+res.png, id=32, 2285.53876pt x 2690.05pt>
+File: figures/fig03_R-Z_mod+bud+res.png Graphic file (type png)
+
+<use figures/fig03_R-Z_mod+bud+res.png>
+Package pdftex.def Info: figures/fig03_R-Z_mod+bud+res.png used on input line 1
+9.
+(pdftex.def)             Requested size: 468.0pt x 550.80708pt.
+
+
+LaTeX Warning: Float too large for page by 8.65025pt on input line 22.
+
+[8 <./figures/fig03_R-Z_mod+bud+res.png>]
+<figures/fig04_AVG_budterms.png, id=36, 803.0pt x 803.0pt>
+File: figures/fig04_AVG_budterms.png Graphic file (type png)
+
+<use figures/fig04_AVG_budterms.png>
+Package pdftex.def Info: figures/fig04_AVG_budterms.png used on input line 27.
+(pdftex.def)             Requested size: 228.0pt x 227.99968pt.
+ [9
+
+
+ <./figures/fig04_AVG_budterms.png>])
+(./paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
+n input line 288.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4015 strings out of 494953
- 51945 string characters out of 6180978
- 116800 words of memory out of 5000000
- 7207 multiletter control sequences out of 15000+600000
- 35016 words of font info for 80 fonts, out of 8000000 for 9000
+ 4173 strings out of 494953
+ 54395 string characters out of 6180978
+ 121493 words of memory out of 5000000
+ 7337 multiletter control sequences out of 15000+600000
+ 53141 words of font info for 120 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,37p,271b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
-{
-/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (3 pages, 54409 bytes).
+ 38i,10n,37p,570b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (9 pages, 924348 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

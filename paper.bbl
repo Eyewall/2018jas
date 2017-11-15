@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\renewcommand{\UrlFont}{\rmfamily}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{Duran+Molinari2018}
+Duran, P., and J.~Molinari, 2018: Dramatic tropopause variability during the
+  rapid intensification of hurricane patricia (2015). \textit{Mon.\ Wea.\
+  Rev.}, \textbf{XXX~(X)}, XXX--XXX.
+
+\end{thebibliography}

@@ -120,9 +120,41 @@ Albany, NY}
 
  \section{Model Setup}
 
+Put description of Fig.~\ref{fig:vmax+pmin} in this section.
+Don't forget to mention 1-2-1 smoother.
+
+ \section{Budget Computation}
+
  \section{Results}
 
-% \subsection*{subsection}
+ \subsection{Static stability evolution}
+
+The simulated static stability evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{Duran+Molinari2018} \citeyear{Duran+Molinari2018}).
+The average N\textsuperscript{2} over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a static stability maximum about 400 m above the cold-point tropopause.
+This lower-stratospheric stable layer had begun to erode during the initial spin-up period, with the maximum destabilitzation occurring at the innermost radii.
+This decrease in static stability continued into the second day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}b) as the storm intensified to hurricane strength (Fig.~\ref{fig:vmax+pmin}).
+Destabilization was particularly pronounced over the developing eye, where the time-mean cold-point tropopause height increased by up to 400 m compared to the previous day.
+Over the developing eyewall and outer rainband regions, meanwhile, the time-mean tropopause height remained nearly constant.
+During the third day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}c), static stability over the eye region continued to decrease, and the cold-point tropopause height rose to 18.3 km at the storm center.
+The tropopause sloped sharply downward over the innermost radii, reaching the 16.4-km level near the 50-km radius.
+This local minimum in tropopause height corresponded to the eyewall region, where upper-tropospheric static stability increased during this time period.
+Outside of the eyewall region, static stability began to increase in the layer immediately overlying the cold-point tropopause.
+This stable layer sloped upward with radius, which corresponded to an upward-sloping tropopause radially outside of the eywall region.
+Over the next 24 hours (Fig.~\ref{fig:n2-24hr-avgs}d), as the storm's maximum 10-m wind speed leveled off near 80 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}), the upper-tropospheric static stability within the eyewall region continued to strengthen, along with the static stability within the lower stratosphere radially outside of the eyewall.
+As the stable layer strengthened, its altitude rose slightly, which corresponded to a slight increase in tropopause height outside of the eyewall during this period.
+Within the upper troposphere radially outside of the eyewall, meanwhile, static stability decreased such that it was nearly neutral in a thin layer between the 120- and 150-km radii.
+The eye region likewise continued to destabilize, and the cold-point tropopause height increased to a level above 18.5 km.
+
+ \subsection{Potential temperature budget analysis}
+
+% \subsubsection{Budget performance}
+
+The left column of Fig.~\ref{fig:modbudres} depicts 24-hour changes in N\textsuperscript{2} over each of the four days of the simulation. 
+These represent bulk changes computed by subtracting the instantaneous N\textsuperscript{2} at the initial time from the instantaneous N\textsuperscript{2} at the final time. 
+The middle column of Fig.~\ref{fig:modbudres} represents the change in N\textsuperscript{2} computed using Eq. XXX and the process described in Section 3. 
+The residual between these two computations (Fig.~\ref{fig:modbudres}, right column) is much smaller than the change in N\textsuperscript{2}, meaning that the budget peforms well within the analysis domain.
+
+
 % text...
 % \section{Section title}
 
@@ -174,10 +206,7 @@ Start acknowledgments here.
 %\appendcaption{<appendix letter and number>}{<caption>} 
 %must be used for figures and tables in appendixes, e.g.,
 %
-%\begin{figure}
-%\noindent\includegraphics[width=19pc,angle=0]{figure01.pdf}\\
-%\appendcaption{A1}{Caption here.}
-%\end{figure}
+
 %
 % All appendix figures/tables should be placed in order AFTER the main figures/tables, i.e., tables, appendix tables, figures, appendix figures.
 %
@@ -185,8 +214,8 @@ Start acknowledgments here.
 % REFERENCES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Make your BibTeX bibliography by using these commands:
-% \bibliographystyle{ametsoc2014}
-% \bibliography{references}
+ \bibliographystyle{ametsoc2014}
+ \bibliography{references}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -220,6 +249,36 @@ Start acknowledgments here.
 %% Enter figures at the end of the document, after tables.
 %%
 %
+
+
+%FIGURE 1%
+\begin{figure}[ht]
+\centerline{\includegraphics[width=19pc]{figures/fig01_vmax+pmin.png}}
+\caption{The maximum 10-m wind speed (top panel; m s\textsuperscript{-2}) and minimum sea-level pressure (bottom panel; hPa) in the simulated storm (blue lines) and from Hurricane Patricia's best track (red stars).}
+\label{fig:vmax+pmin}
+\end{figure}
+
+%FIGURE 2%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig02_n2-24hr-avgs.png}}
+\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over the first four days of the simulation. Orange lines represent the cold-point tropopause computed from the mean temperature field over the same time periods.}
+\label{fig:n2-24hr-avgs}
+\end{figure*}
+
+%FIGURE 3%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig03_R-Z_mod+bud+res.png}}
+\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The N\textsuperscript{2} change over the same time periods computed using Eq. XXX. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
+\label{fig:modbudres}
+\end{figure*}
+
+%FIGURE 4%
+\begin{figure}[ht]
+\centerline{\includegraphics[width=19pc]{figures/fig04_AVG_budterms.png}}
+\caption{Time series of the contribution of each of the budget terms to the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) tendency. For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged both temporally and spatially over 1-hour periods, using output every minute, and within the radius-height domain depicted in Fig.~\ref{fig:modbudres}.}
+\label{fig:modbudres}
+\end{figure*}
+
 %\begin{figure}[t]
 %  \noindent\includegraphics[width=19pc,angle=0]{figure01.pdf}\\
 %  \caption{Enter the caption for your figure here.  Repeat as
