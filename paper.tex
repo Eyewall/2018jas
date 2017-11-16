@@ -118,24 +118,28 @@ Albany, NY}
 %%
  \section{Introduction}
 
+There will be a whole bunch of papers cited here...
+
  \section{Model Setup}
 
-Put description of Fig.~\ref{fig:vmax+pmin} in this section.
+Put description of Fig.~\ref{fig:vmax+pmin} in this section. 
+
 Don't forget to mention 1-2-1 smoother.
 
  \section{Budget Computation}
+
+Add details of budget computation here...
 
  \section{Results}
 
  \subsection{Static stability evolution}
 
-The simulated static stability evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{Duran+Molinari2018} \citeyear{Duran+Molinari2018}).
 The average N\textsuperscript{2} over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a static stability maximum about 400 m above the cold-point tropopause.
 This lower-stratospheric stable layer had begun to erode during the initial spin-up period, with the maximum destabilitzation occurring at the innermost radii.
 This decrease in static stability continued into the second day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}b) as the storm intensified to hurricane strength (Fig.~\ref{fig:vmax+pmin}).
 Destabilization was particularly pronounced over the developing eye, where the time-mean cold-point tropopause height increased by up to 400 m compared to the previous day.
-Over the developing eyewall and outer rainband regions, meanwhile, the time-mean tropopause height remained nearly constant.
-During the third day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}c), static stability over the eye region continued to decrease, and the cold-point tropopause height rose to 18.3 km at the storm center.
+Over the developing eyewall and outer rainband regions, meanwhile, the tropopause height remained nearly constant.
+During the third day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}c), static stability over the eye continued to decrease, and the cold-point tropopause height rose to 18.3 km at the storm center.
 The tropopause sloped sharply downward over the innermost radii, reaching the 16.4-km level near the 50-km radius.
 This local minimum in tropopause height corresponded to the eyewall region, where upper-tropospheric static stability increased during this time period.
 Outside of the eyewall region, static stability began to increase in the layer immediately overlying the cold-point tropopause.
@@ -144,15 +148,20 @@ Over the next 24 hours (Fig.~\ref{fig:n2-24hr-avgs}d), as the storm's maximum 10
 As the stable layer strengthened, its altitude rose slightly, which corresponded to a slight increase in tropopause height outside of the eyewall during this period.
 Within the upper troposphere radially outside of the eyewall, meanwhile, static stability decreased such that it was nearly neutral in a thin layer between the 120- and 150-km radii.
 The eye region likewise continued to destabilize, and the cold-point tropopause height increased to a level above 18.5 km.
+This static stability evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{Duran+Molinari2018} \citeyear{Duran+Molinari2018}).
 
- \subsection{Potential temperature budget analysis}
-
-% \subsubsection{Budget performance}
+ \subsection{Static stability budget analysis}
 
 The left column of Fig.~\ref{fig:modbudres} depicts 24-hour changes in N\textsuperscript{2} over each of the four days of the simulation. 
 These represent bulk changes computed by subtracting the instantaneous N\textsuperscript{2} at the initial time from the instantaneous N\textsuperscript{2} at the final time. 
-The middle column of Fig.~\ref{fig:modbudres} represents the change in N\textsuperscript{2} computed using Eq. XXX and the process described in Section 3. 
+The middle column of Fig.~\ref{fig:modbudres} represents the change in N\textsuperscript{2} computed using Eq. XXX and the method described in Section 3. 
 The residual between these two computations (Fig.~\ref{fig:modbudres}, right column) is much smaller than the change in N\textsuperscript{2}, meaning that the budget peforms well within the analysis domain.
+
+A time series of the contribution of each of the budget terms in Eq. XXX to the tropopause-layer static stability tendency (Fig.\ref{fig:avgbudterms}) reveals that three terms dominate the budget.
+For this figure, each of the budget terms are computed using the method described in Section 3, except using 1-hour averaging intervals instead of 24-hour intervals.
+The absolute values of these tendencies are then averaged over the radius-height domain depicted in Fig.~\ref{fig:modbudres} and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
+Thus, taking an average over the domain tends to wash out the positive and negative contributions.
+To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}.
 
 
 % text...
@@ -217,7 +226,6 @@ Start acknowledgments here.
  \bibliographystyle{ametsoc2014}
  \bibliography{references}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TABLES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -275,8 +283,8 @@ Start acknowledgments here.
 %FIGURE 4%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=19pc]{figures/fig04_AVG_budterms.png}}
-\caption{Time series of the contribution of each of the budget terms to the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) tendency. For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged both temporally and spatially over 1-hour periods, using output every minute, and within the radius-height domain depicted in Fig.~\ref{fig:modbudres}.}
-\label{fig:modbudres}
+\caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (N\textsuperscript{2}; 10\textsuperscript{-4} s\textsuperscript{-2}). For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged both temporally over 1-hour periods (using output every minute), and spatially within the radius-height domain depicted in Fig.~\ref{fig:modbudres}.}
+\label{fig:avgbudterms}
 \end{figure*}
 
 %\begin{figure}[t]
