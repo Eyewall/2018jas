@@ -157,12 +157,21 @@ These represent bulk changes computed by subtracting the instantaneous N\textsup
 The middle column of Fig.~\ref{fig:modbudres} represents the change in N\textsuperscript{2} computed using Eq. XXX and the method described in Section 3. 
 The residual between these two computations (Fig.~\ref{fig:modbudres}, right column) is much smaller than the change in N\textsuperscript{2}, meaning that the budget peforms well within the analysis domain.
 
-A time series of the contribution of each of the budget terms in Eq. XXX to the tropopause-layer static stability tendency (Fig.\ref{fig:avgbudterms}) reveals that three terms dominate the budget.
-For this figure, each of the budget terms are computed using the method described in Section 3, except using 1-hour averaging intervals instead of 24-hour intervals.
+To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. XXX to the tropopause-layer static stability tendency is plotted in Fig. \ref{fig:avgbudterms}.
+For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
 The absolute values of these tendencies are then averaged over the radius-height domain depicted in Fig.~\ref{fig:modbudres} and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
 Thus, taking an average over the domain tends to wash out the positive and negative contributions.
-To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}.
+To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}. 
+Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) both become important after 48 hours.
+Although the contribution from horizontal turbulence (Fig.~\ref{fig:avgbudterms}, purple line) becomes more important after 72 hours, it is confined to a very small region immediately surrounding the eyewall tangential velocity maximum (not shown), and is negligible throughout the rest of the tropopause layer.
+The remaining two processes - microphysics and dissipative heating (Fig.~\ref{fig:avgbudterms}, orange and light green lines, respectively) - lie atop one another near zero.
+These time series indicate that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
+Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:n2-24hr-avgs}; subsequent sections will focus on these variations and what causes them.
 
+\paragraph{0-24 hours}
+\paragraph{24-48 hours}
+\paragraph{48-72 hours}
+\paragraph{72-96 hours}
 
 % text...
 % \section{Section title}
@@ -285,6 +294,34 @@ Start acknowledgments here.
 \centerline{\includegraphics[width=19pc]{figures/fig04_AVG_budterms.png}}
 \caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (N\textsuperscript{2}; 10\textsuperscript{-4} s\textsuperscript{-2}). For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged both temporally over 1-hour periods (using output every minute), and spatially within the radius-height domain depicted in Fig.~\ref{fig:modbudres}.}
 \label{fig:avgbudterms}
+\end{figure}
+
+%FIGURE 5%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig05_h000-h024-budgetterms.png}}
+\caption{}
+\label{fig:00-24}
+\end{figure*}
+
+%FIGURE 6%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig06_h024-h048-budgetterms.png}}
+\caption{}
+\label{fig:24-48}
+\end{figure*}
+
+%FIGURE 7%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig07_h048-h072-budgetterms.png}}
+\caption{}
+\label{fig:48-72}
+\end{figure*}
+
+%FIGURE 8%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig08_h072-h096-budgetterms.png}}
+\caption{}
+\label{fig:72-96}
 \end{figure*}
 
 %\begin{figure}[t]
