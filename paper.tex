@@ -144,7 +144,7 @@ The tropopause sloped sharply downward over the innermost radii, reaching the 16
 This local minimum in tropopause height corresponded to the eyewall region, where upper-tropospheric static stability increased during this time period.
 Outside of the eyewall region, static stability began to increase in the layer immediately overlying the cold-point tropopause.
 This stable layer sloped upward with radius, which corresponded to an upward-sloping tropopause radially outside of the eywall region.
-Over the next 24 hours (Fig.~\ref{fig:n2-24hr-avgs}d), as the storm's maximum 10-m wind speed leveled off near 80 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}), the upper-tropospheric static stability within the eyewall region continued to strengthen, along with the static stability within the lower stratosphere radially outside of the eyewall.
+Over the next 24 hours (Fig.~\ref{fig:n2-24hr-avgs}d), as the storm's maximum 10-m wind speed leveled off near 80 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}), the upper-tropospheric static stability within the eyewall region continued to strengthen, as did the static stability just above the cold-point tropopause radially outside of the eyewall.
 As the stable layer strengthened, its altitude rose slightly, which corresponded to a slight increase in tropopause height outside of the eyewall during this period.
 Within the upper troposphere radially outside of the eyewall, meanwhile, static stability decreased such that it was nearly neutral in a thin layer between the 120- and 150-km radii.
 The eye region likewise continued to destabilize, and the cold-point tropopause height increased to a level above 18.5 km.
@@ -169,8 +169,27 @@ These time series indicate that, at all times, three budget terms dominate the t
 Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:n2-24hr-avgs}; subsequent sections will focus on these variations and what causes them.
 
 \paragraph{0-24 hours}
+The first 24 hours of the simulation was characterized by a weakening of the lower-stratospheric static stability maximum above 17 km (Fig.~\ref{fig:stab-0-24}a, purple shading) and an increase in static stability below (green shading).
+Although these tendencies extended out to the 200-km radius, they were particularly pronounced at innermost radii.
+A comparison of the contributions of advection (Fig.~\ref{fig:stab-0-24}b), vertical turbulence (Fig.~\ref{fig:stab-0-24}c), and radiation (Fig.~\ref{fig:stab-0-24}d) reveals that advection is primarily responsible for the change in static stability during this period.
+...Explain this in the context of radial and vertical velocities...
+
 \paragraph{24-48 hours}
+During the second day of the simulation, the lower-stratospheric stable layer continued to weaken (Fig.~\ref{fig:stab-24-48}a).
+This weakening trend in the 16.75-17.75-km layer extended from the 50 km radius outward to past 200 km, and was primarily driven by advection (Fig.~\ref{fig:stab-24-48}b).
+Below this layer, static stability began to increse slightly.
+This stabilization had contributions from both vertical turbulence (Fig.~\ref{fig:stab-24-48}c) and radiation (Fig.~\ref{fig:stab-24-48}d) in the 16-16.5-km layer.
+...Explain this in context of mean vertical mixing coefficient and mean radiative heating tendency...
+Meanwhile, radially inward of 60 km, static stability below 17.5 km continued to weaken, primarily due to advective processes.
+
 \paragraph{48-72 hours}
+The third day of the simulation marked a dramatic change in the structure of the tropopause-layer static stability tendencies. During this time, static stability increased markedly in an upward-sloping region within the 30-60-km radial band (Fig.~\ref{fig:stab-48-72}a), and also increased within the 16.75-17.5-km layer out to at least the 200-km radius.
+As this layer stabilized, the layer immediately below it destabilized in a broad region extending from 60-200 km.
+Examination of the contribution from total advection (Fig.~\ref{fig:stab-48-72}b) reveals that advection no longer dominates the static stability tendencies.
+Instead, a combination of vertical turbulence (Fig.~\ref{fig:stab-48-72}c) and radiation (Fig.~\ref{fig:stab-48-72}d) overcomes the destabilizing influence of advection to create the layer of increasing static stability.
+Meanwhile, the destabilizing influence of vertical turbulence in a broad region below 17 km combines with a small region of destabilization due to radiation in the 50-120-km radial band combine to destabilize the layer below 16.5 km in the 50-200-km radial band.
+Comparing the sum of advection and vertical turbulence (Fig.~\ref{fig:stab-48-72}e) to the sum of advection, vertical turbulence, and radiation (Fig.~\ref{fig:stab-48-72}f) reveals that radiation plays a fundamental role in the re-strengthening of the lower-stratospheric stable layer during this time.
+
 \paragraph{72-96 hours}
 
 % text...
@@ -284,7 +303,7 @@ Start acknowledgments here.
 
 %FIGURE 3%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig03_R-Z_mod+bud+res.png}}
+\centerline{\includegraphics[width=33pc]{figures/fig03_R-Z_mod+bud+res.png}}
 \caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The N\textsuperscript{2} change over the same time periods computed using Eq. XXX. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
 \label{fig:modbudres}
 \end{figure*}
@@ -322,6 +341,27 @@ Start acknowledgments here.
 \centerline{\includegraphics[width=33pc]{figures/fig08_h072-h096-budgetterms.png}}
 \caption{As in Fig.~\ref{fig:stab-48-72}, but for the 72-96-hour period.}
 \label{fig:stab-72-96}
+\end{figure*}
+
+%FIGURE 9%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig09_u.png}}
+\caption{Radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange line) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours.}
+\label{fig:u}
+\end{figure*}
+
+%FIGURE 10%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig10_w.png}}
+\caption{Vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange line) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours.}
+\label{fig:w}
+\end{figure*}
+
+%FIGURE 11%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig11_qtot.png}}
+\caption{Total condensate mixing ratio (g kg\textsuperscript{-1}) and cold point tropopause height (orange line) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours.}
+\label{fig:qtot}
 \end{figure*}
 
 %\begin{figure}[t]
