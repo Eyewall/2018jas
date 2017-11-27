@@ -706,6 +706,7 @@ Generated using v4.3.2 of the AMS \LaTeX\ template}\hfill
 \usepackage{multicol}
 \usepackage{ifthen}
 \usepackage{rotating}
+\usepackage{textcomp}
 %% Start line numbers immediately if in draft mode,
 %% use endfloat commands to put tables and figures at
 %% end of paper.
