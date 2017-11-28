@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -45,6 +45,12 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
+
+\bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel}
+Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
+  tropical cyclones. {P}art {II}: Evolutionary study using a nonhydrostatic
+  axisymmetric numerical model. \textit{J.\ Atmos.\ Sci.}, \textbf{44},
+  542--561.
 
 \bibitem[{Thompson et~al.(2004)Thompson, Rasmussen,, and Manning}]{Thompson}
 Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: Explicit forecasts of

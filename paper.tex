@@ -132,10 +132,22 @@ Microphysical processes were parameterized using the \cite{Thompson} microphysic
 A horizontally-homogeneous temperature and humidity field was initialized with a mean sounding computed using all dropsondes deployed during the TCI flight conducted within and around Tropical Storm Patricia on 21 October, 2015 (see \citeauthor{DoyleTCI} \citeyear{DoyleTCI} for details.)
 Above 19 km, where few TCI observations were available, the temperature profile was assumed to be isothermal.
 Since relative humidity measurements were unreliable at temperatures below -40\textdegree C \citep{BellTCI}, the water vapor mixing ratio was set to zero above 16 km.
+The vortex described in \citeauthor{RotunnoEmanuel} (\citeyear{RotunnoEmanuel}, their Eq. 37) was used to initialize the wind field, setting all parameters equal to the values used therein.
 
  \section{Budget Computation}
 
-Add details of budget computation here...
+The static stability can be expressed as the squared Brunt V{\"a}is{\"a}l{\"a} frequency:
+   \begin{equation} \label{eq:n2moist}
+   EQ. 18 OF BRYAN AND ROTUNNO. ALSO USE EQ. 19
+   \end{equation}
+In the tropopause layer, $q_s$, $\frac{\partial q_s}{\partial T}$, and $\frac{\partial q_t}{\partial z}$ approach zero; thus, Eq. \ref{eq:n2moist} reduces to:
+   \begin{equation} \label{eq:n2dry}
+   N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
+   \end{equation}
+where \textit{g} is gravitational acceleration and $\theta_v$ is the virtual potential temperature.
+To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in unsaturated environments.
+For mathematical simplicity, only Eq. \ref{eq:n2dry} will be used for the budget computations herein\footnote{The validity of this approximation will be substantiated later in tihs section.}.
+Taking the time derivative of Eq.\ref{eq:n2dry} yields the static stability tendency:
 
  \section{Results}
 
