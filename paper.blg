@@ -5,45 +5,46 @@ The style file: ametsoc2014.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in BellTCI
-You've used 9 entries,
+Warning--missing publisher in Kimberlainetal2016
+You've used 12 entries,
             3493 wiz_defined-function locations,
-            916 strings with 9219 characters,
-and the built_in function-call counts, 9138 in all, are:
-= -- 1091
-> -- 261
+            933 strings with 9829 characters,
+and the built_in function-call counts, 12614 in all, are:
+= -- 1478
+> -- 429
 < -- 5
-+ -- 162
-- -- 66
-* -- 455
-:= -- 947
-add.period$ -- 18
-call.type$ -- 9
-change.case$ -- 65
-chr.to.int$ -- 9
-cite$ -- 10
-duplicate$ -- 949
-empty$ -- 500
-format.name$ -- 91
-if$ -- 1862
++ -- 258
+- -- 108
+* -- 643
+:= -- 1310
+add.period$ -- 24
+call.type$ -- 12
+change.case$ -- 95
+chr.to.int$ -- 12
+cite$ -- 14
+duplicate$ -- 1275
+empty$ -- 669
+format.name$ -- 139
+if$ -- 2574
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 91
-newline$ -- 38
-num.names$ -- 36
-pop$ -- 361
+missing$ -- 128
+newline$ -- 47
+num.names$ -- 48
+pop$ -- 524
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 82
 quote$ -- 0
-skip$ -- 610
+skip$ -- 821
 stack$ -- 0
-substring$ -- 445
-swap$ -- 767
+substring$ -- 590
+swap$ -- 1022
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 81
-warning$ -- 1
-while$ -- 41
+type$ -- 108
+warning$ -- 2
+while$ -- 54
 width$ -- 0
-write$ -- 108
-(There was 1 warning)
+write$ -- 140
+(There were 2 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -29,6 +29,11 @@ Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
   Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull.\ Amer.\ Meteor.\
   Soc.}, \textbf{98}, 2113--2134.
 
+\bibitem[{Dunion et~al.(2014)Dunion, Thorncroft,, and Velden}]{Dunionetal2014}
+Dunion, J.~P., C.~D. Thorncroft, and C.~S. Velden, 2014: The tropical cyclone
+  diurnal cycle of mature hurricanes. \textit{Mon.\ Wea.\ Rev.}, \textbf{142},
+  3900--3919.
+
 \bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{Duran+Molinari2018}
 Duran, P., and J.~Molinari, 2018: Dramatic inner-core tropopause variability
   during the rapid intensification of {H}urricane {P}atricia (2015).
@@ -41,10 +46,23 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
   Calculations with the {AER} radiative transfer models. \textit{J.\ Geophys.\
   Res.}, \textbf{113~(D13103)}.
 
+\bibitem[{Kimberlain et~al.(2016)Kimberlain, Blake,, and
+  Cangialosi}]{Kimberlainetal2016}
+Kimberlain, T.~B., E.~S. Blake, and J.~P. Cangialosi, 2016: {Tropical cyclone
+  report: Hurricane Patricia. National Hurricane Center}. [Available online at
+  www.nhc.noaa.gov].
+
 \bibitem[{Markowski and Bryan(2016)Markowski, and Bryan}]{MarkowskiBryan2016}
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
+
+\bibitem[{Rogers et~al.(2017)Rogers, Aberson, Bell, Cecil, Doyle, Morgerman,
+  Shay,, and Velden}]{Rogersetal2017}
+Rogers, R.~F., S.~Aberson, M.~M. Bell, D.~J. Cecil, J.~D. Doyle, J.~Morgerman,
+  L.~K. Shay, and C.~Velden, 2017: Re-writing the tropical record books: The
+  extraordinary intensification of {Hurricane Patricia} (2015). \textit{Bull.\
+  Amer.\ Meteor.\ Soc.}, \textbf{98}, 2091--2112.
 
 \bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel}
 Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
