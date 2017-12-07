@@ -155,7 +155,7 @@ The static stability can be expressed as the squared Brunt V{\"a}is{\"a}l{\"a} f
    \begin{equation} \label{eq:n2moist}
    N_m^2 = \frac{g}{T}(\frac{\partial T}{\partial z}+\Gamma_m)(1+\frac{T}{R_d/R_v+q_s}\frac{\partial q_s}{\partial T})-\frac{g}{1+q_t}\frac{\partial q_t}{\partial z},
    \end{equation}
-where g is gravitational acceleration, T is temperature, $R_d$ and $R_v$ are the gas constants of dry air and water vapor, respectively, $q_s$ is the saturation mixing ratio, and $q_t$ is the total condensate mixing ratio. $Gamma_m$ is the moist-adiabatic lapse rate:
+where g is gravitational acceleration, T is temperature, $R_d$ and $R_v$ are the gas constants of dry air and water vapor, respectively, $q_s$ is the saturation mixing ratio, and $q_t$ is the total condensate mixing ratio. $\Gamma_m$ is the moist-adiabatic lapse rate:
    \begin{equation} \label{eq:gamma_m}
    \Gamma_m = DETERMINE WHAT THIS IS FOR THE NON-CONSERVATIVE EQUATION SET
    \end {equation}
@@ -168,12 +168,14 @@ To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
-   \
-
-The potential temperature tendency can be partitioned into ### "budget variables," which are output directly by the model every two minutes:
-
-POTENTIAL TEMPERATURE TENDENCY EQUATION
- 
+   \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}+\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
+   \end{equation}
+where the potential temperature tendency, $\frac{\partial \theta}{\partial z}$, is:
+   \begin{equation} \label{eq:dthetadt}
+   \frac{\partial \theta}{\partial t} = 
+   \end{equation}
+Each term on the right-hand side of Eq. \ref{eq:dthetadt} represents a potential temperature budget variable, each of which is output directly by the model every minute.
+These tendencies are substituted for $\frac{\partial \theta}{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the static stability tendency attributable to each budget term every minute.
  \section{Results}
 
 Put description of Fig.~\ref{fig:vmax+pmin} in this section. 
