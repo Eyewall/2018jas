@@ -159,7 +159,7 @@ where $g$ is gravitational acceleration, $T$ is temperature, $R_d$ and $R_v$ are
    \begin{equation} \label{eq:gamma_m}
    \Gamma_m = DETERMINE WHAT THIS IS FOR THE NON-CONSERVATIVE EQUATION SET
    \end {equation}
-In the tropopause layer, $q_s$, $\frac{\partial q_s}{\partial T}$, and $\frac{\partial q_t}{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
+In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
    \begin{equation} \label{eq:n2dry}
    N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
    \end{equation}
@@ -168,26 +168,31 @@ To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
-   \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}+\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
+   \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
    \end{equation}
-where the potential temperature tendency, $\frac{\partial \theta}{\partial z}$, is:
+where the potential temperature tendency, ${\partial \theta}/{\partial t}$, can be expressed as the sum of seven physical processes:
    \begin{equation} \label{eq:dthetadt}
    \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
    \end{equation}
 Each term on the right-hand side of Eq. \ref{eq:dthetadt} represents a potential temperature budget variable, each of which is output directly by the model every minute.
 HADV and VADV are the radial and vertical advective tendencies, HTURB and VTURB are the radial and vertical tendencies from the turbulence parameterization, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
-This equation neglects Rayleigh damping, since this term is zero everywhere below 25 km, and the analysis domain does not extend to that height.
-Each term in Eq. \ref{eq:dthetadt} is substituted for $\frac{\partial \theta}{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
-These terms are then summed, yielding an instantaneous "budget change" in $N^2$ every minute.
-These instantaneous budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period, i.e.:
+This equation neglects Rayleigh damping, since this term is zero everywhere below 25 km, and the analysis domain does not extend to that level.
+Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
+These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.
+The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period using a residual, i.e.:
    \begin{equation} \label{eq:budgetchange}
    \Delta N^2_{budget} = \sum_{t=t_0}^{t_0+\delta t} \frac{\partial N^2}{\partial t}\mid_t, NEED BAR OVER SUMMATION
    \end{equation}
    \begin{equation} \label{eq:modelchange}
    \Delta N^2_{model} = N^2_{t_0+\delta t}-N^2_{t_0},
    \end{equation}
-where $t_0$ is an initial time and $\delta_t$ is 24 hours.
+   \begin{equation} \label{eq:residual}
+   Residual = \Delta N^2_{model}-\Delta N^2_{budget}
+   \end{equation}
+where $t_0$ is an initial time and $\delta t$ is 24 hours.
 In Eq. \ref{eq:budgetchange}, Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments; $t_0$ is an initial time and $\delta_t$ is 24 hours.
+
+CONTINUATION OF THIS SECTION IS IN MY RESEARCH NOTEBOOK
 
  \section{Results}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.6)  7 DEC 2017 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.6)  18 DEC 2017 08:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,28 +538,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 
-[5] [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (8.0023pt too high) has occurred while \output is active []
 
- [7]
+
+[5] [6] [7]
 Overfull \vbox (16.1463pt too high) has occurred while \output is active []
 
 
 [8]
 
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 234.
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 240.
 
 
 
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 236.
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 242.
 
 
 
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 236.
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 242.
 
 
 
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 236.
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 242.
 
 
 [9] (./paper.bbl [10] [11])
@@ -753,11 +753,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4867 strings out of 494953
- 65223 string characters out of 6180977
- 127973 words of memory out of 5000000
- 7989 multiletter control sequences out of 15000+600000
- 70246 words of font info for 160 fonts, out of 8000000 for 9000
+ 4865 strings out of 494953
+ 65224 string characters out of 6180977
+ 127981 words of memory out of 5000000
+ 7990 multiletter control sequences out of 15000+600000
+ 68382 words of font info for 157 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,10n,37p,629b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -770,7 +770,7 @@ syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (24 pages, 1065966 bytes).
+Output written on paper.pdf (24 pages, 1066097 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
