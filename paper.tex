@@ -157,8 +157,9 @@ The static stability can be expressed as the squared Brunt V{\"a}is{\"a}l{\"a} f
    \end{equation}
 where $g$ is gravitational acceleration, $T$ is temperature, $R_d$ and $R_v$ are the gas constants of dry air and water vapor, respectively, $q_s$ is the saturation mixing ratio, $q_t$ is the total condensate mixing ratio, and $\Gamma_m$ is the moist-adiabatic lapse rate:
    \begin{equation} \label{eq:gamma_m}
-   \Gamma_m = g(1+q_t)\left(\frac{1+L_vq_s/R_dT}{c_p_m +L_v\partial q_s/\partial T}\right)
+   \Gamma_m = g(1+q_t)\left(\frac{1+L_vq_s/R_dT}{c_p_m +L_v\partial q_s/\partial T}\right),
    \end {equation}
+where $L_v$ is the latent heat of vaporization and $c_{pm}$ is the specific heat of moist air at constant pressure.
 In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
    \begin{equation} \label{eq:n2dry}
    N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
@@ -192,13 +193,25 @@ The budget changes are then averaged over 24-hour periods and compared to the to
 where $t_0$ is an initial time and $\delta t$ is 24 hours.
 In Eq. \ref{eq:budgetchange}, Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments; $t_0$ is an initial time and $\delta_t$ is 24 hours.
 
-CONTINUATION OF THIS SECTION IS IN MY RESEARCH NOTEBOOK
+Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are plotted for four consecutive 24-hour periods in Fig. \ref{fig:mod+bud+res}.
+For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
+The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes (Eq. \ref{eq:modelchange}), the center column depicts the budget changes (Eq. \ref{eq:budgetchange}), and the right column depicts the residuals (Eq. \ref{eq:residual}).
+In every 24-hour period, the budget changes are nearly identical to the model changes, which is reflected in the near-zero residuals in the right column.
+This indicates that the budget accurately represents the model variability, which implies that the neglect of moisture in the budget computation introduces negligible error within the anaysis domain\footnote{This is not the case in the lower- and mid-troposphere, where the residual actually exceeds the budget variability in many places, likely due to the neglect of moisture; thus we limit this analysis to the upper troposphere and lower stratosphere.}.
+
+In the tropopause layer, some of the budget terms are small enough to be ignored.
+To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. \ref{eq:dthetadt} to the tropopause-layer static stability tendency is plotted in Fig. \ref{fig:avgbudterms}.
+For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
+The absolute values of these tendencies are then averaged over the radius-height domain depicted in Fig.~\ref{fig:mod+bud+res} and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
+Thus, taking an average over the domain tends to wash out the positive and negative contributions.
+To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}. 
+Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) both become important after 48 hours.
+Although the contribution from horizontal turbulence (Fig.~\ref{fig:avgbudterms}, purple line) becomes more important after 72 hours, it is confined to a very small region immediately surrounding the eyewall tangential velocity maximum (not shown), and is negligible throughout the rest of the tropopause layer.
+The remaining two processes - microphysics and dissipative heating (Fig.~\ref{fig:avgbudterms}, orange and light green lines, respectively) - lie atop one another near zero.
+These time series indicate that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
+Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:mod+bud+res}; subsequent sections will focus on these variations and what causes them.
 
  \section{Results}
-
-Put description of Fig.~\ref{fig:vmax+pmin} in this section. 
-
-Don't forget to mention 1-2-1 smoother.
 
  \subsection{Static stability evolution}
 
@@ -219,22 +232,6 @@ The eye region likewise continued to destabilize, and the cold-point tropopause 
 This static stability evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{Duran+Molinari2018} \citeyear{Duran+Molinari2018}).
 
  \subsection{Static stability budget analysis}
-
-The left column of Fig.~\ref{fig:modbudres} depicts 24-hour changes in N\textsuperscript{2} over each of the four days of the simulation. 
-These represent bulk changes computed by subtracting the instantaneous N\textsuperscript{2} at the initial time from the instantaneous N\textsuperscript{2} at the final time. 
-The middle column of Fig.~\ref{fig:modbudres} represents the change in N\textsuperscript{2} computed using Eq. XXX and the method described in Section 3. 
-The residual between these two computations (Fig.~\ref{fig:modbudres}, right column) is much smaller than the change in N\textsuperscript{2}, meaning that the budget peforms well within the analysis domain.
-
-To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. XXX to the tropopause-layer static stability tendency is plotted in Fig. \ref{fig:avgbudterms}.
-For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
-The absolute values of these tendencies are then averaged over the radius-height domain depicted in Fig.~\ref{fig:modbudres} and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
-Thus, taking an average over the domain tends to wash out the positive and negative contributions.
-To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}. 
-Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) both become important after 48 hours.
-Although the contribution from horizontal turbulence (Fig.~\ref{fig:avgbudterms}, purple line) becomes more important after 72 hours, it is confined to a very small region immediately surrounding the eyewall tangential velocity maximum (not shown), and is negligible throughout the rest of the tropopause layer.
-The remaining two processes - microphysics and dissipative heating (Fig.~\ref{fig:avgbudterms}, orange and light green lines, respectively) - lie atop one another near zero.
-These time series indicate that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
-Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:n2-24hr-avgs}; subsequent sections will focus on these variations and what causes them.
 
 \paragraph{0-24 hours}
 The first 24 hours of the simulation was characterized by a weakening of the lower-stratospheric static stability maximum above 17 km (Fig.~\ref{fig:stab-0-24}a, purple shading) and an increase in static stability below (green shading).
@@ -362,23 +359,23 @@ ADD GRANT NUMBER
 
 %FIGURE 1%
 \begin{figure}[ht]
+\centerline{\includegraphics[width=39pc]{figures/fig01_R-Z_mod+bud+res.png}}
+\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$ 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The $N^2$ change over the same time periods computed using Eq. \ref. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
+\label{fig:mod+bud+res}
+\end{figure}
+
+%FIGURE 2%
+\begin{figure}[ht]
 \centerline{\includegraphics[width=19pc]{figures/fig01_vmax+pmin.png}}
 \caption{The maximum 10-m wind speed (top panel; m s\textsuperscript{-2}) and minimum sea-level pressure (bottom panel; hPa) in the simulated storm (blue lines) and from Hurricane Patricia's best track (red stars).}
 \label{fig:vmax+pmin}
 \end{figure}
 
-%FIGURE 2%
+%FIGURE 3%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/fig02_n2-24hr-avgs.png}}
 \caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over the first four days of the simulation. Orange lines represent the cold-point tropopause computed from the mean temperature field over the same time periods.}
 \label{fig:n2-24hr-avgs}
-\end{figure*}
-
-%FIGURE 3%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=33pc]{figures/fig03_R-Z_mod+bud+res.png}}
-\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The N\textsuperscript{2} change over the same time periods computed using Eq. XXX. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
-\label{fig:modbudres}
 \end{figure*}
 
 %FIGURE 4%
