@@ -153,24 +153,24 @@ The vortex described in \citeauthor{RotunnoEmanuel} (\citeyear{RotunnoEmanuel}, 
 
 The static stability can be expressed as the squared Brunt V{\"a}is{\"a}l{\"a} frequency:
    \begin{equation} \label{eq:n2moist}
-   N_m^2 = \frac{g}{T}(\frac{\partial T}{\partial z}+\Gamma_m)(1+\frac{T}{R_d/R_v+q_s}\frac{\partial q_s}{\partial T})-\frac{g}{1+q_t}\frac{\partial q_t}{\partial z},
+   N_m^2 = \frac{g}{T}\left(\frac{\partial T}{\partial z}+\Gamma_m\right)\left(1+\frac{T}{R_d/R_v+q_s}\frac{\partial q_s}{\partial T}\right)-\frac{g}{1+q_t}\frac{\partial q_t}{\partial z},
    \end{equation}
 where $g$ is gravitational acceleration, $T$ is temperature, $R_d$ and $R_v$ are the gas constants of dry air and water vapor, respectively, $q_s$ is the saturation mixing ratio, $q_t$ is the total condensate mixing ratio, and $\Gamma_m$ is the moist-adiabatic lapse rate:
    \begin{equation} \label{eq:gamma_m}
-   \Gamma_m = DETERMINE WHAT THIS IS FOR THE NON-CONSERVATIVE EQUATION SET
+   \Gamma_m = g(1+q_t)\left(\frac{1+L_vq_s/R_dT}{c_p_m +L_v\partial q_s/\partial T}\right)
    \end {equation}
 In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
    \begin{equation} \label{eq:n2dry}
    N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
    \end{equation}
 where $\theta_v$ is the virtual potential temperature.
-To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments; for mathematical simplicity, however, only Eq. \ref{eq:n2dry} will be used for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
+To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments, but for simplicity only Eq. \ref{eq:n2dry} will be used for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
    \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
    \end{equation}
-where the potential temperature tendency, $\frac{\partial \theta}{\partial z}$, can be written:
+where the potential temperature tendency, $\partial \theta/\partial z$, can be written:
    \begin{equation} \label{eq:dthetadt}
    \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
    \end{equation}
