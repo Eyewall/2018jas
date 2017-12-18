@@ -39,6 +39,8 @@ PULL CHANGES FROM SERVER: git pull origin master
 
 LIST FILES BEING TRACKED: git ls-tree -r master --name-only
 
+MERGE FILES WITH CONFLICTING EDITS: git mergetool
+
 ##############################################################
 		     A FEW PERSONAL NOTES
 ###############################################################
