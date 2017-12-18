@@ -121,7 +121,7 @@ Albany, NY}
 Perhaps introduce upper-tropospheric static stability and its relationship to the diurnal cycle before going into Patricia? Include references to Dunion, Navarro, and O'Neill here.
 
 After undergoing a remarkably rapid intensification (RI), Hurricane Patricia (2015) set a new record as the strongest tropical cyclone (TC) ever observed in the Western Hemisphere (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
-High-altitude dropsonde observations taken by the Tropical Cyclone Intensity (TCI) Experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
+High-altitude dropsonde observations taken during the Tropical Cyclone Intensity (TCI) Experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
 These observations revealed remarkable changes in the structure of the cold-point tropopause and upper-level static stability as the storm intensified \citep{Duran+Molinari2018}.
 At tropical storm intensity, shortly before RI commenced, a strong inversion layer existed just above Patricia's cold-point tropopause, which was located near 17.2 km.
 During the first half of the RI period, this inversion layer weakened throughout Patricia's inner core, with the weakening most pronounced over the developing eye.
@@ -136,14 +136,14 @@ At some point (probably in the Discussion) mention the possible importance of st
 
  \section{Model Setup}
 
-The numerical simulations were performed using version 19.4 of Cloud Model 1 (CM1) described in \cite{BryanRotunno2009} and available online at http://www2.mmm.ucar.edu/people/bryan/cm1/.
-The equations of motion were integrated on a 3000-km-wide, 30-km-deep grid axisymmetric grid with 1-km horizontal and 250-m vertical grid spacing.
-The computations were performed on an \textit{f}-plane at 15\textdegree{N} latitude, over a sea surface with constant temperature of 30.5\textdegree C, which matches that observed near Hurricane Patricia (2015; \citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}.
+The numerical simulations were performed using version 19.4 of Cloud Model 1 (CM1) described in \cite{BryanRotunno2009}.
+The equations of motion were integrated on a 3000-km-wide, 30-km-deep axisymmetric grid with 1-km horizontal and 250-m vertical grid spacing.
+The computations were performed on an \textit{f}-plane at 15\textdegree{N} latitude, over a sea surface with constant temperature of 30.5\textdegree C, which matches that observed near Hurricane Patricia (2015; \citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}).
 Horizontal turbulence was parameterized using the Smagorinsky scheme described in \citeauthor{BryanRotunno2009} (\citeyear{BryanRotunno2009}, pg. 1773), with a prescribed mixing length that varied linearly from 100 m at a surface pressure of 1015 hPa to 1000 m at a surface pressure of 900 hPa.
 This formulation allows for realistically-large horizontal mixing lengths near the hurricane's inner core, consistent with the results of \cite{Bryan2012}, while not over-representing horizontal turbulence in convection at outer radii.
 Vertical turbulence was parameterized using the formulation of \citeauthor{MarkowskiBryan2016} (\citeyear{MarkowskiBryan2016}, their Eq. 6), using an asymptotic vertical mixing length of 100 m.
 A Rayleigh damping layer was applied outside of the 2900-km radius and above the 25-km level to prevent spurious gravity wave reflection at the model boundaries.
-Microphysical processes were parameterized using the \cite{Thompson} microphysics scheme and radiative heating tendencies were computed every two minutes using the Rapid Radiative Transfer Model WHAT DOES THE G STAND FOR? (RRTMG) longwave and shortwave schemes \citep{Iacono}.
+Microphysical processes were parameterized using the \cite{Thompson} microphysics scheme and radiative heating tendencies were computed every two minutes using the Rapid Radiative Transfer Model for GCMs? (RRTMG) longwave and shortwave schemes \citep{Iacono}.
 A horizontally-homogeneous temperature and humidity field was initialized with a mean sounding computed using all dropsondes deployed during the TCI flight conducted within and around Tropical Storm Patricia on 21 October, 2015 (see \citeauthor{DoyleTCI} \citeyear{DoyleTCI} for details.)
 Above 19 km, where few TCI observations were available, the temperature profile was taken from the Climate Forecast System Reanalysis (CFSR) grid point nearest Patricia's storm center, valid at 18 UTC 21 October, 2015.
 Since relative humidity measurements were unreliable at temperatures below -40\textdegree C \citep{BellTCI}, relative humidity was set equal to 50\% above 11.5 km (the level above which temperature dropped below -40\textdegree C).
@@ -170,7 +170,7 @@ Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability ten
    \begin{equation} \label{eq:dn2dt}
    \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
    \end{equation}
-where the potential temperature tendency, ${\partial \theta}/{\partial t}$, can be expressed as the sum of seven physical processes:
+where the potential temperature tendency, $\frac{\partial \theta}{\partial z}$, can be written:
    \begin{equation} \label{eq:dthetadt}
    \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
    \end{equation}
