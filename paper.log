@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.6)  18 DEC 2017 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  9 JAN 2018 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,7 +506,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 141.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 143.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -518,39 +518,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ! Double subscript.
 <argument> c_p_
                m +L_v\partial q_s/\partial T
-l.160 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
+l.169 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
                                                   \right),
 ? 
+[5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
-[5] [6]
-Overfull \vbox (2.50964pt too high) has occurred while \output is active []
-
-
-[7] [8]
-
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 239.
-
-
-
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 241.
-
-
-
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 241.
-
-
-
-LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 241.
-
-
-
-Underfull \vbox (badness 1917) has occurred while \output is active []
-
- [9]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 177.
+ [6] [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 246.
+
+
+
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 248.
+
+
+
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 248.
+
+
+
+LaTeX Warning: Reference `fig:stab-0-24' on page 9 undefined on input line 248.
+
+
+[9]
+Underfull \vbox (badness 2922) has occurred while \output is active []
 
  [10]
 (./paper.bbl [11])
@@ -578,12 +575,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-LaTeX Warning: Reference `.' on page 14 undefined on input line 1.
-
-
-LaTeX Warning: Reference `fig:modbudres' on page 17 undefined on input line 4.
-
 )
 \tf@lof=\write5
 \openout5 = `paper.lof'.
@@ -591,172 +582,116 @@ LaTeX Warning: Reference `fig:modbudres' on page 17 undefined on input line 4.
  [13
 
 
-] (./paper.fff
-<figures/fig01_R-Z_mod+bud+res.png, id=54, 2285.53876pt x 2754.29pt>
-File: figures/fig01_R-Z_mod+bud+res.png Graphic file (type png)
+] (./paper.fff <figures/vmax+pmin.png, id=54, 780.9175pt x 1495.5875pt>
+File: figures/vmax+pmin.png Graphic file (type png)
 
-<use figures/fig01_R-Z_mod+bud+res.png>
-Package pdftex.def Info: figures/fig01_R-Z_mod+bud+res.png used on input line 2
-.
-(pdftex.def)             Requested size: 468.0pt x 563.96068pt.
+<use figures/vmax+pmin.png>
+Package pdftex.def Info: figures/vmax+pmin.png used on input line 2.
+(pdftex.def)             Requested size: 228.0pt x 436.65315pt.
+ [14
 
+ <./figures/vmax+pmin.png>]
+<figures/mod+bud+res.png, id=58, 2228.325pt x 3123.67pt>
+File: figures/mod+bud+res.png Graphic file (type png)
 
-LaTeX Warning: Reference `.' on page 14 undefined on input line 3.
-
-
-LaTeX Warning: Reference `.' on page 14 undefined on input line 3.
-
-
-LaTeX Warning: Reference `.' on page 14 undefined on input line 3.
+<use figures/mod+bud+res.png>
+Package pdftex.def Info: figures/mod+bud+res.png used on input line 9.
+(pdftex.def)             Requested size: 396.0pt x 555.08685pt.
 
 
-LaTeX Warning: Float too large for page by 21.80385pt on input line 5.
+LaTeX Warning: Float too large for page by 12.93002pt on input line 12.
 
-[14 <./figures/fig01_R-Z_mod+bud+res.png>]
-<figures/fig01_vmax+pmin.png, id=58, 780.9175pt x 1437.37pt>
-File: figures/fig01_vmax+pmin.png Graphic file (type png)
+[15 <./figures/mod+bud+res.png>]
+<figures/n2-24hr-avgs.png, id=62, 1507.6325pt x 1561.835pt>
+File: figures/n2-24hr-avgs.png Graphic file (type png)
 
-<use figures/fig01_vmax+pmin.png>
-Package pdftex.def Info: figures/fig01_vmax+pmin.png used on input line 9.
-(pdftex.def)             Requested size: 228.0pt x 419.65591pt.
- [15
-
-
- <./figures/fig01_vmax+pmin.png>]
-<figures/fig02_n2-24hr-avgs.png, id=62, 1547.7825pt x 1561.835pt>
-File: figures/fig02_n2-24hr-avgs.png Graphic file (type png)
-
-<use figures/fig02_n2-24hr-avgs.png>
-Package pdftex.def Info: figures/fig02_n2-24hr-avgs.png used on input line 16.
-(pdftex.def)             Requested size: 468.0pt x 472.24803pt.
+<use figures/n2-24hr-avgs.png>
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 16.
+(pdftex.def)             Requested size: 468.0pt x 484.80731pt.
  [16
 
- <./figures/fig02_n2-24hr-avgs.png>]
 
-LaTeX Warning: File `figures/fig04_AVG_budterms.png' not found on input line 23
-.
+ <./figures/n2-24hr-avgs.png>]
+<figures/AVG_budterms.png, id=66, 803.0pt x 803.0pt>
+File: figures/AVG_budterms.png Graphic file (type png)
 
+<use figures/AVG_budterms.png>
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 23.
+(pdftex.def)             Requested size: 228.0pt x 227.99968pt.
+ [17
 
-! Package pdftex.def Error: File `figures/fig04_AVG_budterms.png' not found.
+ <./figures/AVG_budterms.png>]
+<figures/h000-h024-budgetterms.png, id=70, 1533.73pt x 2342.7525pt>
+File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ...dth=19pc]{figures/fig04_AVG_budterms.png}}
-                                                  
-? 
-
-LaTeX Warning: Reference `fig:modbudres' on page 17 undefined on input line 24.
-
-
-
-LaTeX Warning: Reference `fig:modbudres' on page 17 undefined on input line 24.
+<use figures/h000-h024-budgetterms.png>
+Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 3
+0.
+(pdftex.def)             Requested size: 468.0pt x 714.84233pt.
 
 
+LaTeX Warning: Float too large for page by 150.55923pt on input line 33.
 
-LaTeX Warning: Reference `fig:modbudres' on page 17 undefined on input line 24.
+[18 <./figures/h000-h024-budgetterms.png>]
+<figures/h024-h048-budgetterms.png, id=74, 1533.73pt x 2342.7525pt>
+File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
-
-[17
-
-]
-<figures/fig05_h000-h024-budgetterms.png, id=70, 1523.6925pt x 1345.025pt>
-File: figures/fig05_h000-h024-budgetterms.png Graphic file (type png)
-
-<use figures/fig05_h000-h024-budgetterms.png>
-Package pdftex.def Info: figures/fig05_h000-h024-budgetterms.png used on input 
-line 30.
-(pdftex.def)             Requested size: 468.0pt x 413.11557pt.
- [18
-
- <./figures/fig05_h000-h024-budgetterms.png>]
-<figures/fig06_h024-h048-budgetterms.png, id=74, 1523.6925pt x 1345.025pt>
-File: figures/fig06_h024-h048-budgetterms.png Graphic file (type png)
-
-<use figures/fig06_h024-h048-budgetterms.png>
-Package pdftex.def Info: figures/fig06_h024-h048-budgetterms.png used on input 
-line 37.
-(pdftex.def)             Requested size: 468.0pt x 413.11557pt.
- [19
-
- <./figures/fig06_h024-h048-budgetterms.png>]
-
-LaTeX Warning: File `figures/fig07_h048-h072-budgetterms.png' not found on inpu
-t line 44.
+<use figures/h024-h048-budgetterms.png>
+Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 3
+7.
+(pdftex.def)             Requested size: 468.0pt x 714.84233pt.
 
 
-! Package pdftex.def Error: File `figures/fig07_h048-h072-budgetterms.png' not 
-found.
+LaTeX Warning: Float too large for page by 104.6855pt on input line 40.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...{figures/fig07_h048-h072-budgetterms.png}}
-                                                  
-? 
-[20
+[19 <./figures/h024-h048-budgetterms.png>]
+<figures/h048-h072-budgetterms.png, id=79, 1533.73pt x 2342.7525pt>
+File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
-]
-<figures/fig08_h072-h096-budgetterms.png, id=82, 1523.6925pt x 2013.5225pt>
-File: figures/fig08_h072-h096-budgetterms.png Graphic file (type png)
-
-<use figures/fig08_h072-h096-budgetterms.png>
-Package pdftex.def Info: figures/fig08_h072-h096-budgetterms.png used on input 
-line 51.
-(pdftex.def)             Requested size: 396.0pt x 523.28844pt.
- [21
-
- <./figures/fig08_h072-h096-budgetterms.png>]
-
-LaTeX Warning: File `figures/fig09_u.png' not found on input line 58.
+<use figures/h048-h072-budgetterms.png>
+Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
+4.
+(pdftex.def)             Requested size: 324.0pt x 494.88809pt.
+ [20
 
 
-! Package pdftex.def Error: File `figures/fig09_u.png' not found.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 ...graphics[width=39pc]{figures/fig09_u.png}}
-                                                  
-? 
+ <./figures/h048-h072-budgetterms.png>] <figures/h072-h096-budgetterms.png, id=
+83, 1533.73pt x 2342.7525pt>
+File: figures/h072-h096-budgetterms.png Graphic file (type png)
+
+<use figures/h072-h096-budgetterms.png>
+Package pdftex.def Info: figures/h072-h096-budgetterms.png used on input line 5
+1.
+(pdftex.def)             Requested size: 396.0pt x 604.88309pt.
+ [21 <./figures/h072-h096-budgetterms.png>] <figures/u.png, id=87, 1537.745pt x
+ 1561.835pt>
+File: figures/u.png Graphic file (type png)
+ <use figures/u.png>
+Package pdftex.def Info: figures/u.png used on input line 58.
+(pdftex.def)             Requested size: 468.0pt x 475.32231pt.
+
 [22
 
-]
 
-LaTeX Warning: File `figures/fig10_w.png' not found on input line 65.
+ <./figures/u.png>] <figures/w.png, id=91, 1561.835pt x 1561.835pt>
+File: figures/w.png Graphic file (type png)
 
+<use figures/w.png>
+Package pdftex.def Info: figures/w.png used on input line 65.
+(pdftex.def)             Requested size: 468.0pt x 467.98216pt.
+ [23
 
-! Package pdftex.def Error: File `figures/fig10_w.png' not found.
+ <./figures/w.png>]
+<figures/qtot.png, id=95, 1507.6325pt x 1561.835pt>
+File: figures/qtot.png Graphic file (type png)
+ <use figures/qtot.png>
+Package pdftex.def Info: figures/qtot.png used on input line 72.
+(pdftex.def)             Requested size: 468.0pt x 484.80731pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 ...graphics[width=39pc]{figures/fig10_w.png}}
-                                                  
-? 
-[23
-
-]
-
-LaTeX Warning: File `figures/fig11_qtot.png' not found on input line 72.
-
-
-! Package pdftex.def Error: File `figures/fig11_qtot.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 ...phics[width=39pc]{figures/fig11_qtot.png}}
-                                                  
-? 
 [24
 
-]) (./paper.aux)
+ <./figures/qtot.png>]) (./paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
@@ -766,28 +701,27 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4876 strings out of 494953
- 65426 string characters out of 6180977
+ 4892 strings out of 494953
+ 65668 string characters out of 6180976
  127981 words of memory out of 5000000
- 7996 multiletter control sequences out of 15000+600000
- 70876 words of font info for 162 fonts, out of 8000000 for 9000
+ 8013 multiletter control sequences out of 15000+600000
+ 70707 words of font info for 161 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,37p,708b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,37p,629b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
-lvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on paper.pdf (24 pages, 1516413 bytes).
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
+syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (24 pages, 4082307 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

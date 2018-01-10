@@ -120,6 +120,9 @@ Albany, NY}
 
 Perhaps introduce upper-tropospheric static stability and its relationship to the diurnal cycle before going into Patricia? Include references to Dunion, Navarro, and O'Neill here.
 
+More recently, \cite{Dunionetal2014} documented a periodic oscillation of infrared brightness temperature in hurricanes, which they call the "TC diurnal pulse."
+There will be a whole bunch of papers cited here...
+
 After undergoing a remarkably rapid intensification (RI), Hurricane Patricia (2015) set a new record as the strongest tropical cyclone (TC) ever observed in the Western Hemisphere (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
 High-altitude dropsonde observations taken during the Tropical Cyclone Intensity (TCI) Experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
 These observations revealed remarkable changes in the structure of the cold-point tropopause and upper-level static stability as the storm intensified \citep{Duran+Molinari2018}.
@@ -129,8 +132,7 @@ By the time the storm reached its maximum intensity, the inversion layer over th
 Meanwhile over the eyewall region, the static stability re-strengthened and the tropopause was limited to a level at or below 17.5 km.
 The mechanisms that led to these changes in upper-level static stability and tropopause height are the subject of the current paper.
 
-More recently, \cite{Dunionetal2014} documented a periodic oscillation of infrared brightness temperature in hurricanes, which they call the "TC diurnal pulse."
-There will be a whole bunch of papers cited here...
+INCLUDE IN THIS INTRODUCTION DAN STERN'S POTENTIAL TEMPERATURE BUDGET PAPERS
 
 At some point (probably in the Discussion) mention the possible importance of static stability asymmetries, in the context of the Dunion diurnal pulse 
 
@@ -143,11 +145,18 @@ Horizontal turbulence was parameterized using the Smagorinsky scheme described i
 This formulation allows for realistically-large horizontal mixing lengths near the hurricane's inner core, consistent with the results of \cite{Bryan2012}, while not over-representing horizontal turbulence in convection at outer radii.
 Vertical turbulence was parameterized using the formulation of \citeauthor{MarkowskiBryan2016} (\citeyear{MarkowskiBryan2016}, their Eq. 6), using an asymptotic vertical mixing length of 100 m.
 A Rayleigh damping layer was applied outside of the 2900-km radius and above the 25-km level to prevent spurious gravity wave reflection at the model boundaries.
-Microphysical processes were parameterized using the \cite{Thompson} microphysics scheme and radiative heating tendencies were computed every two minutes using the Rapid Radiative Transfer Model for GCMs? (RRTMG) longwave and shortwave schemes \citep{Iacono}.
-A horizontally-homogeneous temperature and humidity field was initialized with a mean sounding computed using all dropsondes deployed during the TCI flight conducted within and around Tropical Storm Patricia on 21 October, 2015 (see \citeauthor{DoyleTCI} \citeyear{DoyleTCI} for details.)
-Above 19 km, where few TCI observations were available, the temperature profile was taken from the Climate Forecast System Reanalysis (CFSR) grid point nearest Patricia's storm center, valid at 18 UTC 21 October, 2015.
-Since relative humidity measurements were unreliable at temperatures below -40\textdegree C \citep{BellTCI}, relative humidity was set equal to 50\% above 11.5 km (the level above which temperature dropped below -40\textdegree C).
+Microphysical processes were parameterized using the \cite{Thompson} microphysics scheme and radiative heating tendencies were computed every two minutes using the Rapid Radiative Transfer Model for GCMs (RRTMG) longwave and shortwave schemes \citep{Iacono}.
+The initial temperature and humidity field was horizontally-homogeneous and determined by averaging all Climate Forecast System Reanalysis (CFSR) grid points within 1000 km of Patricia's center of circulation at 18 UTC 21 October 2015.
+%A horizontally-homogeneous temperature and humidity field was initialized with a mean sounding computed using all dropsondes deployed during the TCI flight conducted within and around Tropical Storm Patricia on 21 October, 2015 (see \citeauthor{DoyleTCI} \citeyear{DoyleTCI} for details.)
+%Above 19 km, where few TCI observations were available, the temperature profile was taken from the Climate Forecast System Reanalysis (CFSR) grid point nearest Patricia's storm center, valid at 18 UTC 21 October, 2015.
+%Since relative humidity measurements were unreliable at temperatures below -40\textdegree C \citep{BellTCI}, relative humidity was set equal to 50\% above 11.5 km (the level above which temperature dropped below -40\textdegree C).
 The vortex described in \citeauthor{RotunnoEmanuel} (\citeyear{RotunnoEmanuel}, their Eq. 37) was used to initialize the wind field, setting all parameters equal to the values used therein.
+
+Although hurricanes simulated in an axisymmetric framework tend to be more intense than those observed in nature, the intensity evolution of this simulation matches reasonably well with that observed in Hurricane Patricia.
+After an initial spin-up period of about 20 hours, the modeled storm (Fig.\ref{fig:vmax+pmin}, blue lines) began an RI period that lasted approximately 30 hours.
+After this RI, the storm continued to intensify more slowly until the maximum 10-m wind speed reached 89 m s\textsuperscript{-1} and the minimum sea-level pressure reached its minimum of 846 mb, 81 hours into the simulation.
+Hurricane Patricia (red stars) exhibited a similar intensity evolution, with an RI period leading to a maximum 10-m wind speed of 95 m s\textsuperscript{-1} and a minimum sea-level pressure of 872 hPa.
+Despite the limitations of the axisymmetric framework, the extraordinary intensity of Hurricane Patricia and the rapidity of its intensification makes Patricia a particularly good candidate for axisymmetric analysis.
 
  \section{Budget Computation}
 
@@ -165,33 +174,32 @@ In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_
    N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
    \end{equation}
 where $\theta_v$ is the virtual potential temperature.
-To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments, but for simplicity only Eq. \ref{eq:n2dry} will be used for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
+To compute $N^2$, CM1 uses Eq.\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be used for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
    \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
    \end{equation}
-where the potential temperature tendency, $\partial \theta/\partial z$, can be written:
+where the potential temperature tendency, $\partial \theta/\partial t$, can be written:
    \begin{equation} \label{eq:dthetadt}
    \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
    \end{equation}
-Each term on the right-hand side of Eq. \ref{eq:dthetadt} represents a potential temperature budget variable, each of which is output directly by the model every minute.
+Each term on the right-hand side of Eq.\ref{eq:dthetadt} represents a potential temperature budget variable, each of which is output directly by the model every minute.
 HADV and VADV are the radial and vertical advective tendencies, HTURB and VTURB are the radial and vertical tendencies from the turbulence parameterization, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since this term is zero everywhere below 25 km, and the analysis domain does not extend to that level.
 Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
 These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.
 The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period using a residual, i.e.:
    \begin{equation} \label{eq:budgetchange}
-   \Delta N^2_{budget} = \sum_{t=t_0}^{t_0+\delta t} \frac{\partial N^2}{\partial t}\mid_t, NEED BAR OVER SUMMATION
+   \Delta N^2_{budget} = \frac{1}{\delta t}\sum_{t=t_0}^{t_0+\delta t} \left.\frac{\partial N^2}{\partial t}\right\vert_t
    \end{equation}
    \begin{equation} \label{eq:modelchange}
-   \Delta N^2_{model} = N^2_{t_0+\delta t}-N^2_{t_0},
+   \Delta N^2_{model} = N^2_{t_0+\delta t}-N^2_{t_0}
    \end{equation}
    \begin{equation} \label{eq:residual}
    Residual = \Delta N^2_{model}-\Delta N^2_{budget}
    \end{equation}
 where $t_0$ is an initial time and $\delta t$ is 24 hours.
-In Eq. \ref{eq:budgetchange}, Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments; $t_0$ is an initial time and $\delta_t$ is 24 hours.
 
 Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are plotted for four consecutive 24-hour periods in Fig. \ref{fig:mod+bud+res}.
 For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
@@ -202,11 +210,11 @@ This indicates that the budget accurately represents the model variability, whic
 In the tropopause layer, some of the budget terms are small enough to be ignored.
 To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. \ref{eq:dthetadt} to the tropopause-layer static stability tendency is plotted in Fig. \ref{fig:avgbudterms}.
 For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
-The absolute values of these tendencies are then averaged over the radius-height domain depicted in Fig.~\ref{fig:mod+bud+res} and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
+The absolute values of these tendencies are then averaged over over a radius-height domain surrounding the tropopause and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
 Thus, taking an average over the domain tends to wash out the positive and negative contributions.
 To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}. 
-Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) both become important after 48 hours.
-Although the contribution from horizontal turbulence (Fig.~\ref{fig:avgbudterms}, purple line) becomes more important after 72 hours, it is confined to a very small region immediately surrounding the eyewall tangential velocity maximum (not shown), and is negligible throughout the rest of the tropopause layer.
+Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly.%both become important after 48 hours.
+Although the contribution from horizontal turbulence (Fig.~\ref{fig:avgbudterms}, purple line) becomes more important after 48 hours, it is confined to a very small region immediately surrounding the eyewall tangential velocity maximum (not shown), and is negligible throughout the rest of the tropopause layer.
 The remaining two processes - microphysics and dissipative heating (Fig.~\ref{fig:avgbudterms}, orange and light green lines, respectively) - lie atop one another near zero.
 These time series indicate that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
 Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:mod+bud+res}; subsequent sections will focus on these variations and what causes them.
@@ -215,21 +223,22 @@ Variations in the magnitude and spatial structure of these terms drive the stati
 
  \subsection{Static stability evolution}
 
-The average N\textsuperscript{2} over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a static stability maximum about 400 m above the cold-point tropopause.
+The average $N^2$ over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a weak static stability maximum just above the cold-point tropopause.
 This lower-stratospheric stable layer had begun to erode during the initial spin-up period, with the maximum destabilitzation occurring at the innermost radii.
 This decrease in static stability continued into the second day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}b) as the storm intensified to hurricane strength (Fig.~\ref{fig:vmax+pmin}).
-Destabilization was particularly pronounced over the developing eye, where the time-mean cold-point tropopause height increased by up to 400 m compared to the previous day.
-Over the developing eyewall and outer rainband regions, meanwhile, the tropopause height remained nearly constant.
-During the third day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}c), static stability over the eye continued to decrease, and the cold-point tropopause height rose to 18.3 km at the storm center.
-The tropopause sloped sharply downward over the innermost radii, reaching the 16.4-km level near the 50-km radius.
+Destabilization was particularly pronounced over the developing eye, where the time-mean cold-point tropopause height increased by up to one km compared to the previous day.
+Over the developing eyewall and rainband regions, meanwhile, the tropopause height remained nearly constant.
+During the third day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}c), static stability over the eye continued to decrease, and the cold-point tropopause height rose to nearly 20 km over the eye.
+The tropopause sloped sharply downward outside of the 20-km radius, reaching a minimum altitude of 16.4 km only 45 km from the storm center.
 This local minimum in tropopause height corresponded to the eyewall region, where upper-tropospheric static stability increased during this time period.
-Outside of the eyewall region, static stability began to increase in the layer immediately overlying the cold-point tropopause.
+At larger radii, static stability began to increase in the layer immediately overlying the cold-point tropopause.
 This stable layer sloped upward with radius, which corresponded to an upward-sloping tropopause radially outside of the eywall region.
-Over the next 24 hours (Fig.~\ref{fig:n2-24hr-avgs}d), as the storm's maximum 10-m wind speed leveled off near 80 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}), the upper-tropospheric static stability within the eyewall region continued to strengthen, as did the static stability just above the cold-point tropopause radially outside of the eyewall.
-As the stable layer strengthened, its altitude rose slightly, which corresponded to a slight increase in tropopause height outside of the eyewall during this period.
-Within the upper troposphere radially outside of the eyewall, meanwhile, static stability decreased such that it was nearly neutral in a thin layer between the 120- and 150-km radii.
-The eye region likewise continued to destabilize, and the cold-point tropopause height increased to a level above 18.5 km.
+Over the next 24 hours (Fig.~\ref{fig:n2-24hr-avgs}d), as the storm's maximum 10-m wind speed remained quasi-steady near 80 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}), the tropopause-layer static stability continued to increase.
+%As this stable layer strengthened, its altitude rose slightly, which corresponded to a slight increase in tropopause height outside of the eyewall during this period.
+%Within the upper troposphere radially outside of the eyewall, meanwhile, static stability decreased such that it was nearly neutral in a thin layer between the 120- and 150-km radii.
+Within the eye, the layer between 16 and 19 km continued to destabilize, and the cold-point tropopause height increased to a level above 21.5 km.
 This static stability evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{Duran+Molinari2018} \citeyear{Duran+Molinari2018}).
+Since most of the static stability variability 
 
  \subsection{Static stability budget analysis}
 
@@ -259,7 +268,11 @@ Comparing the sum of advection and vertical turbulence (Fig.~\ref{fig:stab-48-72
 
   \section{Discussion}
 
-Dunion et al. speculate that the diurna pulse only occurs in mature storms. Maybe the development of the near-tropopause stable layer could partially explain the reason for this.
+Radiative heating and turbulence viscosity figures?
+
+Discuss how turbulence increases the static stability in some regions --> vertical gradients of turblence intensity.
+
+Dunion et al. speculate that the diurnal pulse only occurs in mature storms. Maybe the development of the near-tropopause stable layer could partially explain the reason for this.
 % text...
 % \section{Section title}
 
@@ -285,8 +298,8 @@ Dunion et al. speculate that the diurna pulse only occurs in mature storms. Mayb
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \acknowledgments
-We are indebted to Dr. George Bryan for his continued development and support of Cloud Model 1.
-We also thank Drs. Jeffrey Kepert, Robert Fovell, and Erika Navarro for fruitful conversations related to this work.
+We are indebted to George Bryan for his continued development and support of Cloud Model 1.
+We also thank Jeffrey Kepert, Robert Fovell, and Erika Navarro for helpful conversations related to this work.
 ADD GRANT NUMBER
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -359,77 +372,77 @@ ADD GRANT NUMBER
 
 %FIGURE 1%
 \begin{figure}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig01_R-Z_mod+bud+res.png}}
-\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$ 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The $N^2$ change over the same time periods computed using Eq. \ref. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
-\label{fig:mod+bud+res}
+\centerline{\includegraphics[width=19pc]{figures/vmax+pmin.png}}
+\caption{The maximum 10-m wind speed (top panel; m s\textsuperscript{-1}) and minimum sea-level pressure (bottom panel; hPa) in the simulated storm (blue lines) and from Hurricane Patricia's best track (red stars).}
+\label{fig:vmax+pmin}
 \end{figure}
 
 %FIGURE 2%
 \begin{figure}[ht]
-\centerline{\includegraphics[width=19pc]{figures/fig01_vmax+pmin.png}}
-\caption{The maximum 10-m wind speed (top panel; m s\textsuperscript{-2}) and minimum sea-level pressure (bottom panel; hPa) in the simulated storm (blue lines) and from Hurricane Patricia's best track (red stars).}
-\label{fig:vmax+pmin}
+\centerline{\includegraphics[width=33pc]{figures/mod+bud+res.png}}
+\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$ 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The $N^2$ change over the same time periods computed using Eq. \ref{eq:budgetchange}. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
+\label{fig:mod+bud+res}
 \end{figure}
 
 %FIGURE 3%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig02_n2-24hr-avgs.png}}
-\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over the first four days of the simulation. Orange lines represent the cold-point tropopause computed from the mean temperature field over the same time periods.}
+\centerline{\includegraphics[width=39pc]{figures/n2-24hr-avgs.png}}
+\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over the first four days of the simulation. Orange lines represent the cold-point tropopause determined by the mean temperature field over the same time periods.}
 \label{fig:n2-24hr-avgs}
 \end{figure*}
 
 %FIGURE 4%
 \begin{figure}[ht]
-\centerline{\includegraphics[width=19pc]{figures/fig04_AVG_budterms.png}}
-\caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (N\textsuperscript{2}; 10\textsuperscript{-4} s\textsuperscript{-2}). For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged both temporally over 1-hour periods (using output every minute), and spatially within the radius-height domain depicted in Fig.~\ref{fig:modbudres}.}
+\centerline{\includegraphics[width=19pc]{figures/AVG_budterms.png}}
+\caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (N\textsuperscript{2}; 10\textsuperscript{-4} s\textsuperscript{-2}). For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged temporally over 1-hour periods (using output every minute), and spatially in a region extending from 0 to 200 km radius and 14 to 19 km altitude.}
 \label{fig:avgbudterms}
 \end{figure}
 
 %FIGURE 5%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig05_h000-h024-budgetterms.png}}
+\centerline{\includegraphics[width=39pc]{figures/h000-h024-budgetterms.png}}
 \caption{(a) Total change in N\textsuperscript{2} over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) and the contributions to that change from (b) the sum of horizontal and vertical advection, (c) vertical turbulence, and (d) the sum of longwave and shortwave radiation.}
 \label{fig:stab-00-24}
 \end{figure*}
 
 %FIGURE 6%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig06_h024-h048-budgetterms.png}}
+\centerline{\includegraphics[width=39pc]{figures/h024-h048-budgetterms.png}}
 \caption{As in Fig.~\ref{fig:stab-00-24}, but for the 24-48-hour period.}
 \label{fig:stab-24-48}
 \end{figure*}
 
 %FIGURE 7%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=33pc]{figures/fig07_h048-h072-budgetterms.png}}
+\centerline{\includegraphics[width=27pc]{figures/h048-h072-budgetterms.png}}
 \caption{(a) Total change in N\textsuperscript{2} over the 48-72-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) and the contributions to that change from (b) the sum of horizontal and vertical advection, (c) vertical turbulence, (d) the sum of longwave and shortwave radiation, (e) the sum of horizontal advection, vertical advection, and vertical turublence, and (f) the sum of horizontal advection, vertical advection, vertical turbulence, and longwave and shortwave radiation.}
 \label{fig:stab-48-72}
 \end{figure*}
 
 %FIGURE 8%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=33pc]{figures/fig08_h072-h096-budgetterms.png}}
+\centerline{\includegraphics[width=33pc]{figures/h072-h096-budgetterms.png}}
 \caption{As in Fig.~\ref{fig:stab-48-72}, but for the 72-96-hour period.}
 \label{fig:stab-72-96}
 \end{figure*}
 
 %FIGURE 9%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig09_u.png}}
+\centerline{\includegraphics[width=39pc]{figures/u.png}}
 \caption{Radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange line) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours.}
 \label{fig:u}
 \end{figure*}
 
 %FIGURE 10%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig10_w.png}}
+\centerline{\includegraphics[width=39pc]{figures/w.png}}
 \caption{Vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange line) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours.}
 \label{fig:w}
 \end{figure*}
 
 %FIGURE 11%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/fig11_qtot.png}}
+\centerline{\includegraphics[width=39pc]{figures/qtot.png}}
 \caption{Total condensate mixing ratio (g kg\textsuperscript{-1}) and cold point tropopause height (orange line) averaged over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, and (d) 72-96 hours.}
 \label{fig:qtot}
 \end{figure*}
