@@ -118,10 +118,10 @@ Albany, NY}
 %%
  \section{Introduction}
 
-Perhaps introduce upper-tropospheric static stability and its relationship to the diurnal cycle before going into Patricia? Include references to Dunion, Navarro, and O'Neill here.
-
-More recently, \cite{Dunionetal2014} documented a periodic oscillation of infrared brightness temperature in hurricanes, which they call the "TC diurnal pulse."
-There will be a whole bunch of papers cited here...
+%Perhaps introduce upper-tropospheric static stability and its relationship to the diurnal cycle before going into Patricia? Include references to Dunion, Navarro, and O'Neill here.
+%More recently, \cite{Dunionetal2014} documented a periodic oscillation of infrared brightness temperature in hurricanes, which they call the "TC diurnal pulse."
+%There will be a whole bunch of papers cited here...
+%At some point (probably in the Discussion) mention the possible importance of static stability asymmetries, in the context of the Dunion diurnal pulse 
 
 After undergoing a remarkably rapid intensification (RI), Hurricane Patricia (2015) set a new record as the strongest tropical cyclone (TC) ever observed in the Western Hemisphere (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
 High-altitude dropsonde observations taken during the Tropical Cyclone Intensity (TCI) Experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
@@ -133,8 +133,7 @@ Meanwhile over the eyewall region, the static stability re-strengthened and the 
 The mechanisms that led to these changes in upper-level static stability and tropopause height are the subject of the current paper.
 
 INCLUDE IN THIS INTRODUCTION DAN STERN'S POTENTIAL TEMPERATURE BUDGET PAPERS
-
-At some point (probably in the Discussion) mention the possible importance of static stability asymmetries, in the context of the Dunion diurnal pulse 
+ALSO INCLUDE KEPERT'S STATIC STABILITY BUDGET PAPER
 
  \section{Model Setup}
 
@@ -146,7 +145,7 @@ This formulation allows for realistically-large horizontal mixing lengths near t
 Vertical turbulence was parameterized using the formulation of \citeauthor{MarkowskiBryan2016} (\citeyear{MarkowskiBryan2016}, their Eq. 6), using an asymptotic vertical mixing length of 100 m.
 A Rayleigh damping layer was applied outside of the 2900-km radius and above the 25-km level to prevent spurious gravity wave reflection at the model boundaries.
 Microphysical processes were parameterized using the \cite{Thompson} microphysics scheme and radiative heating tendencies were computed every two minutes using the Rapid Radiative Transfer Model for GCMs (RRTMG) longwave and shortwave schemes \citep{Iacono}.
-The initial temperature and humidity field was horizontally-homogeneous and determined by averaging all Climate Forecast System Reanalysis (CFSR) grid points within 1000 km of Patricia's center of circulation at 18 UTC 21 October 2015.
+The initial temperature and humidity field was horizontally homogeneous and determined by averaging all Climate Forecast System Reanalysis (CFSR) grid points within 100 km of Patricia's center of circulation at 18 UTC 21 October 2015.
 %A horizontally-homogeneous temperature and humidity field was initialized with a mean sounding computed using all dropsondes deployed during the TCI flight conducted within and around Tropical Storm Patricia on 21 October, 2015 (see \citeauthor{DoyleTCI} \citeyear{DoyleTCI} for details.)
 %Above 19 km, where few TCI observations were available, the temperature profile was taken from the Climate Forecast System Reanalysis (CFSR) grid point nearest Patricia's storm center, valid at 18 UTC 21 October, 2015.
 %Since relative humidity measurements were unreliable at temperatures below -40\textdegree C \citep{BellTCI}, relative humidity was set equal to 50\% above 11.5 km (the level above which temperature dropped below -40\textdegree C).
@@ -174,7 +173,7 @@ In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_
    N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
    \end{equation}
 where $\theta_v$ is the virtual potential temperature.
-To compute $N^2$, CM1 uses Eq.\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be used for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
+To compute $N^2$, CM1 uses Eq.\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
@@ -184,12 +183,12 @@ where the potential temperature tendency, $\partial \theta/\partial t$, can be w
    \begin{equation} \label{eq:dthetadt}
    \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
    \end{equation}
-Each term on the right-hand side of Eq.\ref{eq:dthetadt} represents a potential temperature budget variable, each of which is output directly by the model every minute.
+Each term on the right-hand side of Eq. \ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
 HADV and VADV are the radial and vertical advective tendencies, HTURB and VTURB are the radial and vertical tendencies from the turbulence parameterization, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since this term is zero everywhere below 25 km, and the analysis domain does not extend to that level.
 Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
 These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.
-The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period using a residual, i.e.:
+The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period, i.e.:
    \begin{equation} \label{eq:budgetchange}
    \Delta N^2_{budget} = \frac{1}{\delta t}\sum_{t=t_0}^{t_0+\delta t} \left.\frac{\partial N^2}{\partial t}\right\vert_t
    \end{equation}
@@ -210,10 +209,10 @@ This indicates that the budget accurately represents the model variability, whic
 In the tropopause layer, some of the budget terms are small enough to be ignored.
 To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. \ref{eq:dthetadt} to the tropopause-layer static stability tendency is plotted in Fig. \ref{fig:avgbudterms}.
 For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
-The absolute values of these tendencies are then averaged over over a radius-height domain surrounding the tropopause and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
+The absolute values of these tendencies are then averaged over a radius-height domain surrounding the tropopause and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
 Thus, taking an average over the domain tends to wash out the positive and negative contributions.
-To circumvent this problem, the absolute value of each of the terms is averaged, yielding a time series of the mean magnitude of each budget term.}. 
-Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly.%both become important after 48 hours.
+To circumvent this problem, the absolute value of each of the terms is averaged.}. 
+Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly. %both become important after 48 hours.
 Although the contribution from horizontal turbulence (Fig.~\ref{fig:avgbudterms}, purple line) becomes more important after 48 hours, it is confined to a very small region immediately surrounding the eyewall tangential velocity maximum (not shown), and is negligible throughout the rest of the tropopause layer.
 The remaining two processes - microphysics and dissipative heating (Fig.~\ref{fig:avgbudterms}, orange and light green lines, respectively) - lie atop one another near zero.
 These time series indicate that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
@@ -380,7 +379,7 @@ ADD GRANT NUMBER
 %FIGURE 2%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=39pc]{figures/mod+bud+res.png}}
-\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$ 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The $N^2$ change over the same time periods computed using Eq. \ref{eq:budgetchange}. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
+\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The $N^2$ change over the same time periods computed using Eq. \ref{eq:budgetchange}. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
 \label{fig:mod+bud+res}
 \end{figure}
 
