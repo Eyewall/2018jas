@@ -177,9 +177,10 @@ where $g$ is gravitational acceleration, $T$ is temperature, $R_d$ and $R_v$ are
 where $L_v$ is the latent heat of vaporization and $c_{pm}$ is the specific heat of moist air at constant pressure.
 In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
    \begin{equation} \label{eq:n2dry}
-   N^2 = \frac{g}{\theta_v}\frac{\partial \theta_v}{\partial z},
+   N^2 = \frac{g}{\theta}\frac{\partial \theta}{\partial z},
    \end{equation}
-where $\theta_v$ is the virtual potential temperature.
+where $\theta$ is the potential temperature.
+
 To compute $N^2$, CM1 uses Eq.\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations herein\footnote{The validity of this approximation will be substantiated later in this section.}.
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
@@ -230,30 +231,51 @@ Variations in the magnitude and spatial structure of these terms drive the stati
  \subsection{Static stability evolution}
 
 The average $N^2$ over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a weak static stability maximum just above the cold-point tropopause.
-Over the subsequent 24 hours, during which RI occurred, this static stability maximum weakened within the 20 km radius (Fig.~\ref{fig:n2-24-hr-avgs}b).
-This decreasing $N^2$ corresponded to an increase in the tropopause height within the developing eye, maximizing at the storm center.
-Outside of the eye, meanwhile, the tropopause height decresed over the eyewall region (25-60-km radius) and increased only slightly outside of the 60 km radius.
-In this outer region, the lower-stratospheric $N^2$ maximum strengthened during RI.
+Over the subsequent 24 hours, during the RI period, the static stability within and above this layer decreased near the storm center (Fig.~\ref{fig:n2-24hr-avgs}b).
+This decreasing $N^2$ corresponded to an increase in the tropopause height within the developing eye, maximized at the storm center.
+Outside of the eye, meanwhile, the tropopause height decresed over the eyewall region (25-60-km radius) and increased only slightly outside of the 60-km radius.
+In this outer region, the $N^2$ maximum just above the tropopause strengthened during RI.
 These trends continued as the storm's intensity leveled off in the 48-72-hour period (Fig.~\ref{fig:n2-24hr-avgs}c).
 The tropopause height increased to nearly 21 km at the storm center and sloped sharply downward to 16.3 km on the inner edge of the eyewall, near the 30 km radius.
-This static stability evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}).
-Since most of the static stability variability 
+Static stability outside of the eye, meanwhile, continued to increase just above the cold-point tropopause.
+This $N^2$ evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}).
+The mechanisms that led to these static stability changes will be investigated in the subsequent sections.
 
  \subsection{Static stability budget analysis}
 
 \paragraph{0-24 hours}
-The first 24 hours of the simulation was characterized by a weakening of the lower-stratospheric static stability maximum above 17 km (Fig.~\ref{fig:stab-0-24}a, purple shading) and an increase in static stability below (green shading).
+The weakening of the lower-stratospheric static stability maximum during the initial spin-up period is reflected in the total $N^2$ budget change over this time (Fig.~\ref{fig:stab-00-24}a).
+The 17-18-km layer was characterized by decreasing $N^2$ (purple shading), maximizing at the storm center.
+The layer immediately below the tropopause, meanwhile, saw strengthening $N^2$ during this time period.
 Although these tendencies extended out to the 200-km radius, they were particularly pronounced at innermost radii.
-A comparison of the contributions of advection (Fig.~\ref{fig:stab-0-24}b), vertical turbulence (Fig.~\ref{fig:stab-0-24}c), and radiation (Fig.~\ref{fig:stab-0-24}d) reveals that advection is primarily responsible for the change in static stability during this period.
+A comparison of the contributions of advection (Fig.~\ref{fig:stab-00-24}b), vertical turbulence (Fig.~\ref{fig:stab-00-24}c), and radiation (Fig.~\ref{fig:stab-00-24}d) reveals that advection is primarily responsible for the change in static stability during this period.
+Although vertical turbulence acts in opposition to advection (i.e. it acts to stabilize regions that advection acts to destabilize), the magnitude of the advective tendencies is larger, particularly at the innermost radii.
+The sum of advection and vertical turbulence (Fig.~\ref{fig:stab-00-24}e) almost exactly replicates the static stability tendencies above 17 km.
+Radiative tendencies (Fig.~\ref{fig:stab-00-24}d) act to destabilize the layer below about 16 km and stabilize the layer between 16 and 17 km.
+The sum of advection, vertical turbulence, and radiation (Fig.~\ref{fig:stab-00-24}f) reproduces the total change in $N^2$ almost exactly.
+
 ...Explain this in the context of radial and vertical velocities...
+...See Stern and Zhang, Page 84, Section 3d...
+...Add mention of total condensate and radiative heating tendencies as it relates to statbility tendency due to rad...
 
 \paragraph{24-48 hours}
-During the second day of the simulation, the lower-stratospheric stable layer continued to weaken (Fig.~\ref{fig:stab-24-48}a).
-This weakening trend in the 16.75-17.75-km layer extended from the 50 km radius outward to past 200 km, and was primarily driven by advection (Fig.~\ref{fig:stab-24-48}b).
-Below this layer, static stability began to increse slightly.
-This stabilization had contributions from both vertical turbulence (Fig.~\ref{fig:stab-24-48}c) and radiation (Fig.~\ref{fig:stab-24-48}d) in the 16-16.5-km layer.
-...Explain this in context of mean vertical mixing coefficient and mean radiative heating tendency...
-Meanwhile, radially inward of 60 km, static stability below 17.5 km continued to weaken, primarily due to advective processes.
+During the RI period within the eye, $N^2$ generally decreased above 16 km and increased below (Fig.~\ref{fig:stab-24-48}a).
+These tendencies at the innermost radii were driven almost entirely by advection (Fig.~\ref{fig:stab-24-48}b); vertical turbulence (Fig.~\ref{fig:stab-24-48}c) and radiation (Fig.~\ref{fig:stab-24-48}d) contributed negligibly to the static stability tendencies in this region.
+Outside of the eye, meanwhile, the $N^2$ evolution exhibited alternating layers of positive and negative tendencies.
+Near and above 18 km existed an upward-sloping region of decreasing $N^2$ that extended out to the 180-km radius.
+In this region, neither vertical turbulence nor radiation exhibited negative $N^2$ tendencies; advection was the only forcing for destabilization.
+Immediately below this layer was a region of increasing $N^2$, which sloped upward from 17 km near the 30-km radius to just below 18 km outside of the 100 km radius.
+Advection and vertical turbulence both contributed to this positive $N^2$ tendency, with advection playing an important role below about 17.5 km and and turbulence playing an important role above.
+The sum of advection and turbulence (Fig.~\ref{fig:stab-24-48}e) reveals two discontiguous regions of increasing $N^2$ rather than one contiguous region.
+The addition of radiation to these two terms, however, (Fig.~\ref{fig:stab-24-48}f) provides the link between these two regions, indicating that radiation also plays a role in strengthening the stable layer just above the tropopause.
+Below 17 km, a horizontally-extensive layer of decreasing $N^2$ also was forced by a combination of advection, vertical turbulence, and radiation.
+The sum of advection and vertical turbulence accounts only for two isolated regions of decreasing $N^2$ in this layer, and actually forces stabilization in part of the region.
+For example, just above 16 km in the 150-200-km radial band, the sum of advection and vertical turbulence forces an increase in $N^2$.
+Likewise, throughout most of the 30-60-km radial band in this layer, advection and vertical turbulence combine to force near-zero or positive $N^2$ tendencies.
+Radiative tendencies overcome this forcing for stabilization in both of these regions to produce the radially-extensive region of destabilization just below the tropopause.
+
+
+TWO REGIONS WHERE Panel (f) differs from panel (a): 30-60 km radial band below 16 km, which is actually canceled out by a vertical gradient of latent heating, and the thin region of strong stabilization between 15-17.5 km near r=30 km, which is canceled out by horizontal turbulence.
 
 \paragraph{48-72 hours}
 The third day of the simulation marked a dramatic change in the structure of the tropopause-layer static stability tendencies. During this time, static stability increased markedly in an upward-sloping region within the 30-60-km radial band (Fig.~\ref{fig:stab-48-72}a), and also increased within the 16.75-17.5-km layer out to at least the 200-km radius.
