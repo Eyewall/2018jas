@@ -273,20 +273,46 @@ In the 16-17-km layer, a horizontally-extensive layer of decreasing $N^2$ also w
 The sum of advection and vertical turbulence accounts for only a portion of the decreasing $N^2$ in this layer, and actually indicates forcing for stabilization near the 50-km radius and outside of the 130-km radius.
 Radiative tendencies overcome this forcing for stabilization in both of these regions to produce the radially-extensive region of destabilization observed just below the tropopause.
 
-
 TWO REGIONS WHERE Panel (f) differs from panel (a): 30-60 km radial band below 16 km, which is actually canceled out by a vertical gradient of latent heating, and the thin region of strong stabilization between 15-17.5 km near r=30 km, which is canceled out by horizontal turbulence.
 
 \paragraph{48-72 hours}
-The third day of the simulation marked a dramatic change in the structure of the tropopause-layer static stability tendencies. During this time, static stability increased markedly in an upward-sloping region within the 30-60-km radial band (Fig.~\ref{fig:stab-48-72}a), and also increased within the 16.75-17.5-km layer out to at least the 200-km radius.
-As this layer stabilized, the layer immediately below it destabilized in a broad region extending from 60-200 km.
-Examination of the contribution from total advection (Fig.~\ref{fig:stab-48-72}b) reveals that advection no longer dominates the static stability tendencies.
-Instead, a combination of vertical turbulence (Fig.~\ref{fig:stab-48-72}c) and radiation (Fig.~\ref{fig:stab-48-72}d) overcomes the destabilizing influence of advection to create the layer of increasing static stability.
-Meanwhile, the destabilizing influence of vertical turbulence in a broad region below 17 km combines with a small region of destabilization due to radiation in the 50-120-km radial band combine to destabilize the layer below 16.5 km in the 50-200-km radial band.
-Comparing the sum of advection and vertical turbulence (Fig.~\ref{fig:stab-48-72}e) to the sum of advection, vertical turbulence, and radiation (Fig.~\ref{fig:stab-48-72}f) reveals that radiation plays a fundamental role in the re-strengthening of the lower-stratospheric stable layer during this time.
+After the storm's maximum wind speed leveled off near 80 m s\textsuperscript{-1}, the magnitude of the static stability tendencies within the eye decreased to near zero (Fig.~\ref{fig:stab-48-72}a).
 
-\paragraph{72-96 hours}
+Outside of the eye, however, $N^2$ continued to increase just above the tropopause and decrease just below.
+The sum of advection and vertical turbulence (Fig.~\ref{fig:stab-48-72}e) indicates that the increase of $N^2$ observed in the 17-18-km layer and inside of the 80-km radius cannot be attributed to these processes, since the sum of these two terms provided forcing for destabilization.
+Instead, radiation (Fig.~\ref{fig:stab-48-72}d), provided the forcing for stabilization in this region.
+Outside of the 80-km radius, both advection (Fig.~\ref{fig:stab-48-72}b) and vertical turbulence (Fig.~\ref{fig:stab-48-72}c) provided forcing for stabilization near the 18-km level.
+The sum of the two terms indicates increasing $N^2$ near the 18-km level everywhere outside of the 80-km radius, but this stabilization is slightly weaker in the 90-120-km radial band than the observed value.
+The addition of radiation (Fig.~\ref{fig:stab-48-72}f) provides the extra forcing for stabilization required to account for the observed increase in $N^2$.
+Outside of the 120-km radius, the region of radiative forcing for stabilization slopes downward, and the increase in $N^2$ observed near 18 km can be explained entirely by a combination of advection and vertical turbulence.
+The layer of decreasing $N^@$ observed near 17 km was forced primarily by vertical turbulence and radiation.
+Within most of this region, advection provided strong forcing for stabilization, but this forcing was outweighed by the negative $N^@$ tendencies induced by a combination of vertical turbulence and radiation.
 
   \section{Discussion}
+
+  \subsection{The role of advection}
+
+Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification.
+To investigate the advective processes more closely, the individual contributions of horizontal and vertical advection are shown for all three time periods in Figs. \ref{fig:adv-00-24}-\ref{fig:adv-48-72}, along with the corresponding time-mean velocities and $\theta$.
+In each of the three time periods, the $N^2$ tendencies due to the two advective components exhibit strong cancellation, consistent with flow that is nearly isentropic.
+There are, however, some regions in which flow crosses $\theta$ surfaces; this flow accounts for all non-zero $N^2$ tendencies due to advection in the budget analyses.
+
+  \paragraph{0-24 hours}
+During the first day of the simulation, horizontal advection (Fig. \ref{fig:adv-00-24}a) generally forced a decrease in $N^2$ below 17 km and an increase in $N^2$ above.
+The mean radial velocity during this period (Fig. \ref{fig:adv-00-24}c) reveals a region of outflow at and below 17 km and near-zero radial velocity above, with a layer of strong vertical wind shear straddling the tropopause.
+The slight downward slope with radius of the $\theta$ surfaces near the tropopause (meaning that $\theta$ increases with radius) implies that the outflow in this layer locally acted to decrease $\theta$.
+This negative $\theta$ tendency must decrease with height within the region of strong vertical wind shear and approach zero as the radial velocity diminishes to zero near 17 km.
+These tendencies thus yielded an increase in the vertical gradient of $\theta$ above 17 km, which implies an increase in $N^2$, as was seen in Fig. \ref{fig:adv-00-24}a.
+Note that although the radial gradient of $\theta$ was stronger in the 15-16-km layer than it was closer to the tropopause, the vertical shear of the radial wind was much smaller there, yielding a smaller $N^2$ tendency due to horizontal advection.
+
+Notably, there existed strong $N^2$ tendencies due to horizontal advection inside of the 30-km radius even though the mean radial velocity in that region was near zero.
+Close examination of the radial velocity at each output time step reveals the presence of inward-propagating waves in the lower stratosphere.
+These waves amplified upon reaching r=0 and forced strong but highly transient $\theta$ tendencies due to advective processes.
+Thus, although the radial velocity perturbations associated with these waves averaged out to zero, the non-linear effect of these waves on the $N^2$ field remained.
+
+The $N^2$ tendencies forced by horizontal advection were completely canceled out by vertical advective tendencies (Fig. \ref{fig:adv-00-24}b).
+As was seen in Fig. \ref{fig:stab-00-24}b, the sum of the two terms yielded a layer of increasing $N^2$ below 17 km and decreasing $N^2$ above, meaning that vertical advective processes dominated the $N^2$ tendency during the initial spin-up period.
+
 
 Radiative heating and turbulence viscosity figures?
 
@@ -449,37 +475,59 @@ ADD GRANT NUMBER
 
 %FIGURE 8%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/u.png}}
-\caption{Radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
-\label{fig:u}
+\centerline{\includegraphics[width=39pc]{figures/h000-h024-adv.png}}
+\caption{The contribution to the change in $N^2$ over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 0-24-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 0-24-hour period.}
+\label{fig:adv-00-24}
 \end{figure*}
+
+
+%FIGURE 8%
+%\begin{figure*}[ht]
+%\centerline{\includegraphics[width=39pc]{figures/u.png}}
+%\caption{Radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+%\label{fig:u}
+%\end{figure*}
 
 %FIGURE 9%
 \begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/w.png}}
-\caption{Vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
-\label{fig:w}
+\centerline{\includegraphics[width=39pc]{figures/h024-h048-adv.png}}
+\caption{As in Fig. \ref{fig:adv-00-24}, but for the 24-48-hour period.}
+\label{fig:adv-24-48}
 \end{figure*}
 
+%FIGURE 9%
+%\begin{figure*}[ht]
+%\centerline{\includegraphics[width=39pc]{figures/w.png}}
+%\caption{Vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+%\label{fig:w}
+%\end{figure*}
+
 %FIGURE 10%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/h048-h072-adv.png}}
+\caption{As in Fig. \ref{fig:adv-00-24}, but for the 48-72-hour period.}
+\label{fig:adv-48-72}
+\end{figure*}
+
+%FIGURE 11%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/qtot.png}}
 \caption{Total condensate mixing ratio (g kg\textsuperscript{-1}) and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 \label{fig:qtot}
 \end{figure*}
 
-%FIGURE 11%
+%FIGURE 12%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/radten.png}}
 \caption{Radiative heating rate (K hr\textsuperscript{-1}) and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 \label{fig:radten}
 \end{figure*}
 
-%FIGURE 12%
+%FIGURE 13%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/khvten.png}}
 \caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}; filled contours), cold point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
-\label{fig:radten}
+\label{fig:diff}
 \end{figure*}
 
 %\begin{figure}[t]
