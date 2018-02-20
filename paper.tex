@@ -125,7 +125,7 @@ Albany, NY}
 
 After undergoing a remarkably rapid intensification (RI), Hurricane Patricia (2015) set a new record as the strongest tropical cyclone (TC) ever observed in the Western Hemisphere (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
 High-altitude dropsonde observations taken during the Tropical Cyclone Intensity (TCI) experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
-These observations revealed remarkable changes in the structure of the cold-point tropopause and upper-level static stability as the storm intensified \citep{DuranMolinari2018}.
+These observations revealed dramatic changes in the structure of the cold-point tropopause and upper-level static stability as the storm intensified \citep{DuranMolinari2018}.
 
 At tropical storm intensity, shortly before RI commenced, a strong inversion layer existed just above Patricia's cold-point tropopause, which was located near 17.2 km.
 During the first half of the RI period, this inversion layer weakened throughout Patricia's inner core, with the weakening most pronounced over the developing eye.
@@ -136,9 +136,11 @@ The mechanisms that led to these changes in upper-level static stability and tro
 Despite the importance of tropopause-layer thermodynamics in theoretical models of hurricanes (\citeauthor{EmanuelRotunno2011} \citeyear{EmanuelRotunno2011}; \citeauthor{Emanuel2012} \citeyear{Emanuel2012}), few papers have examined the upper-tropospheric evolution of TCs.
 \cite{KomaromiDoyle2017} found that stronger TCs tended to have a higher and warmer tropopause over their inner core than weaker TCs.
 Their results are consistent with the evolution observed over the inner core of Hurricane Patricia, in which the tropopause height increased and the tropopause temperature warmed throughout RI \citep{DuranMolinari2018}.
-The simulations of \cite{OhnoSatoh2015} suggested that the development of an upper-level warm core within the eye acted to decrease the static stability near the tropopause.
-Although the mechanisms that drive this static stability evolution have not been examined explicitly, the potential temperature ($\theta$) budget analysis of \cite{SternZhang2013} examined the development of the TC warm core.
-They found that radial and vertical advection both play important roles in warm core development throughout RI, with subgrid-scale diffusion becoming particularly important during the later stage of RI.
+
+The idealized simulations of \cite{OhnoSatoh2015} suggested that the development of an upper-level warm core near the TC storm center acted to decrease the static stability near the tropopause.
+Although the mechanisms that drive this static stability evolution have not been examined explicitly, \cite{SternZhang2013} described the development of the TC warm core using a potential temperature ($\theta$) budget analysis.
+They found that radial and vertical advection both played important roles in warm core development throughout RI, and subgrid-scale diffusion became particularly important during the later stage of RI.
+To our knowledge, the only paper that has examined the static stability evolution in a TC is KEPERT ET AL ##########################################
 
 The analysis herein is based upon that of \cite{SternZhang2013}, except using a static stability budget similar to that of \cite{Kepertetal2016} rather than a $\theta$ budget.
 
@@ -292,17 +294,18 @@ Within most of this region, advection provided strong forcing for stabilization,
 
   \subsection{The role of advection}
 
-Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification.
-To investigate the advective processes more closely, the individual contributions of horizontal and vertical advection are shown for all three time periods in Figs. \ref{fig:adv-00-24}-\ref{fig:adv-48-72}, along with the corresponding time-mean velocities and $\theta$.
-In each of the three time periods, the $N^2$ tendencies due to the two advective components exhibit strong cancellation, consistent with flow that is nearly isentropic.
-There are, however, some regions in which flow crosses $\theta$ surfaces; this flow accounts for all non-zero $N^2$ tendencies due to advection in the budget analyses.
+Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification, but for brevity, this section will focus only on the RI period.
+To investigate the advective processes more closely, the individual contributions of horizontal and vertical advection during the RI period are shown in Fig. \ref{fig:adv-24-48}, along with the corresponding time-mean radial and vertical velocities and $\theta$.
+The $N^2$ tendencies due to the two advective components (Fig. \ref{fig:adv-24-48}a,b) exhibit strong cancellation, consistent with flow that is nearly isentropic.
+There are, however, some regions in which flow crosses $\theta$ surfaces; this flow accounts for all non-zero $N^2$ tendencies due to advection previously seen in Fig. \ref{fig:stab-24-48}b.
 
-Some insight gan be gained by considering the vertical gradient of the advective $\theta$ tendency:
+Some insight can be gained by considering the time tendency of the vertical $\theta$ gradient due to advection:
    \begin{equation} \label{eq:advtend}
-   \left(\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}\right)_{adv} = -u\frac{\partial}{\partial r}\frac{\partial \theta}{\partial z}-w\frac{\partial}{\partial z}\frac{\partial \theta}{\partial z}-\frac{\partial u}{\partial z}\frac{\partial \theta}{\partial r}-\frac{\partial w}{\partial z}\frac{\partial \theta}{\partial z}.
+   \left(\frac{\partial}{\partial t}\frac{\partial \theta}{\partial z}\right)_{adv} = -u\frac{\partial}{\partial r}\frac{\partial \theta}{\partial z}-w\frac{\partial}{\partial z}\frac{\partial \theta}{\partial z}-\frac{\partial u}{\partial z}\frac{\partial \theta}{\partial r}-\frac{\partial w}{\partial z}\frac{\partial \theta}{\partial z}.
    \end{equation}
 
-The first two terms on the right-hand side of Eq. \ref{eq:advtend} represent advection of static stability by the radial and vertical wind, respectively. The third and fourth terms represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the spreading or compaction of isentropes through divergence of the vertical wind. Each of these terms plays a part in the $N^2$ evolution in every day of the simulation; in the subsequent sub-sections, we will focus on the RI period and the quasi-steady-state period after RI.
+The first two terms on the right-hand side of Eq. \ref{eq:advtend} represent advection of static stability by the radial and vertical wind, respectively.
+The third and fourth terms represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the spreading or compaction of isentropes through divergence of the vertical wind.
 
 %  \paragraph{0-24 hours}
 %During the first day of the simulation, horizontal advection (Fig. \ref{fig:adv-00-24}a) generally forced a decrease in $N^2$ below 17 km and an increase in $N^2$ above.
@@ -329,9 +332,20 @@ The first two terms on the right-hand side of Eq. \ref{eq:advtend} represent adv
 %
 %HOVMOLLER OF w IN THE LOWER STRATOSPHERE??
 
-   \paragraph{RI period: 24-48 hours}
+%   \paragraph{RI period: 24-48 hours}
 During the RI period, strong radial and vertical circulations developed near the tropopause, which forced high-magnitude $N^2$ tendencies due to advection (Fig. \ref{fig:adv-24-48}a,b).
-A layer of strong outflow developed at and below the tropopause during this period, with the outflow maximum curving from the 14-km level at the 45-km radius to just below the 16-km level at the 180-km radius (Fig. \ref{fig:adv-24-48c}).
+A layer of strong outflow developed at and below the tropopause during this period, with the outflow maximum (dashed cyan line) curving from the 14-km level at the 50-km radius to just below the 16-km level outside of the 80-km radius (Fig. \ref{fig:adv-24-48}c).
+The cyan line, by definition, represents the level at which the vertial gradient of radial velocity switched signs, with $\partial u/\partial z>0$ below the line and $\partial u/\partial z<0$ above.
+Notably, the $N^2$ tendency due to horizontal advection (Fig. \ref{fig:adv-24-48}a) also tended to switch signs very near this line, with stabilization below the outflow maximum and destabilization above.
+This suggests that vertical wind shear above and below the outflow maximum played an important role in the $N^2$ tendency during this time.
+Examination of the third term on the right-hand side of Eq. \ref{eq:advtend} reveals that tilting of isentropes within these shear layers contributed to the strong $N^2$ tendencies that flanked the outflow maximum.
+Outside of the eye and eyewall, isentropes generally sloped upward with radius, which means that $\theta$ decreased outward ($\partial \theta/\partial r<0$).
+Thus, wherever $\partial u/\partial z>0$, the tilting term forced an increase in $N^2$, and wherever $\partial u/\partial z<0$, the tilting term forced a decrease in $N^2$.
+This is precisely the structure seen in Fig. \ref{fig:adv-24-48}a, which suggests that the tilting term
+
+
+Meanwhile in the lower stratosphere, a thin layer of 2-4 m s\textsuperscript{-1} inflow developed a few hundred meters above the tropopause.
+
 
 
 
@@ -375,18 +389,30 @@ ADD GRANT NUMBER
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Use \appendix if there is only one appendix.
-%\appendix
+\appendix
 
 % Use \appendix[A], \appendix}[B], if you have multiple appendixes.
 %\appendix[A]
 
 %% Appendix title is necessary! For appendix title:
-%\appendixtitle{}
+\appendixtitle{Sensitivity experiments}
+The simulations exhibited some sentivity to the initial thermodynamic profile and the prescribed vertical mixing length.
+Although the details of the intensification and the tropopause-layer $N^2$ evolution varied when these quantities were changed, the conclusions of the paper remain unchanged.
 
 %%% Appendix section numbering (note, skip \section and begin with \subsection)
-% \subsection{First primary heading}
+ \subsection{Sensitivity to the initial thermodynamic profile}
+A number of sensitivity experiments were conducted using a variety of initial soundings.
+Changing the initial temperature and humidity profiles affected the timing of the onset of organized deep convection and the rapidity of intensification.
+In all simulations, however, convection eventually penetrated to the tropopause, at which time vertical turbulence and radiation combined with advection to adjust the $N^2$ profile toward that which was observed in the control run.
+By the end of the RI period in every simulation, all three proesses were actively modifying the $N^2$ profile near the tropopause.
 
-% \subsubsection{First secondary heading}
+ \subsection{Sensitivity to the vertical mixing length}
+The extent of parameterized turbulent mixing is highly dependent on a prescribed length scale.
+Since there is no theoretical or observational guidance for the selection of this mixing length, the value used in the control run (100 m) is based on the sensitivity experiments of BRYAN 2012????
+Since the vertical eddy viscosity varies linearly with the vertical mixing length, prescribing a smaller mixing length produces smaller $\theta$ tendencies due to turbulence.
+Even with a mixing length on the low end of those tested by BRYAN 2012????, however, turbulence still plays a role in the tropopause-layer $N^2$ evolution.
+FIG #### shows the $N^2$ evolution in a simulation identical to the control run, except with a vertical mixing length of 50 m rather than 100 m.
+DESCRIPTION OF THE FIGURE
 
 % \paragraph{First tertiary heading}
 
@@ -448,28 +474,32 @@ ADD GRANT NUMBER
 %FIGURE 2%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=39pc]{figures/mod+bud+res.png}}
-\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours, (d) 72-96 hours. Middle Panels: The $N^2$ change over the same time periods computed using Eq. \ref{eq:budgetchange}. Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
+\caption{Left panels: Twenty-four-hour changes in squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours.
+Middle Panels: The $N^2$ change over the same time periods computed using Eqs. \ref{eq:dn2dt}-\ref{eq:budgetchange}, %together with Eqs. \ref{eq:dn2dt}, \ref{eq:dthetadt}.
+Right Panels: The budget residual over the same time periods, computed by subtracting the budget change (middle column) from the model change (left column).}
 \label{fig:mod+bud+res}
 \end{figure}
 
 %FIGURE 3%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/n2-24hr-avgs.png}}
-\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency (10\textsuperscript{-4} s\textsuperscript{-2}) over the first four days of the simulation. Orange lines represent the cold-point tropopause averaged over the same time periods.}
+\caption{Twenty-four-hour averages of squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}) over (a) 0-24 hours, (b) 24-48 hours, (c) 48-72 hours.
+Orange lines represent the cold-point tropopause averaged over the same time periods.}
 \label{fig:n2-24hr-avgs}
 \end{figure*}
 
 %FIGURE 4%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=19pc]{figures/AVG_budterms.png}}
-\caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency (N\textsuperscript{2}; 10\textsuperscript{-4} s\textsuperscript{-2}). For each budget term, the absolute value of the N\textsuperscript{2} tendency is averaged temporally over 1-hour periods (using output every minute), and spatially in a region extending from 0 to 200 km radius and 14 to 21 km altitude.}
+\caption{Time series of the contribution of each of the budget terms to the time tendency of the squared Brunt-V{\"a}is{\"a}l{\"a} frequency ($N^2$; 10\textsuperscript{-4} s\textsuperscript{-2}).
+For each budget term, the absolute value of the $N^2$ tendency is averaged temporally over 1-hour periods (using output every minute), and spatially in a region extending from 0 to 200 km radius and 14 to 21 km altitude.}
 \label{fig:avgbudterms}
 \end{figure}
 
 %FIGURE 5%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=27pc]{figures/h000-h024-budgetterms.png}}
-\caption{(a) Total change in N\textsuperscript{2} over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) and the contributions to that change from (b) the sum of horizontal and vertical advection, (c) vertical turbulence, (d) longwave and shortwave radiation, (e) the sum of horizontal advection, vertical advection, and vertical turublence, and (f) the sum of horizontal advection, vertical advection, vertical turbulence, and longwave and shortwave radiation.}
+\caption{(a) Total change in $N^2$ over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) and the contributions to that change from (b) the sum of horizontal and vertical advection, (c) vertical turbulence, (d) longwave and shortwave radiation, (e) the sum of horizontal advection, vertical advection, and vertical turublence, and (f) the sum of horizontal advection, vertical advection, vertical turbulence, and longwave and shortwave radiation.}
 \label{fig:stab-00-24}
 \end{figure*}
 
@@ -495,52 +525,53 @@ ADD GRANT NUMBER
 %\end{figure*}
 
 %FIGURE 8%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/h000-h024-adv.png}}
-\caption{The contribution to the change in $N^2$ over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 0-24-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 0-24-hour period.}
-\label{fig:adv-00-24}
-\end{figure*}
+%\begin{figure*}[ht]
+%\centerline{\includegraphics[width=39pc]{figures/h000-h024-adv.png}}
+%\caption{The contribution to the change in $N^2$ over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 0-24-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 0-24-hour period.}
+%\label{fig:adv-00-24}
+%\end{figure*}
 
 
 %FIGURE 8%
 %\begin{figure*}[ht]
 %\centerline{\includegraphics[width=39pc]{figures/u.png}}
-%\caption{Radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+%\caption{Radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 %\label{fig:u}
 %\end{figure*}
 
-%FIGURE 9%
+%FIGURE 8%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/h024-h048-adv.png}}
-\caption{As in Fig. \ref{fig:adv-00-24}, but for the 24-48-hour period.}
+\caption{The contribution to the change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), cold-point tropopause height (orange line), and level of maximum outflow (dashed cyan line) averaged over the 24-48-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 24-48-hour period.}
+%\caption{As in Fig. \ref{fig:adv-00-24}, but for the 24-48-hour period.}
 \label{fig:adv-24-48}
 \end{figure*}
 
 %FIGURE 9%
 %\begin{figure*}[ht]
 %\centerline{\includegraphics[width=39pc]{figures/w.png}}
-%\caption{Vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+%\caption{Vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 %\label{fig:w}
 %\end{figure*}
 
 %FIGURE 10%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{figures/h048-h072-adv.png}}
-\caption{As in Fig. \ref{fig:adv-00-24}, but for the 48-72-hour period.}
-\label{fig:adv-48-72}
-\end{figure*}
+%\begin{figure*}[ht]
+%\centerline{\includegraphics[width=39pc]{figures/h048-h072-adv.png}}
+%\caption{As in Fig. \ref{fig:adv-00-24}, but for the 48-72-hour period.}
+%\label{fig:adv-48-72}
+%\end{figure*}
 
 %FIGURE 11%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=27pc]{figures/qi+radten.png}}
-\caption{Ice mixing ratio (g kg\textsuperscript{-1}) and cold point tropopause height (orange lines) averaged over (a) 0-24 hours, (c) 24-48 hours, and (e) 48-72 hours. Radiative heating rate (K hr\textsuperscript{-1}) and cold point tropopause height (orange lines) averaged over (b) 0-24 hours, (d) 24-48 hours, and (f) 48-72 hours.} 
+\caption{Ice mixing ratio (g kg\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (a) 0-24 hours, (c) 24-48 hours, and (e) 48-72 hours. Radiative heating rate (K hr\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (b) 0-24 hours, (d) 24-48 hours, and (f) 48-72 hours.} 
 \label{fig:qi+radten}
 \end{figure*}
 
 %FIGURE 12%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/khvten.png}}
-\caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}; filled contours), cold point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+\caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}; filled contours), cold-point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 \label{fig:diff}
 \end{figure*}
 
