@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  20 FEB 2018 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  20 FEB 2018 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,35 +365,1910 @@ LaTeX Info: Redefining \\ on input line 3056.
 \c@loopnum=\count122
 \thanksnum=\count123
 \savethanksnum=\count124
-) (./paper.aux)
-\openout1 = `paper.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 105.
+Runaway argument?
+{Idealized simulations of an intense axisymmetric tropical cyclone (T\ETC.
+! Paragraph ended before \abstract was complete.
+<to be read again> 
+                   \par 
+l.108 
+      
+? 
 
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 A
+        static stability budget analysis reveals that horizontal and vertica...
+
+? 
+
+Overfull \hbox (18.80824pt too wide) in paragraph at lines 109--115
+[]\OT1/cmr/m/n/12 A|
+ []
+
+
+Overfull \hbox (28.13443pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 static|
+ []
+
+
+Overfull \hbox (18.99564pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sta-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bil-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ity|
+ []
+
+
+Overfull \hbox (23.49976pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bud-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 get|
+ []
+
+
+Overfull \hbox (25.45807pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 anal-|
+ []
+
+
+Overfull \hbox (10.11795pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 y-|
+ []
+
+
+Overfull \hbox (12.5332pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sis|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 re-|
+ []
+
+
+Overfull \hbox (24.87057pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 veals|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 that|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 hor-|
+ []
+
+
+Overfull \hbox (7.18048pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 i-|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 zon-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tal|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ver-|
+ []
+
+
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ti-|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cal|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ad-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vec-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (23.82614pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 both|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 con-|
+ []
+
+
+Overfull \hbox (35.24963pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tribute|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 to|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (28.13443pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 static|
+ []
+
+
+Overfull \hbox (18.99564pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sta-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bil-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ity|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ten-|
+ []
+
+
+Overfull \hbox (22.19421pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 den-|
+ []
+
+
+Overfull \hbox (18.34286pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cies|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 at|
+ []
+
+
+Overfull \hbox (12.40265pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 all|
+ []
+
+
+Overfull \hbox (27.48166pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 times|
+ []
+
+
+Overfull \hbox (44.38843pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 through-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 out|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 up-|
+ []
+
+
+Overfull \hbox (16.64566pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 per|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tro-|
+ []
+
+
+Overfull \hbox (16.64566pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 po-|
+ []
+
+
+Overfull \hbox (32.70383pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sphere|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (26.76361pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lower|
+ []
+
+
+Overfull \hbox (34.00937pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 strato-|
+ []
+
+
+Overfull \hbox (35.96768pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sphere.|
+ []
+
+
+Overfull \hbox (19.25258pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 Ad-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vec-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (7.89853pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 is|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 par-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tic-|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 u-|
+ []
+
+
+Overfull \hbox (23.17337pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 larly|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 im-|
+ []
+
+
+Overfull \hbox (21.21506pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 por-|
+ []
+
+
+Overfull \hbox (21.21506pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tant|
+ []
+
+
+Overfull \hbox (32.63855pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 within|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 eye,|
+ []
+
+
+Overfull \hbox (30.02747pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 where|
+ []
+
+
+Overfull \hbox (7.89853pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 is|
+ []
+
+
+Overfull \hbox (20.30118pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 acts|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 to|
+ []
+
+
+Overfull \hbox (30.74551pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 desta-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bi-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lize|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (24.47891pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 layer|
+ []
+
+
+Overfull \hbox (22.19421pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 near|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 above|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (24.8053pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cold-|
+ []
+
+
+Overfull \hbox (26.76361pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 point|
+ []
+
+
+Overfull \hbox (59.79382pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tropopause.|
+ []
+
+
+Overfull \hbox (24.15253pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 Out-|
+ []
+
+
+Overfull \hbox (19.6484pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 side|
+ []
+
+
+Overfull \hbox (9.46518pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 of|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 eye,|
+ []
+
+
+Overfull \hbox (5.87494pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 a|
+ []
+
+
+Overfull \hbox (32.05106pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 strong|
+ []
+
+
+Overfull \hbox (33.29132pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 radial-|
+ []
+
+
+Overfull \hbox (37.86072pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vertical|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cir-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cu-|
+ []
+
+
+Overfull \hbox (13.05542pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 la-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 de-|
+ []
+
+
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vel-|
+ []
+
+
+Overfull \hbox (17.03732pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ops|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 dur-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ing|
+ []
+
+
+Overfull \hbox (16.14984pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 RI,|
+ []
+
+
+Overfull \hbox (22.84698pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 with|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 out-|
+ []
+
+
+Overfull \hbox (20.56229pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 flow|
+ []
+
+
+Overfull \hbox (15.99289pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 be-|
+ []
+
+
+Overfull \hbox (17.29843pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 low|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (56.52997pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tropopause|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 in-|
+ []
+
+
+Overfull \hbox (20.56229pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 flow|
+ []
+
+
+Overfull \hbox (32.63855pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 above.|
+ []
+
+
+Overfull \hbox (22.5206pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 Tur-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bu-|
+ []
+
+
+Overfull \hbox (25.45807pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lence|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 in-|
+ []
+
+
+Overfull \hbox (30.02747pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 duced|
+ []
+
+
+Overfull \hbox (12.40265pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 by|
+ []
+
+
+Overfull \hbox (32.05106pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 strong|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ver-|
+ []
+
+
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ti-|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cal|
+ []
+
+
+Overfull \hbox (24.8053pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 wind|
+ []
+
+
+Overfull \hbox (26.82889pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 shear|
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 above|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (15.99289pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 be-|
+ []
+
+
+Overfull \hbox (17.29843pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 low|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (33.6177pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 upper-|
+ []
+
+
+Overfull \hbox (63.71045pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tropospheric|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 out-|
+ []
+
+
+Overfull \hbox (20.56229pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 flow|
+ []
+
+
+Overfull \hbox (25.78445pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 max-|
+ []
+
+
+Overfull \hbox (7.18048pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 i-|
+ []
+
+
+Overfull \hbox (25.78445pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 mum|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 pro-|
+ []
+
+
+Overfull \hbox (25.84973pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vides|
+ []
+
+
+Overfull \hbox (23.17337pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 forc-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ing|
+ []
+
+
+Overfull \hbox (14.03458pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 for|
+ []
+
+
+Overfull \hbox (23.82614pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 both|
+ []
+
+
+Overfull \hbox (18.99564pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sta-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bi-|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 liza-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (30.74551pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 desta-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bi-|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 liza-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (9.79156pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 in|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (56.52997pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tropopause|
+ []
+
+
+Overfull \hbox (27.74277pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 layer.|
+ []
+
+
+Overfull \hbox (32.308pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 Mean-|
+ []
+
+
+Overfull \hbox (30.02747pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 while,|
+ []
+
+
+Overfull \hbox (10.50961pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 as|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 or-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ga-|
+ []
+
+
+Overfull \hbox (26.76361pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 nized|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 con-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vec-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (36.94684pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 reaches|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (59.79382pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tropopause,|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ra-|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 dia-|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tive|
+ []
+
+
+Overfull \hbox (26.11084pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 heat-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ing|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ten-|
+ []
+
+
+Overfull \hbox (22.19421pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 den-|
+ []
+
+
+Overfull \hbox (18.34286pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cies|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 at|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 top|
+ []
+
+
+Overfull \hbox (9.46518pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 of|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cir-|
+ []
+
+
+Overfull \hbox (15.73178pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 rus|
+ []
+
+
+Overfull \hbox (35.9024pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 canopy|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 act|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 to|
+ []
+
+
+Overfull \hbox (30.74551pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 desta-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bi-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lize|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 up-|
+ []
+
+
+Overfull \hbox (16.64566pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 per|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tro-|
+ []
+
+
+Overfull \hbox (16.64566pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 po-|
+ []
+
+
+Overfull \hbox (32.70383pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sphere|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (18.99564pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sta-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bi-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lize|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (26.76361pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lower|
+ []
+
+
+Overfull \hbox (34.00937pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 strato-|
+ []
+
+
+Overfull \hbox (35.96768pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sphere.|
+ []
+
+
+Overfull \hbox (22.91226pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 This|
+ []
+
+
+Overfull \hbox (24.8053pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 com-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bi-|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 na-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (9.46518pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 of|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tur-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 bu-|
+ []
+
+
+Overfull \hbox (19.25674pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 lent|
+ []
+
+
+Overfull \hbox (23.17337pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 mix-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ing|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ra-|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 dia-|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tive|
+ []
+
+
+Overfull \hbox (26.11084pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 heat-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ing|
+ []
+
+
+Overfull \hbox (26.17612pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 plays|
+ []
+
+
+Overfull \hbox (12.40265pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 an|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 im-|
+ []
+
+
+Overfull \hbox (21.21506pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 por-|
+ []
+
+
+Overfull \hbox (21.21506pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tant|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 role|
+ []
+
+
+Overfull \hbox (9.79156pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 in|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 de-|
+ []
+
+
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 vel-|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 op-|
+ []
+
+
+Overfull \hbox (25.78445pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ment|
+ []
+
+
+Overfull \hbox (9.46518pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 of|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (32.05106pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 strong|
+ []
+
+
+Overfull \hbox (18.99564pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 sta-|
+ []
+
+
+Overfull \hbox (15.01373pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ble|
+ []
+
+
+Overfull \hbox (24.47891pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 layer|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 im-|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 me-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 di-|
+ []
+
+
+Overfull \hbox (25.13168pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 ately|
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 above|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (24.8053pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 cold-|
+ []
+
+
+Overfull \hbox (26.76361pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 point|
+ []
+
+
+Overfull \hbox (59.79382pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 tropopause. |
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 115.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.85pt on input line 115.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.115 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[9]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 T
+       he resuts suggest that turbulence and radiation both play fundamental...
+
+? 
+! Too many }'s.
+l.117 ...gth within a reasonable range of values.}
+                                                  
+? 
+
+Overfull \hbox (30.2359pt too wide) in paragraph at lines 116--118
+[]\OT1/cmr/m/n/12 The|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 re-|
+ []
+
+
+Overfull \hbox (20.36646pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 suts|
+ []
+
+
+Overfull \hbox (20.95395pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 sug-|
+ []
+
+
+Overfull \hbox (20.30118pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 gest|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 that|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 tur-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 bu-|
+ []
+
+
+Overfull \hbox (25.45807pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 lence|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ra-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 di-|
+ []
+
+
+Overfull \hbox (9.79156pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 a-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (23.82614pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 both|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 play|
+ []
+
+
+Overfull \hbox (20.56229pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 fun-|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 da-|
+ []
+
+
+Overfull \hbox (25.45807pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 men-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 tal|
+ []
+
+
+Overfull \hbox (23.56503pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 roles|
+ []
+
+
+Overfull \hbox (9.79156pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 in|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (33.6177pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 upper-|
+ []
+
+
+Overfull \hbox (22.84698pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 level|
+ []
+
+
+Overfull \hbox (28.13443pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 static|
+ []
+
+
+Overfull \hbox (18.99564pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 sta-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 bil-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ity|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 evo-|
+ []
+
+
+Overfull \hbox (13.70819pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 lu-|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 tion|
+ []
+
+
+Overfull \hbox (9.46518pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 of|
+ []
+
+
+Overfull \hbox (24.87057pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 TCs.|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 The|
+ []
+
+
+Overfull \hbox (21.54144pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 con-|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 clu-|
+ []
+
+
+Overfull \hbox (24.93585pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 sions|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 are|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ro-|
+ []
+
+
+Overfull \hbox (22.25949pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 bust|
+ []
+
+
+Overfull \hbox (10.44434pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 to|
+ []
+
+
+Overfull \hbox (39.55792pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 changes|
+ []
+
+
+Overfull \hbox (9.79156pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 in|
+ []
+
+
+Overfull \hbox (16.31927pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 the|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ini-|
+ []
+
+
+Overfull \hbox (16.97205pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 tial|
+ []
+
+
+Overfull \hbox (24.8053pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ther-|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 mo-|
+ []
+
+
+Overfull \hbox (16.64566pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 dy-|
+ []
+
+
+Overfull \hbox (30.68024pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 namic|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 pro-|
+ []
+
+
+Overfull \hbox (15.01373pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 file|
+ []
+
+
+Overfull \hbox (18.93036pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 and|
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 pre-|
+ []
+
+
+Overfull \hbox (36.29407pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 scribed|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ver-|
+ []
+
+
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ti-|
+ []
+
+
+Overfull \hbox (14.36096pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 cal|
+ []
+
+
+Overfull \hbox (23.17337pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 mix-|
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ing|
+ []
+
+
+Overfull \hbox (31.98578pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 length|
+ []
+
+
+Overfull \hbox (32.63855pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 within|
+ []
+
+
+Overfull \hbox (5.87494pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 a|
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 rea-|
+ []
+
+
+Overfull \hbox (20.95395pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 son-|
+ []
+
+
+Overfull \hbox (20.88867pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 able|
+ []
+
+
+Overfull \hbox (28.06915pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 range|
+ []
+
+
+Overfull \hbox (9.46518pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 of|
+ []
+
+
+Overfull \hbox (18.60397pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 val-|
+ []
+
+
+Overfull \hbox (19.6484pt too wide) in paragraph at lines 116--118
+\OT1/cmr/m/n/12 ues. |
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.118 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.118 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.118 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.118 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.118 
+      
+? 
+! Undefined control sequence.
+\set@color ...\@pdfcolorstack push{\current@color 
+                                                  }\aftergroup \reset@color 
+l.118 
+      
+? 
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[12] (./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 119.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 119.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 119.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
@@ -456,114 +2331,111 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 108.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.85pt on input line 108.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
-8.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
-8.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
-8.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
-8.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 150.
+ [14]
+! Undefined control sequence.
+\@maketitle ... ABSTRACT} \vskip 7pt \theabstract 
+                                                  \vskip 17pt \ifdraft \newp...
+l.122 \maketitle
+                
+? 
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 164.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [4]
-Underfull \vbox (badness 1565) has occurred while \output is active []
+) [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [18]
 ! Double subscript.
 <argument> c_p_
                m +L_v\partial q_s/\partial T
-l.176 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
+l.190 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
                                                   \right),
 ? 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 185.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 199.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 185.
-[6] [7] [8]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 199.
+[19]
+Overfull \vbox (4.25339pt too high) has occurred while \output is active []
+
+
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+ [21]
+Underfull \vbox (badness 3965) has occurred while \output is active []
+
+ [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-[12]
-Underfull \vbox (badness 1168) has occurred while \output is active []
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-! You can't use `macro parameter character #' in horizontal mode.
-l.413 FIG #
-           ### shows the $N^2$ evolution in a simulation identical to the co...
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-l.413 FIG ##
-            ## shows the $N^2$ evolution in a simulation identical to the co...
+ [26]
+Underfull \vbox (badness 2035) has occurred while \output is active []
 
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-l.413 FIG ###
-             # shows the $N^2$ evolution in a simulation identical to the co...
-
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-l.413 FIG ####
-               shows the $N^2$ evolution in a simulation identical to the co...
-
-? 
-[14] (./paper.bbl [15])
+ [27]
+(./paper.bbl [28] [29])
 \openout4 = `paper.fff'.
 
  (paper.fff)
-AED endfloat: Processing end Figures and Tables [16] (./paper.lof
+AED endfloat: Processing end Figures and Tables [30] (./paper.lof
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 1.
@@ -588,100 +2460,100 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
 \tf@lof=\write5
 \openout5 = `paper.lof'.
 
- [17
+ [31
 
 
-] (./paper.fff <figures/vmax+pmin.png, id=66, 780.9175pt x 1495.5875pt>
+] (./paper.fff <figures/vmax+pmin.png, id=112, 780.9175pt x 1495.5875pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 2.
 (pdftex.def)             Requested size: 228.0pt x 436.65315pt.
- [18
+ [32
 
  <./figures/vmax+pmin.png>]
-<figures/mod+bud+res.png, id=70, 2285.53876pt x 2035.605pt>
+<figures/mod+bud+res.png, id=116, 2285.53876pt x 2035.605pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 9.
 (pdftex.def)             Requested size: 468.0pt x 416.80476pt.
- [19
+ [33
 
  <./figures/mod+bud+res.png>]
-<figures/n2-24hr-avgs.png, id=75, 1515.6625pt x 1357.07pt>
+<figures/n2-24hr-avgs.png, id=120, 1515.6625pt x 1357.07pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
 Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 18.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
- [20
+ [34
 
  <./figures/n2-24hr-avgs.png>]
-<figures/AVG_budterms.png, id=79, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=124, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
 Package pdftex.def Info: figures/AVG_budterms.png used on input line 26.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
- [21
+ [35
 
  <./figures/AVG_budterms.png>]
-<figures/h000-h024-budgetterms.png, id=83, 1523.6925pt x 2035.605pt>
+<figures/h000-h024-budgetterms.png, id=128, 1523.6925pt x 2035.605pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
 Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 3
 4.
 (pdftex.def)             Requested size: 324.0pt x 432.83212pt.
- [22
+ [36
 
  <./figures/h000-h024-budgetterms.png>] <figures/h024-h048-budgetterms.png, id=
-87, 1523.6925pt x 2035.605pt>
+132, 1523.6925pt x 2035.605pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
 Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
 1.
 (pdftex.def)             Requested size: 324.0pt x 432.83212pt.
- [23
+ [37
 
  <./figures/h024-h048-budgetterms.png>] <figures/h048-h072-budgetterms.png, id=
-91, 1523.6925pt x 2035.605pt>
+137, 1523.6925pt x 2035.605pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
 Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
 8.
 (pdftex.def)             Requested size: 324.0pt x 432.83212pt.
- [24
+ [38
 
- <./figures/h048-h072-budgetterms.png>] <figures/h024-h048-adv.png, id=95, 1530
-.71875pt x 1357.07pt>
+ <./figures/h048-h072-budgetterms.png>] <figures/h024-h048-adv.png, id=141, 153
+0.71875pt x 1357.07pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
 Package pdftex.def Info: figures/h024-h048-adv.png used on input line 55.
 (pdftex.def)             Requested size: 468.0pt x 414.91005pt.
- [25
+ [39
 
  <./figures/h024-h048-adv.png>]
-<figures/qi+radten.png, id=100, 1535.7375pt x 2035.605pt>
+<figures/qi+radten.png, id=145, 1535.7375pt x 2035.605pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
 Package pdftex.def Info: figures/qi+radten.png used on input line 63.
 (pdftex.def)             Requested size: 324.0pt x 429.4465pt.
- [26
+ [40
 
  <./figures/qi+radten.png>]
-<figures/khvten.png, id=104, 1525.7pt x 1357.07pt>
+<figures/khvten.png, id=149, 1525.7pt x 1357.07pt>
 File: figures/khvten.png Graphic file (type png)
  <use figures/khvten.png>
 Package pdftex.def Info: figures/khvten.png used on input line 70.
 (pdftex.def)             Requested size: 468.0pt x 416.25601pt.
 
-[27
+[41
 
  <./figures/khvten.png>]) (./paper.aux)
 
@@ -690,27 +2562,28 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 4898 strings out of 494953
- 65890 string characters out of 6180976
- 128232 words of memory out of 5000000
+ 4903 strings out of 494953
+ 65917 string characters out of 6180976
+ 131521 words of memory out of 5000000
  8020 multiletter control sequences out of 15000+600000
- 70707 words of font info for 161 fonts, out of 8000000 for 9000
+ 73201 words of font info for 166 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,37p,768b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,37p,768b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
-syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (27 pages, 2554116 bytes).
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
+vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on paper.pdf (41 pages, 2579314 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 193 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

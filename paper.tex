@@ -100,7 +100,21 @@ Albany, NY}
 % For BAMS authors only: If your article requires a Capsule Summary, please place the capsule text at the end of your abstract
 % and identify it as the capsule. Example: This is the end of the abstract. (Capsule Summary) This is the capsule summary. 
 
-\abstract{We have some cool results!}
+\abstract{Idealized simulations of an intense axisymmetric tropical cyclone (TC) reveal considerable changes in the tropopause-layer static stability during rapid intensification (RI).
+During RI, static stability near the tropopause decreased over the eye.
+This destabilization was associated with a rise in the cold-point tropopause height by up to 4 km at the storm center.
+Outside of the eye, meanwhile, the cold-point tropopause remained near its initial level, and the static stability increased considerably in the layer immediately above it.
+These results are consistent with recent observations collected during the RI of Hurricane Patricia (2015).
+
+A static stability budget analysis reveals that horizontal and vertical advection both contribute to the static stability tendencies at all times throughout the upper troposphere and lower stratosphere.
+Advection is particularly important within the eye, where is acts to destabilize the layer near and above the cold-point tropopause.
+Outside of the eye, a strong radial-vertical circulation develops during RI, with outflow below the tropopause and inflow above.
+Turbulence induced by strong vertical wind shear above and below the upper-tropospheric outflow maximum provides forcing for both stabilization and destabilization in the tropopause layer.
+Meanwhile, as organized convection reaches the tropopause, radiative heating tendencies at the top of the cirrus canopy act to destabilize the upper troposphere and stabilize the lower stratosphere.
+This combination of turbulent mixing and radiative heating plays an important role in the development of the strong stable layer immediately above the cold-point tropopause.
+
+The resuts suggest that turbulence and radiation both play fundamental roles in the upper-level static stability evolution of TCs.
+The conclusions are robust to changes in the initial thermodynamic profile and prescribed vertical mixing length within a reasonable range of values.}
 
 \begin{document}
 
@@ -137,12 +151,11 @@ Despite the importance of tropopause-layer thermodynamics in theoretical models 
 \cite{KomaromiDoyle2017} found that stronger TCs tended to have a higher and warmer tropopause over their inner core than weaker TCs.
 Their results are consistent with the evolution observed over the inner core of Hurricane Patricia, in which the tropopause height increased and the tropopause temperature warmed throughout RI \citep{DuranMolinari2018}.
 
-The idealized simulations of \cite{OhnoSatoh2015} suggested that the development of an upper-level warm core near the TC storm center acted to decrease the static stability near the tropopause.
+Idealized simulations of a TC analyzed by \cite{OhnoSatoh2015} suggested that the development of an upper-level warm core near the TC storm center acted to decrease the static stability near the tropopause (see their Fig. ).
 Although the mechanisms that drive this static stability evolution have not been examined explicitly, \cite{SternZhang2013} described the development of the TC warm core using a potential temperature ($\theta$) budget analysis.
 They found that radial and vertical advection both played important roles in warm core development throughout RI, and subgrid-scale diffusion became particularly important during the later stage of RI.
-To our knowledge, the only paper that has examined the static stability evolution in a TC is KEPERT ET AL ##########################################
-
-The analysis herein is based upon that of \cite{SternZhang2013}, except using a static stability budget similar to that of \cite{Kepertetal2016} rather than a $\theta$ budget.
+To our knowledge, the only paper that has examined explicitly the static stability evolution in a modeled TC is \cite{Kepertetal2016}, but their analysis was limited to the boundary layer.
+The analysis herein is based upon that of \cite{SternZhang2013}, except using a static stability budget similar to that of \cite{Kepertetal2016}, with a focus on the upper troposphere and lower stratosphere.
 
  \section{Model Setup}
 
@@ -194,7 +207,7 @@ where the potential temperature tendency, $\partial \theta/\partial t$, can be w
    \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
    \end{equation}
 Each term on the right-hand side of Eq. \ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
-HADV and VADV are the radial and vertical advective tendencies\footnote{These terms include the tendencies due to diffusion that are implicit in the fifth-order advection scheme.}, HTURB and VTURB are the radial and vertical tendencies from the turbulence parameterization, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
+HADV and VADV are the radial and vertical advective tendencies\footnote{These terms include the tendencies due to the diffusion that is implicit in the fifth-order advection scheme.}, HTURB and VTURB are the radial and vertical tendencies from the turbulence parameterization, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since this term is zero everywhere below 25 km, and the analysis domain does not extend to that level.
 Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
 These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.
@@ -219,7 +232,7 @@ This indicates that the budget accurately represents the model variability, whic
 In the tropopause layer, some of the budget terms are small enough to be ignored.
 To determine which of the budget terms are most important, a time series of the contribution of each of the budget terms in Eq. \ref{eq:dthetadt} to the tropopause-layer static stability tendency is plotted in Fig. \ref{fig:avgbudterms}.
 For this figure, each of the budget terms is computed using the method described in Section 3, except with 1-hour averaging intervals instead of 24-hour intervals.
-The absolute values of these tendencies are then averaged over a radius-height domain surrounding the tropopause and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the N\textsuperscript{2} tendency within the analysis domain. 
+The absolute values of these tendencies are then averaged over a radius-height domain surrounding the tropopause and plotted as a time series\footnote{It will be seeen in subsequent figures that each of the terms contributes both positively and negatively to the $N^2$ tendency within the analysis domain. 
 Thus, taking an average over the domain tends to wash out the positive and negative contributions.
 To circumvent this problem, the absolute value of each of the terms is averaged.}. 
 Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly. %both become important after 48 hours.
@@ -407,11 +420,11 @@ In all simulations, however, convection eventually penetrated to the tropopause,
 By the end of the RI period in every simulation, all three proesses were actively modifying the $N^2$ profile near the tropopause.
 
  \subsection{Sensitivity to the vertical mixing length}
-The extent of parameterized turbulent mixing is highly dependent on a prescribed length scale.
-Since there is no theoretical or observational guidance for the selection of this mixing length, the value used in the control run (100 m) is based on the sensitivity experiments of BRYAN 2012????
+The intensity of parameterized turbulence is highly dependent on a prescribed length scale.
+Since there is no theoretical or observational guidance for the selection of this mixing length, the value used in the control run (100 m) is based on the sensitivity experiments of \cite{Bryan2012}.
 Since the vertical eddy viscosity varies linearly with the vertical mixing length, prescribing a smaller mixing length produces smaller $\theta$ tendencies due to turbulence.
-Even with a mixing length on the low end of those tested by BRYAN 2012????, however, turbulence still plays a role in the tropopause-layer $N^2$ evolution.
-FIG #### shows the $N^2$ evolution in a simulation identical to the control run, except with a vertical mixing length of 50 m rather than 100 m.
+Even with a mixing length on the low end of those tested by \cite{Bryan2012}, however, turbulence still plays a role in the tropopause-layer $N^2$ evolution.
+FIG shows the $N^2$ evolution in a simulation identical to the control run, except with a vertical mixing length of 50 m rather than 100 m.
 DESCRIPTION OF THE FIGURE
 
 % \paragraph{First tertiary heading}
