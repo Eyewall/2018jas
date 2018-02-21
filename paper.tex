@@ -372,12 +372,31 @@ The inflow maximum near the 18-km level represents the level at which the sign o
 The third term on the right-hand side of Eq. \ref{eq:advtend} suggests that the tilting of isentropes should act to destabilize the layer below the inflow maximum and stabilize the layer above, and this was observed in Fig. \ref{fig:adv-24-48}a.
 
 
+  \subsection{The role of radiation}
+During the initial spin-up period (0-24 hours; \ref{fig:qi+radten}a), convection was not deep enough to deposit large quantities of ice near the tropopause in the mean.
+Due to the lack of ice particles, the radiative heating tendencies during this period (\ref{fig:qi+radten}b) were relatively small and confined to the region above a few particularly strong convective towers.
+During RI (24-48 hours; \ref{fig:qu+radten}b), the eyewall updraft strengthened and a radially-extensive cirrus canopy developed near the tropopause.
+The enhanced vertical gradient of ice mixing ratio at the top of the cirrus canopy induced strong diurnal-mean radiative cooling near the tropopause (\ref{fig:qi+radten}d).
+This cooling exceeded 0.6 K h\textsuperscript{-1} in some places and sloped downward from the lower stratosphere into the upper troposphere, following the top of the cirrus canopy.
+A small radiative warming maximum also appeared outside of the 140-km radius below this region of cooling.
+These results broadly agree with those of \citeauthor{buetal} (\citeyear{buetal}; see their Fig. 11a), whose CM1 simulations 0.3 K net diurnally-averaged radiative cooling at the top of the cirrus canopy and radiative warming within the cloud maximized near the 200-km radius.
+The broad region of radiative cooling acted to destabilize the layer below the cooling maximum and stabilize the layer above, which can be seen in Fig. \ref{fig:h024-048}d.
+The small area of net radiative heating outside of the 140-km radius enhanced the destabilization in this region and produced a thin layer of stabilization in the 15-16-km layer.
+
+At steady-state strong radiative cooling remained near the tropopause at inner radii, sloping downward with the top of the cirrus canopy to below the tropopause at outer radii.
+Cooling rates exceeded 1 K h\textsuperscript{-1} just above the tropopause between the 30 and 70 km radii.
+These cooling rates exceeded those observed by \cite{buetal}, a discrepancy that is likely a consequence of their larger vertical grid spacing (625 m) compared to that used here (250 m), with a possible a contribution from differing radiation schemes\footnote{\cite{buetal} employed the NASA-Goddard radiation scheme for their CM1 simulations, whereas RRTMG is used in the present paper. They did use the RRTMG radiation scheme alongside the Thompson microphysics parameterization for their HWRF simulations, but those simulations also produced smaller radiative tendencies than those seen here (see their Fig. 5a), suggesting that vertical resolution accounts for most of the difference in radiative heating rates.}
+
+
+  \subsection{The role of turbulent mixing}
 
 Radiative heating and turbulence viscosity figures?
 
 Discuss how turbulence increases the static stability in some regions --> vertical gradients of turblence intensity.
 
 Diurnal variability of of static stability in the upper troposphere is an interesting area of future research.
+
+Bu et al. did not see a lower-stratospheric inflow layer, likely due to their 625-m grid spacing. If we want to resolve properly the radiative cooling at the top of the cirrus canopy and the lower-stratospheric inflow layer, we must have sufficient vertical resolution in the tropopause layer. Our 100-m grid spacing here may not even be sufficient, given how shallow the layer is!
 
 % text...
 % \section{Section title}
@@ -523,7 +542,7 @@ For each budget term, the absolute value of the $N^2$ tendency is averaged tempo
 %FIGURE 5%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=27pc]{figures/h000-h024-budgetterms.png}}
-\caption{(a) Total change in $N^2$ over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) and the contributions to that change from (b) the sum of horizontal and vertical advection, (c) vertical turbulence, (d) longwave and shortwave radiation, (e) the sum of horizontal advection, vertical advection, and vertical turublence, and (f) the sum of horizontal advection, vertical advection, vertical turbulence, and longwave and shortwave radiation.}
+\caption{(a) Total change in $N^2$ over the 0-24-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) and the contributions to that change from (b) the sum of horizontal and vertical advection, (c) vertical turbulence, (d) longwave and shortwave radiation, (e) the sum of horizontal advection, vertical advection, and vertical turublence, and (f) the sum of horizontal advection, vertical advection, vertical turbulence, and longwave and shortwave radiation.}
 \label{fig:stab-00-24}
 \end{figure*}
 
@@ -566,7 +585,7 @@ For each budget term, the absolute value of the $N^2$ tendency is averaged tempo
 %FIGURE 8%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/h024-h048-adv.png}}
-\caption{The contribution to the change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 hr)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), cold-point tropopause height (orange line), and level of maximum outflow (dashed cyan line) averaged over the 24-48-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 24-48-hour period.}
+\caption{The contribution to the change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), cold-point tropopause height (orange line), and level of maximum outflow (dashed cyan line) averaged over the 24-48-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 24-48-hour period.}
 %\caption{As in Fig. \ref{fig:adv-00-24}, but for the 24-48-hour period.}
 \label{fig:adv-24-48}
 \end{figure*}
@@ -588,7 +607,7 @@ For each budget term, the absolute value of the $N^2$ tendency is averaged tempo
 %FIGURE 11%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=27pc]{figures/qi+radten.png}}
-\caption{Ice mixing ratio (g kg\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (a) 0-24 hours, (c) 24-48 hours, and (e) 48-72 hours. Radiative heating rate (K hr\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (b) 0-24 hours, (d) 24-48 hours, and (f) 48-72 hours.} 
+\caption{Ice mixing ratio (g kg\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (a) 0-24 hours, (c) 24-48 hours, and (e) 48-72 hours. Radiative heating rate (K h\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (b) 0-24 hours, (d) 24-48 hours, and (f) 48-72 hours.} 
 \label{fig:qi+radten}
 \end{figure*}
 

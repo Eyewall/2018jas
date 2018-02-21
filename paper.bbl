@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -18,6 +18,11 @@ Bryan, G.~H., 2012: Effects of surface exchange coefficients and turbulence
 Bryan, G.~H., and R.~Rotunno, 2009: The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations. \textit{Mon.\ Wea.\ Rev.},
   \textbf{137}, 1770--1789.
+
+\bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{buetal}
+Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
+  cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
+  Sci.}, \textbf{71}, 1644--1622.
 
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
