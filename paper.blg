@@ -8,11 +8,11 @@ Warning--missing publisher in Kimberlainetal2016
 You've used 17 entries,
             3493 wiz_defined-function locations,
             966 strings with 10227 characters,
-and the built_in function-call counts, 18412 in all, are:
+and the built_in function-call counts, 18418 in all, are:
 = -- 2222
 > -- 549
 < -- 10
-+ -- 344
++ -- 350
 - -- 138
 * -- 917
 := -- 1847
@@ -30,11 +30,11 @@ int.to.str$ -- 1
 missing$ -- 180
 newline$ -- 62
 num.names$ -- 68
-pop$ -- 825
+pop$ -- 844
 preamble$ -- 1
 purify$ -- 113
 quote$ -- 0
-skip$ -- 1163
+skip$ -- 1144
 stack$ -- 0
 substring$ -- 907
 swap$ -- 1575
