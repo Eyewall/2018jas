@@ -100,21 +100,17 @@ Albany, NY}
 % For BAMS authors only: If your article requires a Capsule Summary, please place the capsule text at the end of your abstract
 % and identify it as the capsule. Example: This is the end of the abstract. (Capsule Summary) This is the capsule summary. 
 
-\abstract{Idealized simulations of an intense axisymmetric tropical cyclone (TC) reveal considerable changes in the tropopause-layer static stability during rapid intensification (RI).
-During RI, static stability near the tropopause decreased over the eye.
-This destabilization was associated with a rise in the cold-point tropopause height by up to 4 km at the storm center.
-Outside of the eye, meanwhile, the cold-point tropopause remained near its initial level, and the static stability increased considerably in the layer immediately above it.
-These results are consistent with recent observations collected during the RI of Hurricane Patricia (2015).
-
-A static stability budget analysis reveals that horizontal and vertical advection both contribute to the static stability tendencies at all times throughout the upper troposphere and lower stratosphere.
-Advection is particularly important within the eye, where is acts to destabilize the layer near and above the cold-point tropopause.
-Outside of the eye, a strong radial-vertical circulation develops during RI, with outflow below the tropopause and inflow above.
-Turbulence induced by strong vertical wind shear above and below the upper-tropospheric outflow maximum provides forcing for both stabilization and destabilization in the tropopause layer.
-Meanwhile, as organized convection reaches the tropopause, radiative heating tendencies at the top of the cirrus canopy act to destabilize the upper troposphere and stabilize the lower stratosphere.
-This combination of turbulent mixing and radiative heating plays an important role in the development of the strong stable layer immediately above the cold-point tropopause.
-
-The resuts suggest that turbulence and radiation both play fundamental roles in the upper-level static stability evolution of TCs.
-The conclusions are robust to changes in the initial thermodynamic profile and prescribed vertical mixing length within a reasonable range of values.}
+\abstract{Large changes in tropopause-layer static stability are observed during the rapid intensification (RI) of an idealized, axisymmetric tropical cyclone (TC).
+Over the eye, static stability near the tropopause decreases and the cold-point tropopause height rises by up to 4 km at the storm center.
+Outside of the eye, static stability immediately above the cold-point tropopause increases considerably, and the tropopause remains near its initial level.
+A budget analysis reveals that advection contributes to the static stability tendencies at all times throughout the upper troposphere and lower stratosphere.
+Advection is particularly important within the eye, where it acts to destabilize the layer near and above the cold-point tropopause.
+Outside of the eye, a radial-vertical circulation develops during RI, with strong outflow below the tropopause and weak inflow above.
+Vertical wind shear above and below the upper-tropospheric outflow maximum induces turbulence, which provides forcing for both destabilization and stabilization in the tropopause layer.
+Meanwhile, as organized convection reaches the tropopause, radiative heating tendencies at the top of the cirrus canopy generally act to destabilize the upper troposphere and stabilize the lower stratosphere.
+Turbulent mixing and radiative heating combine to play an important role in the development of the strong stable layer immediately above the cold-point tropopause during RI.
+The results suggest that turbulence and radiation, alongside advection, play fundamental roles in the upper-level static stability evolution of TCs.}
+%The conclusions are robust to changes in the initial thermodynamic profile and prescribed vertical mixing length within a reasonable range of values.}
 
 \begin{document}
 
@@ -300,14 +296,14 @@ Outside of the 80-km radius, both advection (Fig.~\ref{fig:stab-48-72}b) and ver
 The sum of the two terms indicates increasing $N^2$ near the 18-km level everywhere outside of the 80-km radius, but this stabilization is slightly weaker in the 90-120-km radial band than the observed value.
 The addition of radiation (Fig.~\ref{fig:stab-48-72}f) provides the extra forcing for stabilization required to account for the observed increase in $N^2$.
 Outside of the 120-km radius, the region of radiative forcing for stabilization slopes downward, and the increase in $N^2$ observed near 18 km can be explained entirely by a combination of advection and vertical turbulence.
-The layer of decreasing $N^@$ observed near 17 km was forced primarily by vertical turbulence and radiation.
+The layer of decreasing $N^2$ observed near 17 km was forced primarily by vertical turbulence and radiation.
 Within most of this region, advection provided strong forcing for stabilization, but this forcing was outweighed by the negative $N^2$ tendencies induced by a combination of vertical turbulence and radiation.
 
   \section{Discussion}
 
   \subsection{The role of advection}
 
-Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification, but for brevity, this section will focus only on the RI period.
+Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification, but for brevity, this section will focus only on the RI (24-48-hour) period.
 To investigate the advective processes more closely, the individual contributions of horizontal and vertical advection during the RI period are shown in Fig. \ref{fig:adv-24-48}, along with the corresponding time-mean radial and vertical velocities and $\theta$.
 The $N^2$ tendencies due to the two advective components (Fig. \ref{fig:adv-24-48}a,b) exhibit strong cancellation, consistent with flow that is nearly isentropic.
 There are, however, some regions in which flow crosses $\theta$ surfaces; this flow accounts for all non-zero $N^2$ tendencies due to advection previously seen in Fig. \ref{fig:stab-24-48}b.
@@ -318,7 +314,10 @@ Some insight can be gained by considering the time tendency of the vertical $\th
    \end{equation}
 
 The first two terms on the right-hand side of Eq. \ref{eq:advtend} represent advection of static stability by the radial and vertical wind, respectively.
+These terms cannot create a maximum or a minimum; they only act to rearrange the static stability field.
+Since the goal of this analysis is to understand the processes responsible for the creation of maxima and minima in $N^2$, these two terms will not be examined.
 The third and fourth terms represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the spreading or compaction of isentropes through divergence of the vertical wind.
+Since these terms involve gradients of velocities, they can create or eliminate local maxima or minima in static stability. This section will focus on these two terms.
 
 %  \paragraph{0-24 hours}
 %During the first day of the simulation, horizontal advection (Fig. \ref{fig:adv-00-24}a) generally forced a decrease in $N^2$ below 17 km and an increase in $N^2$ above.
@@ -353,12 +352,24 @@ Notably, the $N^2$ tendency due to horizontal advection (Fig. \ref{fig:adv-24-48
 This suggests that vertical wind shear above and below the outflow maximum played an important role in the $N^2$ tendency during this time.
 Examination of the third term on the right-hand side of Eq. \ref{eq:advtend} reveals that tilting of isentropes within these shear layers contributed to the strong $N^2$ tendencies that flanked the outflow maximum.
 Outside of the eye and eyewall, isentropes generally sloped upward with radius, which means that $\theta$ decreased outward ($\partial \theta/\partial r<0$).
-Thus, wherever $\partial u/\partial z>0$, the tilting term forced an increase in $N^2$, and wherever $\partial u/\partial z<0$, the tilting term forced a decrease in $N^2$.
-This is precisely the structure seen in Fig. \ref{fig:adv-24-48}a, which suggests that the tilting term
+Thus, wherever $\partial u/\partial z>0$, the tilting term must force an increase in $N^2$, and wherever $\partial u/\partial z<0$, the tilting term must force a decrease in $N^2$.
+This is precisely the structure seen in Fig. \ref{fig:adv-24-48}a, which suggests that the tilting term might be important near the outflow jet.
 
+Advection of $N^2$ by the radial wind (first term on the right-hand side of Eq. \ref{eq:advtend}) also acts within the outflow jet.
+For example, horizontal advection provided forcing for destabilization at the 16-km level almost everywhere inside of the 140-km radius.
+Outside of this radius near 16 km, however, existed a region of forcing for stabilization.
+This switch in signs was a consequence of a reversal of the radial graident of mean $N^2$ near the 140-km radius (Fig. \ref{fig:n2-24hr-avgs}b).
+Inside of that radius, $(\partial/\partial r)(\partial \theta/\partial z) > 0$ and $u > 0$, which corresponds to forcing for destabilization in Eq. \ref{eq:advtend}; outside of that radius $(\partial/\partial r)(\partial \theta/\partial z) < 0$ and $u > 0$, which corresponds to forcing for stabilization.
 
-Meanwhile in the lower stratosphere, a thin layer of 2-4 m s\textsuperscript{-1} inflow developed a few hundred meters above the tropopause.
+The relative imporance of the first and third terms on the right-hand side of Eq. \ref{eq:advtend} is difficult to ascertain, but the structure of the mean radial velocity, $\theta$, and $N^2$ fields suggests that both terms are contributing within the outflow layer.
 
+Meanwhile in the lower stratosphere, a thin layer of 2-4 m s\textsuperscript{-1} inflow developed a few hundred meters above the tropopause, similar to that which was observed in Hurricane Patricia (2015; \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}).
+Since the isentropes in this layer slope slightly upward with radius (i.e. $\partial \theta/\partial r < 0$), this inflow acts to import lower $\theta$ air to inner radii.
+There also existed strong radial gradients of mean $N^2$ in this layer during this time (Fig. \ref{fig:n2-24hr-avgs}b), so the inflow layer must have acted to rearrange $N^2$.
+This rearrangement could not have been responsible for the overall increase in $N^2$ during this period, however.
+If horizontal advection contributed to the strengthening stable layer just above the tropopause, it must have been through the tilting term.
+The inflow maximum near the 18-km level represents the level at which the sign of $\partial u/\partial z$ reverses, with $\partial u/\partial z < 0$ below and $\partial u/\partial z > 0$ above.
+The third term on the right-hand side of Eq. \ref{eq:advtend} suggests that the tilting of isentropes should act to destabilize the layer below the inflow maximum and stabilize the layer above, and this was observed in Fig. \ref{fig:adv-24-48}a.
 
 
 
