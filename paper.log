@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  21 FEB 2018 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  22 FEB 2018 06:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,39 +332,54 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) (./endfloat.sty
+\c@postfig=\count110
+\@postfigs=\write3
+\c@posttbl=\count111
+\@posttbls=\write4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/endfloat/endfloat.sty
-Package: endfloat 2011/12/25 v2.5d LaTeX2e package puts figures and tables at e
-nd (jdm)
-\c@posttable=\count110
-\efloat@postttt=\write3
-\@ef@tttopen=\count111
-\c@postfigure=\count112
-\efloat@postfff=\write4
-\@ef@fffopen=\count113
-)
+
+! LaTeX Error: Unknown option `nomarkers' for package `endfloat'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.715 \usepackage
+                 {lineno}
+? 
+
+! LaTeX Error: Unknown option `tablesfirst' for package `endfloat'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.715 \usepackage
+                 {lineno}
+? 
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count114
+\linenopenalty=\count112
 \output=\toks21
-\linenoprevgraf=\count115
+\linenoprevgraf=\count113
 \linenumbersep=\dimen123
 \linenumberwidth=\dimen124
-\c@linenumber=\count116
-\c@pagewiselinenumber=\count117
-\c@LN@truepage=\count118
-\c@internallinenumber=\count119
-\c@internallinenumbers=\count120
+\c@linenumber=\count114
+\c@pagewiselinenumber=\count115
+\c@LN@truepage=\count116
+\c@internallinenumber=\count117
+\c@internallinenumbers=\count118
 \quotelinenumbersep=\dimen125
 \bframerule=\dimen126
 \bframesep=\dimen127
 \bframebox=\box55
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@extraauth=\count121
-\c@loopnum=\count122
-\thanksnum=\count123
-\savethanksnum=\count124
+\c@extraauth=\count119
+\c@loopnum=\count120
+\thanksnum=\count121
+\savethanksnum=\count122
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
@@ -396,16 +411,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count123
 \scratchdimen=\dimen128
 \scratchbox=\box56
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count128
+\MPscratchCnt=\count126
 \MPscratchDim=\dimen129
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -558,10 +573,70 @@ Underfull \vbox (badness 2173) has occurred while \output is active []
 
  [16]
 [17] (./paper.bbl [18] [19])
-\openout4 = `paper.fff'.
+\openout3 = `paper.fff'.
 
  (paper.fff)
-AED endfloat: Processing end Figures and Tables [20] (./paper.lof
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.519 \begin{figure}
+                    [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.526 \begin{figure}
+                    [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.535 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.543 \begin{figure}
+                    [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.551 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.558 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.565 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.594 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.616 \begin{figure*}
+                     [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.623 \begin{figure*}
+                     [ht]
+? 
+[20] (./paper.lof
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 1.
@@ -582,133 +657,137 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[21
+
+
+])
 \tf@lof=\write5
 \openout5 = `paper.lof'.
 
- [21
-
-
-] (./paper.fff <figures/vmax+pmin.png, id=79, 780.9175pt x 1495.5875pt>
+ [22] (./paper.fff
+<figures/vmax+pmin.png, id=82, 780.9175pt x 1495.5875pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
-Package pdftex.def Info: figures/vmax+pmin.png used on input line 2.
+Package pdftex.def Info: figures/vmax+pmin.png used on input line 3.
 (pdftex.def)             Requested size: 228.0pt x 436.65315pt.
- [22
+ [23
 
  <./figures/vmax+pmin.png>]
-<figures/mod+bud+res.png, id=83, 2285.53876pt x 2035.605pt>
+<figures/mod+bud+res.png, id=86, 2285.53876pt x 2050.66125pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
-Package pdftex.def Info: figures/mod+bud+res.png used on input line 9.
-(pdftex.def)             Requested size: 468.0pt x 416.80476pt.
- [23
+Package pdftex.def Info: figures/mod+bud+res.png used on input line 11.
+(pdftex.def)             Requested size: 468.0pt x 419.88763pt.
+ [24
 
  <./figures/mod+bud+res.png>]
-<figures/n2-24hr-avgs.png, id=87, 1515.6625pt x 1357.07pt>
+<figures/n2-24hr-avgs.png, id=90, 1515.6625pt x 1357.07pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
-Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 18.
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 21.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
- [24
+ [25
 
  <./figures/n2-24hr-avgs.png>]
-<figures/AVG_budterms.png, id=91, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=95, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
-Package pdftex.def Info: figures/AVG_budterms.png used on input line 26.
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 30.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
- [25
+ [26
 
  <./figures/AVG_budterms.png>]
-<figures/h000-h024-budgetterms.png, id=96, 1523.6925pt x 2035.605pt>
+<figures/h000-h024-budgetterms.png, id=99, 1523.6925pt x 2040.62375pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
 Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 3
-4.
-(pdftex.def)             Requested size: 324.0pt x 432.83212pt.
- [26
+9.
+(pdftex.def)             Requested size: 324.0pt x 433.89926pt.
+ [27
 
  <./figures/h000-h024-budgetterms.png>] <figures/h024-h048-budgetterms.png, id=
-100, 1523.6925pt x 2035.605pt>
+103, 1523.6925pt x 2040.62375pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
 Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
-1.
-(pdftex.def)             Requested size: 324.0pt x 432.83212pt.
- [27
+7.
+(pdftex.def)             Requested size: 324.0pt x 433.89926pt.
+ [28
 
  <./figures/h024-h048-budgetterms.png>] <figures/h048-h072-budgetterms.png, id=
-104, 1523.6925pt x 2035.605pt>
+107, 1523.6925pt x 2040.62375pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
-Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 4
-8.
-(pdftex.def)             Requested size: 324.0pt x 432.83212pt.
- [28
+Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 5
+5.
+(pdftex.def)             Requested size: 324.0pt x 433.89926pt.
+ [29
 
- <./figures/h048-h072-budgetterms.png>] <figures/h024-h048-adv.png, id=108, 153
+ <./figures/h048-h072-budgetterms.png>] <figures/h024-h048-adv.png, id=111, 153
 0.71875pt x 1357.07pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
-Package pdftex.def Info: figures/h024-h048-adv.png used on input line 55.
+Package pdftex.def Info: figures/h024-h048-adv.png used on input line 63.
 (pdftex.def)             Requested size: 468.0pt x 414.91005pt.
- [29
+ [30
 
  <./figures/h024-h048-adv.png>]
-<figures/qi+radten.png, id=112, 1535.7375pt x 2035.605pt>
+<figures/qi+radten.png, id=115, 1535.7375pt x 2035.605pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
-Package pdftex.def Info: figures/qi+radten.png used on input line 63.
+Package pdftex.def Info: figures/qi+radten.png used on input line 72.
 (pdftex.def)             Requested size: 324.0pt x 429.4465pt.
- [30
+ [31
 
  <./figures/qi+radten.png>]
-<figures/khvten.png, id=116, 1525.7pt x 1357.07pt>
+<figures/khvten.png, id=120, 1525.7pt x 1357.07pt>
 File: figures/khvten.png Graphic file (type png)
  <use figures/khvten.png>
-Package pdftex.def Info: figures/khvten.png used on input line 70.
+Package pdftex.def Info: figures/khvten.png used on input line 80.
 (pdftex.def)             Requested size: 468.0pt x 416.25601pt.
 
-[31
+[32
 
- <./figures/khvten.png>]) (./paper.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.45pt have occurred.
-
- ) 
+ <./figures/khvten.png>]) (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4906 strings out of 494953
- 65959 string characters out of 6180976
- 130854 words of memory out of 5000000
- 8023 multiletter control sequences out of 15000+600000
+ 4797 strings out of 494953
+ 64168 string characters out of 6180977
+ 128554 words of memory out of 5000000
+ 7915 multiletter control sequences out of 15000+600000
  73201 words of font info for 166 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,10n,37p,767b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
-syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (31 pages, 2562800 bytes).
+{/usr/share/texlive/texmf-dist/fonts/e
+nc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (32 pages, 2627449 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 159 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
