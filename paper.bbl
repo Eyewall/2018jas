@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -55,6 +55,11 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
 Kepert, J.~D., J.~Schwendike, and H.~Ramsay, 2016: Why is the tropical cyclone
   boundary layer not "well mixed"? \textit{J.\ Atmos.\ Sci.}, \textbf{73},
   957--973.
+
+\bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal}
+Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
+  of double warm-core structures in intense tropical cyclones}. \textit{J.\
+  Atmos.\ Sci.}, \textbf{73}, 4487--4506.
 
 \bibitem[{Kimberlain et~al.(2016)Kimberlain, Blake,, and
   Cangialosi}]{Kimberlainetal2016}
