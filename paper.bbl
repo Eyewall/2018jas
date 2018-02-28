@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -104,5 +104,11 @@ Thompson, G., R.~M. Rasmussen, and K.~Manning, 2004: Explicit forecasts of
   winter precipitation using an improved bulk microphysics scheme. {P}art {I}:
   Description and sensitivity analysis. \textit{Mon.\ Wea.\ Rev.},
   \textbf{132}, 519--542.
+
+\bibitem[{Trier and Sharman(2009)Trier, and Sharman}]{TrierSharman}
+Trier, S.~B., and R.~D. Sharman, 2009: {Convection-permitting simulations of
+  the environment supporting widespread turbulence within the upper-level
+  outflow of a mesoscale convective system}. \textit{Mon.\ Wea.\ Rev.},
+  \textbf{137}, 1972--1990.
 
 \end{thebibliography}
