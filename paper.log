@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  27 FEB 2018 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  4 MAR 2018 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,30 +527,18 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 160.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
 ! Double subscript.
 <argument> c_p_
                m +L_v\partial q_s/\partial T
-l.186 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
+l.184 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
                                                   \right),
 ? 
+[5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-[6]
-Overfull \vbox (3.25339pt too high) has occurred while \output is active []
-
-
-[7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Underfull \vbox (badness 3965) has occurred while \output is active []
-
- [9]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+ [6] [7] [8] [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
@@ -564,99 +552,105 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
 [14]
-Overfull \vbox (16.59502pt too high) has occurred while \output is active []
-
-
-[15] [16] [17] (./paper.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19] [20])
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 3000) has occurred while \output is active []
+
+ [17]
+[18] (./paper.bbl
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [19]
+[20])
 \openout3 = `paper.fff'.
 
  (paper.fff)
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.570 \begin{figure}
+l.588 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.577 \begin{figure}
+l.595 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.586 \begin{figure*}
+l.604 \begin{figure}
+                    [ht]
+? 
+! Undefined control sequence.
+\figure ...\addtocounter {postfig}{1}\figureplace 
+                                                  \fi \def \@currenvir {figu...
+l.612 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.594 \begin{figure}
-                    [ht]
-? 
-! Undefined control sequence.
-\figure ...\addtocounter {postfig}{1}\figureplace 
-                                                  \fi \def \@currenvir {figu...
-l.602 \begin{figure*}
+l.620 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.605 \begin{figure}
+l.623 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.611 \begin{figure*}
+l.629 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.618 \begin{figure*}
+l.636 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.647 \begin{figure*}
+l.665 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.669 \begin{figure*}
+l.687 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.672 \begin{figure}
+l.690 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.678 \begin{figure*}
+l.696 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.685 \begin{figure*}
+l.703 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.692 \begin{figure*}
+l.710 \begin{figure*}
                      [ht]
 ? 
 [21] (./paper.lof
@@ -704,42 +698,42 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout5 = `paper.lof'.
 
  [24] (./paper.fff
-<figures/vmax+pmin.png, id=88, 780.9175pt x 1495.5875pt>
+<figures/vmax+pmin.png, id=88, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 3.
-(pdftex.def)             Requested size: 228.0pt x 436.65315pt.
+(pdftex.def)             Requested size: 228.0pt x 435.77399pt.
  [25
 
  <./figures/vmax+pmin.png>]
-<figures/mod+bud+res.png, id=93, 2285.53876pt x 2050.66125pt>
+<figures/mod+bud+res.png, id=93, 2294.5725pt x 2071.74pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 11.
-(pdftex.def)             Requested size: 468.0pt x 419.88763pt.
+(pdftex.def)             Requested size: 468.0pt x 422.52821pt.
  [26
 
  <./figures/mod+bud+res.png>]
-<figures/n2-24hr-avgs.png, id=97, 1515.6625pt x 1357.07pt>
-File: figures/n2-24hr-avgs.png Graphic file (type png)
-
-<use figures/n2-24hr-avgs.png>
-Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 21.
-(pdftex.def)             Requested size: 468.0pt x 419.03078pt.
- [27
-
- <./figures/n2-24hr-avgs.png>]
-<figures/AVG_budterms.png, id=101, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=97, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
-Package pdftex.def Info: figures/AVG_budterms.png used on input line 30.
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 21.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
- [28
+ [27
 
  <./figures/AVG_budterms.png>]
+<figures/n2-24hr-avgs.png, id=101, 1515.6625pt x 1357.07pt>
+File: figures/n2-24hr-avgs.png Graphic file (type png)
+
+<use figures/n2-24hr-avgs.png>
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 30.
+(pdftex.def)             Requested size: 468.0pt x 419.03078pt.
+ [28
+
+ <./figures/n2-24hr-avgs.png>]
 <figures/h000-h024-budgetterms.png, id=105, 1523.6925pt x 2040.62375pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
@@ -823,17 +817,17 @@ Package pdftex.def Info: figures/turb-50m.png used on input line 106.
  <./figures/turb-50m.png>]) (./paper.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
-n input line 706.
+n input line 724.
 
  ) 
 Here is how much of TeX's memory you used:
  4814 strings out of 494953
  64520 string characters out of 6180977
- 128691 words of memory out of 5000000
+ 127693 words of memory out of 5000000
  7930 multiletter control sequences out of 15000+600000
  73201 words of font info for 166 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,37p,796b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,37p,768b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -844,7 +838,7 @@ syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (38 pages, 3057762 bytes).
+Output written on paper.pdf (38 pages, 3076953 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
