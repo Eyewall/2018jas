@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  4 MAR 2018 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  4 MAR 2018 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,73 +584,73 @@ l.595 \begin{figure}
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.604 \begin{figure}
+l.605 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.612 \begin{figure*}
+l.613 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.620 \begin{figure*}
+l.621 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.623 \begin{figure}
+l.624 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.629 \begin{figure*}
+l.631 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.636 \begin{figure*}
+l.638 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.665 \begin{figure*}
+l.667 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.687 \begin{figure*}
+l.689 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.690 \begin{figure}
+l.692 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.696 \begin{figure*}
+l.698 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.703 \begin{figure*}
+l.705 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.710 \begin{figure*}
+l.712 \begin{figure*}
                      [ht]
 ? 
 [21] (./paper.lof
@@ -720,7 +720,7 @@ Package pdftex.def Info: figures/mod+bud+res.png used on input line 11.
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
-Package pdftex.def Info: figures/AVG_budterms.png used on input line 21.
+Package pdftex.def Info: figures/AVG_budterms.png used on input line 22.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
  [27
 
@@ -729,49 +729,49 @@ Package pdftex.def Info: figures/AVG_budterms.png used on input line 21.
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
-Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 30.
+Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 31.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
  [28
 
  <./figures/n2-24hr-avgs.png>]
-<figures/h000-h024-budgetterms.png, id=105, 1523.6925pt x 2040.62375pt>
+<figures/h000-h024-budgetterms.png, id=105, 1529.715pt x 2045.6425pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
-Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 3
-9.
-(pdftex.def)             Requested size: 468.0pt x 626.76414pt.
- [29 <./figures/h000-h024-budgetterms.png>] [30]
-<figures/h024-h048-budgetterms.png, id=112, 1523.6925pt x 2040.62375pt>
+Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 4
+0.
+(pdftex.def)             Requested size: 468.0pt x 625.83972pt.
+ [29 <./figures/h000-h024-budgetterms.png>] [30] <figures/h024-h048-budgetterms
+.png, id=112, 1529.715pt x 2045.6425pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
 Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 5
-2.
-(pdftex.def)             Requested size: 468.0pt x 626.76414pt.
+4.
+(pdftex.def)             Requested size: 468.0pt x 625.83972pt.
 
 
-LaTeX Warning: Float too large for page by 16.60732pt on input line 55.
+LaTeX Warning: Float too large for page by 15.68289pt on input line 57.
 
 [31 <./figures/h024-h048-budgetterms.png>]
-<figures/h048-h072-budgetterms.png, id=117, 1523.6925pt x 2040.62375pt>
+<figures/h048-h072-budgetterms.png, id=117, 1529.715pt x 2045.6425pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
 Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 6
-0.
-(pdftex.def)             Requested size: 468.0pt x 626.76414pt.
+2.
+(pdftex.def)             Requested size: 468.0pt x 625.83972pt.
 
 
-LaTeX Warning: Float too large for page by 16.60732pt on input line 63.
+LaTeX Warning: Float too large for page by 15.68289pt on input line 65.
 
 [32 <./figures/h048-h072-budgetterms.png>]
-<figures/h024-h048-adv.png, id=121, 1530.71875pt x 1357.07pt>
+<figures/h024-h048-adv.png, id=121, 1530.71875pt x 1359.0775pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
-Package pdftex.def Info: figures/h024-h048-adv.png used on input line 68.
-(pdftex.def)             Requested size: 468.0pt x 414.91005pt.
+Package pdftex.def Info: figures/h024-h048-adv.png used on input line 70.
+(pdftex.def)             Requested size: 468.0pt x 415.52382pt.
  [33
 
 
@@ -783,13 +783,13 @@ Package pdftex.def Info: figures/h024-h048-adv.png used on input line 68.
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
-Package pdftex.def Info: figures/qi+radten.png used on input line 77.
+Package pdftex.def Info: figures/qi+radten.png used on input line 79.
 (pdftex.def)             Requested size: 468.0pt x 620.31506pt.
  [34 <./figures/qi+radten.png>] [35]
 <figures/khvten.png, id=132, 1525.7pt x 1357.07pt>
 File: figures/khvten.png Graphic file (type png)
  <use figures/khvten.png>
-Package pdftex.def Info: figures/khvten.png used on input line 90.
+Package pdftex.def Info: figures/khvten.png used on input line 92.
 (pdftex.def)             Requested size: 468.0pt x 416.25601pt.
 
 [36
@@ -801,7 +801,7 @@ Package pdftex.def Info: figures/khvten.png used on input line 90.
 File: figures/n2-1000km.png Graphic file (type png)
 
 <use figures/n2-1000km.png>
-Package pdftex.def Info: figures/n2-1000km.png used on input line 98.
+Package pdftex.def Info: figures/n2-1000km.png used on input line 100.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
  [37
 
@@ -810,16 +810,11 @@ Package pdftex.def Info: figures/n2-1000km.png used on input line 98.
 File: figures/turb-50m.png Graphic file (type png)
 
 <use figures/turb-50m.png>
-Package pdftex.def Info: figures/turb-50m.png used on input line 106.
+Package pdftex.def Info: figures/turb-50m.png used on input line 108.
 (pdftex.def)             Requested size: 468.0pt x 416.81511pt.
  [38
 
- <./figures/turb-50m.png>]) (./paper.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
-n input line 724.
-
- ) 
+ <./figures/turb-50m.png>]) (./paper.aux) ) 
 Here is how much of TeX's memory you used:
  4814 strings out of 494953
  64520 string characters out of 6180977
@@ -828,17 +823,17 @@ Here is how much of TeX's memory you used:
  73201 words of font info for 166 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,10n,37p,768b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
-syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (38 pages, 3076953 bytes).
+{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (38 pages, 3190289 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
