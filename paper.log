@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  5 MAR 2018 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  5 MAR 2018 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,15 +523,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
- [6] [7]
-Overfull \vbox (2.50964pt too high) has occurred while \output is active []
-
-
-[8]
+ [6] [7] [8] [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-Underfull \vbox (badness 3965) has occurred while \output is active []
 
  [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -542,11 +535,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [12]
 
 Package natbib Warning: Citation `Kieuetal' on page 13 undefined on input line 
-399.
+402.
 
 
 Package natbib Warning: Citation `Kieuetal' on page 13 undefined on input line 
-399.
+402.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -555,18 +548,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-[15] [16]
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-[18] (./paper.bbl [19] [20])
+Underfull \vbox (badness 3000) has occurred while \output is active []
+
+ [18]
+[19] (./paper.bbl [20] [21])
 \openout4 = `paper.fff'.
 
  (paper.fff)
 
 Package natbib Warning: There were undefined citations.
 
-AED endfloat: Processing end Figures and Tables [21] (./paper.lof
+AED endfloat: Processing end Figures and Tables [22] (./paper.lof
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 1.
@@ -595,59 +594,59 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[22
+[23
 
 
 ])
 \tf@lof=\write5
 \openout5 = `paper.lof'.
 
- [23] (./paper.fff
-<figures/vmax+pmin.png, id=85, 780.9175pt x 1492.57625pt>
+ [24] (./paper.fff
+<figures/vmax+pmin.png, id=88, 780.9175pt x 1492.57625pt>
 File: figures/vmax+pmin.png Graphic file (type png)
 
 <use figures/vmax+pmin.png>
 Package pdftex.def Info: figures/vmax+pmin.png used on input line 2.
 (pdftex.def)             Requested size: 228.0pt x 435.77399pt.
- [24
+ [25
 
  <./figures/vmax+pmin.png>]
-<figures/mod+bud+res.png, id=89, 2294.5725pt x 2071.74pt>
+<figures/mod+bud+res.png, id=93, 2294.5725pt x 2071.74pt>
 File: figures/mod+bud+res.png Graphic file (type png)
 
 <use figures/mod+bud+res.png>
 Package pdftex.def Info: figures/mod+bud+res.png used on input line 9.
 (pdftex.def)             Requested size: 468.0pt x 422.52821pt.
- [25
+ [26
 
  <./figures/mod+bud+res.png>]
-<figures/AVG_budterms.png, id=94, 803.0pt x 803.0pt>
+<figures/AVG_budterms.png, id=97, 803.0pt x 803.0pt>
 File: figures/AVG_budterms.png Graphic file (type png)
 
 <use figures/AVG_budterms.png>
 Package pdftex.def Info: figures/AVG_budterms.png used on input line 19.
 (pdftex.def)             Requested size: 228.0pt x 227.99968pt.
- [26
+ [27
 
  <./figures/AVG_budterms.png>]
-<figures/n2-24hr-avgs.png, id=98, 1515.6625pt x 1357.07pt>
+<figures/n2-24hr-avgs.png, id=101, 1515.6625pt x 1357.07pt>
 File: figures/n2-24hr-avgs.png Graphic file (type png)
 
 <use figures/n2-24hr-avgs.png>
 Package pdftex.def Info: figures/n2-24hr-avgs.png used on input line 27.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
- [27
+ [28
 
  <./figures/n2-24hr-avgs.png>]
-<figures/h000-h024-budgetterms.png, id=102, 1529.715pt x 2045.6425pt>
+<figures/h000-h024-budgetterms.png, id=105, 1529.715pt x 2045.6425pt>
 File: figures/h000-h024-budgetterms.png Graphic file (type png)
 
 <use figures/h000-h024-budgetterms.png>
 Package pdftex.def Info: figures/h000-h024-budgetterms.png used on input line 3
 5.
 (pdftex.def)             Requested size: 468.0pt x 625.83972pt.
- [28 <./figures/h000-h024-budgetterms.png>] [29] <figures/h024-h048-budgetterms
-.png, id=109, 1529.715pt x 2045.6425pt>
+ [29 <./figures/h000-h024-budgetterms.png>] [30] <figures/h024-h048-budgetterms
+.png, id=112, 1529.715pt x 2045.6425pt>
 File: figures/h024-h048-budgetterms.png Graphic file (type png)
 
 <use figures/h024-h048-budgetterms.png>
@@ -658,8 +657,8 @@ Package pdftex.def Info: figures/h024-h048-budgetterms.png used on input line 4
 
 LaTeX Warning: Float too large for page by 15.68289pt on input line 50.
 
-[30 <./figures/h024-h048-budgetterms.png>]
-<figures/h048-h072-budgetterms.png, id=113, 1529.715pt x 2045.6425pt>
+[31 <./figures/h024-h048-budgetterms.png>]
+<figures/h048-h072-budgetterms.png, id=117, 1529.715pt x 2045.6425pt>
 File: figures/h048-h072-budgetterms.png Graphic file (type png)
 
 <use figures/h048-h072-budgetterms.png>
@@ -670,60 +669,63 @@ Package pdftex.def Info: figures/h048-h072-budgetterms.png used on input line 5
 
 LaTeX Warning: Float too large for page by 15.68289pt on input line 57.
 
-[31 <./figures/h048-h072-budgetterms.png>]
-<figures/h024-h048-adv.png, id=118, 1530.71875pt x 1359.0775pt>
+[32 <./figures/h048-h072-budgetterms.png>]
+<figures/h024-h048-adv.png, id=121, 1530.71875pt x 1359.0775pt>
 File: figures/h024-h048-adv.png Graphic file (type png)
 
 <use figures/h024-h048-adv.png>
 Package pdftex.def Info: figures/h024-h048-adv.png used on input line 61.
 (pdftex.def)             Requested size: 468.0pt x 415.52382pt.
- [32
+ [33
 
 
 
 
 
  <./figures/h024-h048-adv.png>]
-<figures/qi+radten.png, id=122, 1535.7375pt x 2035.605pt>
+<figures/qi+radten.png, id=125, 1535.7375pt x 2035.605pt>
 File: figures/qi+radten.png Graphic file (type png)
 
 <use figures/qi+radten.png>
 Package pdftex.def Info: figures/qi+radten.png used on input line 69.
 (pdftex.def)             Requested size: 468.0pt x 620.31506pt.
- [33
+ [34
 
- <./figures/qi+radten.png>] [34]
-<figures/khvten.png, id=129, 1525.7pt x 1357.07pt>
+ <./figures/qi+radten.png>] [35]
+<figures/khvten.png, id=132, 1525.7pt x 1357.07pt>
 File: figures/khvten.png Graphic file (type png)
  <use figures/khvten.png>
 Package pdftex.def Info: figures/khvten.png used on input line 80.
 (pdftex.def)             Requested size: 468.0pt x 416.25601pt.
 
-[35
+[36
 
 
  <./figures/khvten.png>]
-<figures/n2-1000km.png, id=133, 1515.6625pt x 1357.07pt>
+<figures/n2-1000km.png, id=136, 1515.6625pt x 1357.07pt>
 File: figures/n2-1000km.png Graphic file (type png)
 
 <use figures/n2-1000km.png>
 Package pdftex.def Info: figures/n2-1000km.png used on input line 87.
 (pdftex.def)             Requested size: 468.0pt x 419.03078pt.
- [36
+ [37
 
  <./figures/n2-1000km.png>]
-<figures/turb-50m.png, id=137, 1529.715pt x 1361.085pt>
+<figures/turb-50m.png, id=141, 1529.715pt x 1361.085pt>
 File: figures/turb-50m.png Graphic file (type png)
 
 <use figures/turb-50m.png>
 Package pdftex.def Info: figures/turb-50m.png used on input line 94.
 (pdftex.def)             Requested size: 468.0pt x 416.40758pt.
- [37
+ [38
 
  <./figures/turb-50m.png>]) (./paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -744,10 +746,10 @@ syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (37 pages, 3205419 bytes).
+Output written on paper.pdf (38 pages, 3206563 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 182 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
