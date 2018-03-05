@@ -196,12 +196,28 @@ Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability ten
    \begin{equation} \label{eq:dn2dt}
    \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
    \end{equation}
-where the potential temperature tendency, $\partial \theta/\partial t$, can be written:
+where the potential temperature tendency, $\partial \theta/\partial t$, can be written, following \cite{Bryan2017}:
    \begin{equation} \label{eq:dthetadt}
-   \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
+%   \frac{\partial \theta}{\partial t} = HADV+VADV+HTURB+VTURB+MP+RAD+DISS 
+   \frac{\partial \theta}{\partial t} = -u\frac{\partial\theta}{\partial r}-w\frac{\partial \theta}{\partial z}+HTURB+VTURB+MP+RAD+DISS
    \end{equation}
-Each term on the right-hand side of Eq. \ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
-HADV and VADV are the radial and vertical advective tendencies\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are output separately from the advection terms in CM1.}, HTURB and VTURB are the tendencies from the horizontal and vertical turbulence parameterizations, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
+Each term on the right-hand side of Eq.~\ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
+Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
+
+Taking the vertical gradient of the first two terms on the right-hand side yields the time tendency of the vertical $\theta$ gradient due to horizontal and vertical advection\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are separated from the advection terms in the CM1 budget output}:
+
+   \begin{equation} \label{eq:advtend}
+   \left(\frac{\partial}{\partial t}\frac{\partial \theta}{\partial z}\right)_{adv} = -u\frac{\partial}{\partial r}\frac{\partial \theta}{\partial z}-w\frac{\partial}{\partial z}\frac{\partial \theta}{\partial z}-\frac{\partial u}{\partial z}\frac{\partial \theta}{\partial r}-\frac{\partial w}{\partial z}\frac{\partial \theta}{\partial z}.
+   \end{equation}
+The first two terms on the right-hand side of Eq.~\ref{eq:advtend} represent advection of static stability by the radial and vertical wind, respectively.
+These terms act to rearrange the static stability field, but cannot strengthen or weaken static stability maxima or minima.
+The third and fourth terms on the right-hand side of Eq.~\ref{eq:advtend} represent, respectively, the tilting of isentropes in the presence of vertical wind shear and the stretching or squashing of isentropes by vertical gradients of vertical velocity.
+Since these terms involve velocity gradients, they can act to strengthen or weaken static stability maxima or minima through differential advection.
+For example, since the $\theta$ of the air flowing out of the eyewall into the upper-tropospheric outflow layer increases as the TC intensifies, $\theta$ increases locally within the outflow layer.
+This acts to increase $\partial \theta/\partial z$ below the outflow maximum and decrease $\partial \theta/\partial z$ above, thereby modifying the static stability field.
+Similarly, the decay of updrafts with height at the top of convective towers can act to increase $\partial \theta/\partial z$ through squashing of isentropes.
+
+Returning to Eq.~\ref{eq:dthetadt}, HTURB and VTURB are the tendencies from the horizontal and vertical turbulence parameterizations, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since the entire analysis domain is outside of the regions where damping is applied.
 Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
 These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.

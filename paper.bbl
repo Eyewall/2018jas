@@ -14,6 +14,10 @@ Bryan, G.~H., 2012: Effects of surface exchange coefficients and turbulence
   length scales on the intensity and structure of numerically simulated
   hurricanes. \textit{Mon.\ Wea.\ Rev.}, \textbf{140}, 1125--1143.
 
+\bibitem[{Bryan(cited 2018)}]{Bryan2017}
+Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
+  at \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
+
 \bibitem[{Bryan and Rotunno(2009)Bryan, and Rotunno}]{BryanRotunno2009}
 Bryan, G.~H., and R.~Rotunno, 2009: The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations. \textit{Mon.\ Wea.\ Rev.},
@@ -55,11 +59,6 @@ Iacono, M.~J., J.~S. Delamere, E.~J. Mlawer, M.~W. Shephard, S.~A. Clough, and
 Kepert, J.~D., J.~Schwendike, and H.~Ramsay, 2016: Why is the tropical cyclone
   boundary layer not "well mixed"? \textit{J.\ Atmos.\ Sci.}, \textbf{73},
   957--973.
-
-\bibitem[{Kieu et~al.(2016)Kieu, Tallapragada, Zhang,, and Moon}]{Kieuetal}
-Kieu, C., V.~Tallapragada, D.-L. Zhang, and Z.~Moon, 2016: {On the development
-  of double warm-core structures in intense tropical cyclones}. \textit{J.\
-  Atmos.\ Sci.}, \textbf{73}, 4487--4506.
 
 \bibitem[{Kimberlain et~al.(2016)Kimberlain, Blake,, and
   Cangialosi}]{Kimberlainetal2016}
