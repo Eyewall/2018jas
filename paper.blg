@@ -3,49 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: ametsoc2014.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "Kieuetal"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
-You've used 19 entries,
+You've used 20 entries,
             3493 wiz_defined-function locations,
-            978 strings with 10607 characters,
-and the built_in function-call counts, 20027 in all, are:
-= -- 2410
-> -- 584
+            981 strings with 10752 characters,
+and the built_in function-call counts, 21345 in all, are:
+= -- 2571
+> -- 632
 < -- 12
-+ -- 372
-- -- 147
-* -- 994
-:= -- 2021
-add.period$ -- 38
-call.type$ -- 19
-change.case$ -- 144
-chr.to.int$ -- 19
-cite$ -- 21
-duplicate$ -- 2085
-empty$ -- 1075
-format.name$ -- 200
-if$ -- 4091
++ -- 402
+- -- 159
+* -- 1060
+:= -- 2147
+add.period$ -- 40
+call.type$ -- 20
+change.case$ -- 153
+chr.to.int$ -- 20
+cite$ -- 22
+duplicate$ -- 2220
+empty$ -- 1138
+format.name$ -- 214
+if$ -- 4361
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 198
-newline$ -- 68
-num.names$ -- 76
-pop$ -- 924
+missing$ -- 210
+newline$ -- 71
+num.names$ -- 80
+pop$ -- 994
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 132
 quote$ -- 0
-skip$ -- 1236
+skip$ -- 1313
 stack$ -- 0
-substring$ -- 985
-swap$ -- 1702
+substring$ -- 1050
+swap$ -- 1817
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 171
+type$ -- 180
 warning$ -- 2
-while$ -- 89
+while$ -- 94
 width$ -- 0
-write$ -- 217
-(There were 3 warnings)
+write$ -- 228
+(There were 2 warnings)
