@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  6 MAR 2018 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  7 MAR 2018 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,10 +538,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
- [6] [7] [8] [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
+ [6] [7] [8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
@@ -559,95 +556,98 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 [17]
-Underfull \vbox (badness 3000) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-[19] (./paper.bbl [20] [21])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+(./paper.bbl [20] [21])
 \openout3 = `paper.fff'.
 
  (paper.fff)
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.606 \begin{figure}
+l.601 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.613 \begin{figure}
+l.608 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.623 \begin{figure}
+l.618 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.631 \begin{figure*}
+l.626 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.639 \begin{figure*}
+l.634 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.642 \begin{figure}
+l.637 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.649 \begin{figure*}
+l.644 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.656 \begin{figure*}
+l.651 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.685 \begin{figure*}
+l.680 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.707 \begin{figure*}
+l.702 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.710 \begin{figure}
+l.705 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.716 \begin{figure*}
+l.711 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.723 \begin{figure*}
+l.718 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.730 \begin{figure*}
+l.725 \begin{figure*}
                      [ht]
 ? 
 [22] (./paper.lof
@@ -830,7 +830,7 @@ xlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (39 pages, 3178774 bytes).
+Output written on paper.pdf (39 pages, 3178633 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
