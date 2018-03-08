@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  7 MAR 2018 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.10)  7 MAR 2018 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,24 +521,30 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 160.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 162.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [4]
+Underfull \vbox (badness 1565) has occurred while \output is active []
+
+ [5]
 ! Double subscript.
 <argument> c_p_
                m +L_v\partial q_s/\partial T
-l.184 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
+l.186 .../R_dT}{c_p_m +L_v\partial q_s/\partial T}
                                                   \right),
 ? 
-[5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 193.
- [6] [7] [8] [9] [10]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
+[6]
+Overfull \vbox (3.35127pt too high) has occurred while \output is active []
+
+
+[7] [8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
@@ -562,85 +568,85 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.604 \begin{figure}
+l.606 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.611 \begin{figure}
+l.613 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.621 \begin{figure}
+l.623 \begin{figure}
                     [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.629 \begin{figure*}
+l.631 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.637 \begin{figure*}
+l.639 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.640 \begin{figure}
+l.642 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.647 \begin{figure*}
+l.649 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.654 \begin{figure*}
+l.656 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.683 \begin{figure*}
+l.685 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.705 \begin{figure*}
+l.707 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.708 \begin{figure}
+l.710 \begin{figure}
                     
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.714 \begin{figure*}
+l.716 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.721 \begin{figure*}
+l.723 \begin{figure*}
                      [ht]
 ? 
 ! Undefined control sequence.
 \figure ...\addtocounter {postfig}{1}\figureplace 
                                                   \fi \def \@currenvir {figu...
-l.728 \begin{figure*}
+l.730 \begin{figure*}
                      [ht]
 ? 
 [22] (./paper.lof
@@ -804,26 +810,31 @@ Package pdftex.def Info: figures/turb-50m.png used on input line 108.
 (pdftex.def)             Requested size: 468.0pt x 416.40758pt.
  [39
 
- <./figures/turb-50m.png>]) (./paper.aux) ) 
+ <./figures/turb-50m.png>]) (./paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right o
+n input line 744.
+
+ ) 
 Here is how much of TeX's memory you used:
  4819 strings out of 494953
  64601 string characters out of 6180977
- 127732 words of memory out of 5000000
+ 126732 words of memory out of 5000000
  7935 multiletter control sequences out of 15000+600000
  73201 words of font info for 166 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,10n,37p,768b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts
-/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (39 pages, 3173914 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/u
+syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (39 pages, 3173989 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
