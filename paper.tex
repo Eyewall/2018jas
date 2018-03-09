@@ -104,7 +104,7 @@ Albany, NY}
 Over the eye, static stability near the tropopause decreases and the cold-point tropopause height rises by up to 4 km at the storm center.
 Outside of the eye, static stability increases considerably just above the cold-point tropopause, and the tropopause remains near its initial level.\\
 \indent A budget analysis reveals that advection contributes to the static stability tendencies at all times throughout the upper troposphere and lower stratosphere.
-Differential advection is particularly important within the eye, where it acts to destabilize the layer near and above the cold-point tropopause.
+Within the eye, differential advection plays a particularly important role in destabilizing the layer near and above the cold-point tropopause.
 Outside of the eye, a radial-vertical circulation develops during RI, with strong outflow below the tropopause and weak inflow above.
 Vertical wind shear above and below the upper-tropospheric outflow maximum induces turbulence, which provides forcing for both destabilization and stabilization in the tropopause layer.
 Meanwhile, as organized convection reaches the tropopause, radiative heating tendencies at the top of the cirrus canopy generally act to destabilize the upper troposphere and stabilize the lower stratosphere.
@@ -152,6 +152,9 @@ Their results are consistent with the evolution observed over the inner core of 
 Idealized simulations of a TC analyzed by \cite{OhnoSatoh2015} suggested that the development of an upper-level warm core near the 13-km level acted to decrease the static stability near the tropopause within the eye (compare their Figs. 9,10).
 Although the mechanisms that might drive this static stability evolution have not been examined explicitly, \cite{SternZhang2013} described the development of the TC warm core using a potential temperature ($\theta$) budget analysis.
 They found that radial and vertical advection both played important roles in warm core development throughout RI, and subgrid-scale diffusion became particularly important during the later stage of RI.
+
+
+Other processes that can modify the static stability in the upper troposphere of TCs include radiative heating within and near the top of the cirrus canopy and shear-induced turbulent mixing near the outflow jet.
 To our knowledge, the only paper that has examined explicitly the static stability evolution in a modeled TC is \cite{Kepertetal2016}, but their analysis was limited to the boundary layer.
 The analysis herein is based upon that of \cite{SternZhang2013}, except using a static stability budget similar to that of \cite{Kepertetal2016}, with a focus on the upper troposphere and lower stratosphere.
 
@@ -172,7 +175,7 @@ The vortex described in \citeauthor{RotunnoEmanuel} (\citeyear{RotunnoEmanuel}, 
 
 Although hurricanes simulated in an axisymmetric framework tend to be more intense than those observed in nature, the intensity evolution of this simulation matches reasonably well with that observed in Hurricane Patricia.
 After an initial spin-up period of about 20 hours, the modeled storm (Fig.~\ref{fig:vmax+pmin}, blue lines) began an RI period that lasted approximately 30 hours.
-After this RI, the storm continued to intensify more slowly until the maximum 10-m wind speed reached 89 m s\textsuperscript{-1} and the sea-level pressure reached its minimum of 846 hPa, 81 hours into the simulation.
+After this RI, the storm continued to intensify more slowly until the maximum 10-m wind speed reached 89 m s\textsuperscript{-1} and the sea-level pressure reached its minimum of 846 hPa 81 hours into the simulation.
 Hurricane Patricia (red stars) exhibited a similar intensity evolution prior to its landfall, with an RI period leading to a maximum 10-m wind speed of 95 m s\textsuperscript{-1} and a minimum sea-level pressure of 872 hPa.
 
  \section{Budget Computation}
@@ -192,7 +195,7 @@ In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_
    \end{equation}
 where $\theta$ is the potential temperature.
 
-To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations\footnote{The validity of this approximation will be substantiated later in this section.}.
+To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations throughout the entire domain\footnote{The validity of this approximation will be substantiated later in this section.}.
 
 Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
@@ -204,7 +207,10 @@ where the potential temperature tendency, $\partial \theta/\partial t$, can be w
    \frac{\partial \theta}{\partial t} = -u\frac{\partial\theta}{\partial r}-w\frac{\partial \theta}{\partial z}+HTURB+VTURB+MP+RAD+DISS
    \end{equation}
 Each term on the right-hand side of Eq.~\ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
-Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
+
+The first term on the right-hand side of Eq. ~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown).
+Consequently, the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
+%Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
 
 Taking the vertical gradient of the first two terms on the right-hand side of Eq.~\ref{eq:dthetadt} yields the time tendency of the vertical $\theta$ gradient due to horizontal and vertical advection\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are separated from the advection terms in the CM1 budget output}:
 
@@ -215,9 +221,9 @@ The first two terms on the right-hand side of Eq.~\ref{eq:advtend} represent adv
 These terms act to rearrange the static stability field, but cannot strengthen or weaken static stability maxima or minima.
 The third and fourth terms on the right-hand side of Eq.~\ref{eq:advtend} represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the stretching or squashing of isentropes by vertical gradients of vertical velocity.
 Since these terms involve velocity gradients, they can act to strengthen or weaken static stability maxima or minima through differential advection.
-For example, since the $\theta$ of the air flowing out of the eyewall into the upper-tropospheric outflow layer increases as the TC intensifies, $\theta$ increases locally within the outflow layer.
-This acts to increase $\partial \theta/\partial z$ below the outflow maximum and decrease $\partial \theta/\partial z$ above, thereby modifying the static stability field.
-Similarly, the decay of updrafts with height at the top of convective towers can act to increase $\partial \theta/\partial z$ through squashing of isentropes.
+%For example, since the $\theta$ of the air flowing out of the eyewall into the upper-tropospheric outflow layer increases as the TC intensifies, $\theta$ increases locally within the outflow layer.
+%This acts to increase $\partial \theta/\partial z$ below the outflow maximum and decrease $\partial \theta/\partial z$ above, thereby modifying the static stability field.
+%Similarly, the decay of updrafts with height at the top of convective towers can act to increase $\partial \theta/\partial z$ through squashing of isentropes.
 
 Returning to Eq.~\ref{eq:dthetadt}, HTURB and VTURB are the $\theta$ tendencies from the horizontal and vertical turbulence parameterizations, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since the entire analysis domain lies outside of the regions where damping is applied.
@@ -237,7 +243,7 @@ where $t_0$ is an initial time and $\delta t$ is 24 hours.
 
 Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are plotted for three consecutive 24-hour periods in Fig.~\ref{fig:mod+bud+res}.
 For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
-      The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes computed using Eq. \ref{eq:modelchange}, together with Eq.~\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in subsaturated environments.
+      The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes computed using Eq.~\ref{eq:modelchange}, together with Eq.~\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in subsaturated environments.
 The center column depicts the budget changes computed using Eq. \ref{eq:budgetchange} together with Eq.~\ref{eq:n2dry} throughout the entire domain.
 Thus, the left column includes the effect of moisture in the $N^2$ computations, whereas the center column neglects moisture.
 The right column depicts the residuals, computed using Eq. \ref{eq:residual} (i.e. the left column minus the center column.)
