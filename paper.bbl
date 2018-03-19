@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -32,6 +32,11 @@ Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
   Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull.\ Amer.\ Meteor.\
   Soc.}, \textbf{98}, 2113--2134.
+
+\bibitem[{Duran and Molinari(2016)Duran, and Molinari}]{DuranMolinari2016}
+Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
+  tropical cyclones: Sensitivity to cyclone intensity and the diurnal cycle}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{73}, 545--554.
 
 \bibitem[{Duran and Molinari(2018)Duran, and Molinari}]{DuranMolinari2018}
 Duran, P., and J.~Molinari, 2018: Dramatic inner-core tropopause variability
@@ -80,6 +85,11 @@ Komaromi, W.~A., and J.~D. Doyle, 2017: Tropical cyclone outflow and warm core
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
   Rev.}, \textbf{144}, 1841--1850.
+
+\bibitem[{Molinari et~al.(2014)Molinari, Duran,, and Vollaro}]{Molinarietal}
+Molinari, J., P.~Duran, and D.~Vollaro, 2014: {Low Richardson number in the
+  tropical cyclone outflow layer}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
+  3164--3179.
 
 \bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
 Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed

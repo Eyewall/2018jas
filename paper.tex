@@ -221,6 +221,7 @@ The first two terms on the right-hand side of Eq.~\ref{eq:advtend} represent adv
 These terms act to rearrange the static stability field, but cannot strengthen or weaken static stability maxima or minima.
 The third and fourth terms on the right-hand side of Eq.~\ref{eq:advtend} represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the stretching or squashing of isentropes by vertical gradients of vertical velocity.
 Since these terms involve velocity gradients, they can act to strengthen or weaken static stability maxima or minima through differential advection.
+Unless otherwise stated, the "advection" term in this paper indicates the sum of the terms in Eq.~\ref{eq:advtend}.
 %For example, since the $\theta$ of the air flowing out of the eyewall into the upper-tropospheric outflow layer increases as the TC intensifies, $\theta$ increases locally within the outflow layer.
 %This acts to increase $\partial \theta/\partial z$ below the outflow maximum and decrease $\partial \theta/\partial z$ above, thereby modifying the static stability field.
 %Similarly, the decay of updrafts with height at the top of convective towers can act to increase $\partial \theta/\partial z$ through squashing of isentropes.
@@ -330,7 +331,8 @@ Within most of this region, advection provided strong forcing for stabilization,
 Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification, but for brevity, this section will focus only on the RI (24-48-hour) period.
 To investigate the advective processes more closely, the individual contributions of horizontal and vertical advection during the RI period are shown in Fig.~\ref{fig:adv-24-48}, along with the corresponding time-mean radial and vertical velocities and $\theta$.
 The $N^2$ tendencies due to the two advective components (Fig.~\ref{fig:adv-24-48}a,b) exhibited strong cancellation, consistent with flow that was nearly isentropic.
-There were, however, many regions in which flow crossed $\theta$ surfaces; this flow accounted for all non-zero $N^2$ tendencies due to advection previously seen in Fig.~\ref{fig:stab-24-48}b.
+There existed, however, a large region near the tropopause in which the total advective tendency was nonzero (Fig.~\ref{fig:stab-24-48}b).
+These nonzero tendencies were related to the development of the TC's seconary circulation as it intensified.
 
 %The eye was characterized by stabilization below 16 km and destabilization in the 16-17-km and 18-19-km layers.
 %Comparing Fig.~\ref{fig:stab-24-48}b to \ref{fig:adv-24-48}a,b reveals that the stabilization below 16 km in the eye was forced by vertical advection, as was the region of destabilization in the 18-19-km layer.
@@ -469,7 +471,10 @@ The results herein suggest that radiative heating tendencies played an important
 
 %An interesting result of the budget analysis was that turbulent mixing acted to increase static stability in some regions of the storm.
 Although vertical turbulence always acts to eliminate vertical gradients of $\theta$, this adjustment toward a neutral state only occurs where the mixing takes place.
-If turbulence occurs in a stably-stratified layer, it will act to decrease $\theta$ at the top of the layer and increase it below.
+Fig.~\ref{fig:schematic} depicts the effect of turbulent mixing on the $\theta$ profile of an initially stably-stratified layer.
+At the initial time in this idealized case, $\theta$ increases with height at a constant rate (Fig.~\ref{fig:schematic}, left panel).
+The imposition of tubulence (blue hatching) adjusts the $\theta$ profile within the mixed layer toward a constant value equal to the mean value of that layer in the initial state (Fig.~\ref{fig:schematic}, right panel).
+%If turbulence occurs in a stably-stratified layer, it will act to decrease $\theta$ at the top of the layer and increase it at the bottom.
 Just above and just below the mixed layer, however, the $\theta$ profile remains undisturbed.
 Consequently, although turbulent mixing acts to decrease $\partial \theta/\partial z$ in the layer in which it is occurring, it actually increases $\partial \theta/\partial z$ just below and just above the layer.
 These vertical gradients of turbulent mixing are quite important, particularly on the flanks of the upper-tropospheric outflow jet.
@@ -485,8 +490,18 @@ This supports the hypothesized role of turbulence in setting the outflow-layer $
 The simulated $N^2$ evolution shown herein closely matched that observed during the RI of Hurricane Patricia (2015).
 Three processes dominated the $N^2$ variability in the upper troposphere and lower stratosphere: advection, radiation, and vertical turbulence.
 Radiation and vertical turbulence played particularly important roles in developing the strong $N^2$ maximum just above the cold-point tropopause during RI.
-Since these two processes are parameterized, and radiation closely depends on yet another parameterized process (microphysics), the tropopause-layer $N^2$ variability could be quite sensitive to the assumptions inherent to the parameterizations used.
+
+To put the $N^2$ variability observed near the tropopause into context, Fig.~\ref{fig:fulltrop} depicts the model change in $N^2$ over the RI period from 0 to 21 km altitude, along with the vertical eddy diffusivity and the radiative heating rate.
+It is clear that the largest changes in $N^2$ occurred in a relatively shallow layer immediately surrounding the tropopause (Fig.~\ref{fig:fulltrop}a).
+This shalow layer also contained the largest diurnally-averaged radiative heating tendencies found anywhere in the domain (Fig.~\ref{fig:fulltrop}c).
+%The largest diurnally-averaged radiative heating tendencies found anywhere in the domain also were contained within this relatively shallow layer (Fig.~\ref{fig:fulltrop}c).
+Values of vertical eddy diffusivity larger than any found outside of the boundary layer also resided in the upper troposphere (Fig.~\ref{fig:fulltrop}b).
+%The upper troposphere also contained a deep layer of vertical eddy diffusivity values larger than those found anywhere outside of the boundary layer.
+The results herein suggest that this tubulence not only develops as a response to the presence of small static stability and large vertical wind shear, as discussed by \cite{Molinarietal} and \cite{DuranMolinari2016}, but also can actively increase the static stability in highly localized regions just above and below the mixed layers.
+
+Since two of the most important processes contributing to the $N^2$ variability are parameterized, and one (radiation) closely depends on yet another parameterized process (microphysics), the tropopause-layer $N^2$ variability could be quite sensitive to the assumptions inherent to the parameterizations used.
 A better understanding of the microphysical characteristics of the TC cirrus canopy, its interaction with radiation, and outflow-layer turbulence is critical to understanding the tropopause-layer $N^2$ evolution.
+
 %A number of sensitivity experiments revealed that the details of the $N^2$ evolution were sensitive to the selection of the radiation scheme, the vertical turbulence length scale, and the vertical grid spacing.
 %All of the simulations, however, did develop an elevated tropopause over the eye that corresponded to decreasing static stability and, outside of the eye, an $N^2$ maximum immediately above the tropopause.
 
@@ -494,7 +509,7 @@ A better understanding of the microphysical characteristics of the TC cirrus can
 %Increasing the vertical grid spacing decreased the magnitude of the radiative cooling and produced a weaker, but deeper lower-stratospheric stable layer.
 
 In this paper, all of the variables were averaged over a full diurnal cycle to eliminate the effects of diurnal variability and isolate the overall storm evolution.
-Diurnal variations in static stability near the tropopause are potentially of interest with respect to the tropical cyclone diurnal cycle, however, and will be the subject of future work.
+Diurnal variations in static stability near the tropopause are potentially of interest with respect to the tropical cyclone diurnal cycle, and will be the subject of future work.
 
 % text...
 % \section{Section title}
@@ -720,10 +735,26 @@ Orange lines represent the cold-point tropopause height averaged over the 0-24-h
 
 %FIGURE 10%
 \begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{figures/Schematic2.png}}
+\caption{Idealized schematic diagram of turbulent mixing in a stably-stratified layer. At the initial time (left panel), potential temperature increases with height at a constant rate (thick black line). The imposition of turbulence within a portion of the layer (blue hatching) adjusts the potential temperature profile toward the mean initial value of that layer. After a period of mixing (right panel) the potential temperature in the mixed layer does not vary with height, but just above and just below the mixed layer, it rapidly increases with height.}
+\label{fig:schematic}
+\end{figure*}
+
+%FIGURE 11%
+\begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{figures/khvten.png}}
 \caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}; filled contours), cold-point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 \label{fig:diff}
 \end{figure*}
+
+%FIGURE 12%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=19pc]{figures/fulltrop.png}}
+\end{figure*}
+\begin{figure}
+\caption{(Top panel) Change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) directly output by the model for the 0-21-km layer. (Middle panel) Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2} averaged over the same time period. (Bottom panel) Radiative heating rate (K h\textsuperscript{-1}) averaged over the same time period.}
+\label{fig:fulltrop}
+\end{figure}
 
 %FIGURE A1%
 \begin{figure*}[ht]
