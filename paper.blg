@@ -6,45 +6,45 @@ Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
-You've used 22 entries,
+You've used 21 entries,
             3493 wiz_defined-function locations,
-            990 strings with 11046 characters,
-and the built_in function-call counts, 23620 in all, are:
-= -- 2855
-> -- 692
-< -- 13
-+ -- 442
-- -- 174
-* -- 1171
-:= -- 2366
-add.period$ -- 44
-call.type$ -- 22
-change.case$ -- 168
-chr.to.int$ -- 22
-cite$ -- 24
-duplicate$ -- 2463
-empty$ -- 1257
-format.name$ -- 235
-if$ -- 4827
+            986 strings with 10886 characters,
+and the built_in function-call counts, 22545 in all, are:
+= -- 2712
+> -- 681
+< -- 12
++ -- 430
+- -- 171
+* -- 1127
+:= -- 2267
+add.period$ -- 42
+call.type$ -- 21
+change.case$ -- 162
+chr.to.int$ -- 21
+cite$ -- 23
+duplicate$ -- 2338
+empty$ -- 1197
+format.name$ -- 231
+if$ -- 4608
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 231
-newline$ -- 77
-num.names$ -- 88
-pop$ -- 1104
+missing$ -- 222
+newline$ -- 74
+num.names$ -- 84
+pop$ -- 1070
 preamble$ -- 1
-purify$ -- 145
+purify$ -- 140
 quote$ -- 0
-skip$ -- 1453
+skip$ -- 1364
 stack$ -- 0
-substring$ -- 1168
-swap$ -- 2022
+substring$ -- 1103
+swap$ -- 1913
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 198
+type$ -- 189
 warning$ -- 2
-while$ -- 104
+while$ -- 99
 width$ -- 0
-write$ -- 250
+write$ -- 239
 (There were 2 warnings)

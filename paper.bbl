@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -9,11 +9,6 @@
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{Bryan(2012)}]{Bryan2012}
-Bryan, G.~H., 2012: Effects of surface exchange coefficients and turbulence
-  length scales on the intensity and structure of numerically simulated
-  hurricanes. \textit{Mon.\ Wea.\ Rev.}, \textbf{140}, 1125--1143.
-
 \bibitem[{Bryan(cited 2018)}]{Bryan2017}
 Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
   at \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
@@ -23,7 +18,7 @@ Bryan, G.~H., and R.~Rotunno, 2009: The maximum intensity of tropical cyclones
   in axisymmetric numerical model simulations. \textit{Mon.\ Wea.\ Rev.},
   \textbf{137}, 1770--1789.
 
-\bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{buetal}
+\bibitem[{Bu et~al.(2014)Bu, Fovell,, and Corbosiero}]{Buetal}
 Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
   cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
   Sci.}, \textbf{71}, 1644--1622.
