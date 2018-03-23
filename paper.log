@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  22 MAR 2018 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.22)  22 MAR 2018 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -552,15 +552,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
+[18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
@@ -717,12 +713,12 @@ Package pdftex.def Info: figures/khvten.png used on input line 88.
  [37
 
  <./figures/khvten.png>]
-<figures/fulltrop.png, id=142, 764.8575pt x 2047.65pt>
+<figures/fulltrop.png, id=142, 764.8575pt x 2065.7175pt>
 File: figures/fulltrop.png Graphic file (type png)
 
 <use figures/fulltrop.png>
 Package pdftex.def Info: figures/fulltrop.png used on input line 95.
-(pdftex.def)             Requested size: 228.0pt x 610.39418pt.
+(pdftex.def)             Requested size: 228.0pt x 615.78pt.
  [38
 
  <./figures/fulltrop.png>] [39]) (./paper.aux)
@@ -749,7 +745,7 @@ syr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (39 pages, 3124008 bytes).
+Output written on paper.pdf (39 pages, 3122645 bytes).
 PDF statistics:
  186 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
