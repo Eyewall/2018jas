@@ -3,12 +3,16 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: ametsoc2014.bst
 Database file #1: references.bib
+Repeated entry---line 379 of file references.bib
+ : @article{EmanuelRotunno2011
+ :                            ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
 You've used 21 entries,
             3493 wiz_defined-function locations,
-            986 strings with 10886 characters,
+            986 strings with 10894 characters,
 and the built_in function-call counts, 22545 in all, are:
 = -- 2712
 > -- 681
@@ -47,4 +51,4 @@ warning$ -- 2
 while$ -- 99
 width$ -- 0
 write$ -- 239
-(There were 2 warnings)
+(There was 1 error message)
