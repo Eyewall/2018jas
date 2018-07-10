@@ -100,7 +100,7 @@ Albany, NY}
 % For BAMS authors only: If your article requires a Capsule Summary, please place the capsule text at the end of your abstract
 % and identify it as the capsule. Example: This is the end of the abstract. (Capsule Summary) This is the capsule summary. 
 
-\abstract{Large changes in tropopause-layer static stability are observed during the rapid intensification (RI) of an idealized, axisymmetric tropical cyclone (TC).
+\abstract{Large changes in tropopause-layer static stability are examined during the rapid intensification (RI) of a tropical cyclone (TC) in an idealized, axisymmetric simulation.
 Over the eye, static stability near the tropopause decreases and the cold-point tropopause height rises by up to 4 km at the storm center.
 Outside of the eye, static stability increases considerably just above the cold-point tropopause, and the tropopause remains near its initial level.\\
 \indent A budget analysis reveals that the advection term, which includes differential advection of potential temperature and direct advection of static stability, is important throughout the upper troposphere and lower stratosphere.
@@ -108,7 +108,7 @@ Within the eye, differential advection plays a particularly important role in de
 Outside of the eye, the upper-tropospheric outflow layer exports high potential temperature ($\theta$) air from the eyewall to large radii in the upper troposphere.
 This increase in $\theta$ forces stabilization below the outfow jet and destabilization above.
 Vertical wind shear above and below the outflow maximum induces vertical gradients of turbulence, which also modify the vertical stability profile.
-Meanwhile, radiative heating tendencies at the top of the cirrus canopy generally act to destabilize the upper troposphere and stabilize the lower stratosphere.
+Meanwhile, radiative cooling tendencies at the top of the cirrus canopy generally act to destabilize the upper troposphere and stabilize the lower stratosphere.
 These turbulent and radiative processes combine to play an important role in the development of the strong stable layer immediately above the cold-point tropopause during RI.}
 %The results suggest that turbulence and radiation, alongside advection, play fundamental roles in the upper-level static stability evolution of TCs.}
 %The conclusions are robust to changes in the initial thermodynamic profile and prescribed vertical mixing length within a reasonable range of values.}
@@ -140,9 +140,9 @@ The goal of the present paper is to analyze the processes that might have produc
 After undergoing a remarkably rapid intensification (RI), Hurricane Patricia (2015) attained the strongest wind speed ever recorded in a tropical cyclone (TC) (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
 %High-altitude dropsonde observations taken during the Tropical Cyclone Intensity (TCI) experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
 TCI dropsonde observations collected during this RI period revealed dramatic changes in the cold-point tropopause height and upper-level static stability \citep{DuranMolinari2018}.
-In particular, when Patricia was at tropical storm intensity shortly before RI commenced, a strong inversion layer existed just above the cold-point tropopause.
+In particular, when Patricia was at tropical storm intensity shortly before RI commenced, a strong inversion layer existed just above the cold-point tropopause (see their Fig. 4a).
 During the first half of the RI period, this inversion layer weakened throughout Patricia's inner core, with the weakening most pronounced over the developing eye.
-By the time the storm reached its maximum intensity of 95 m s\textsuperscript{-1}, the inversion layer over the eye had disappeared almost completely, which was accompanied by a greater than 1-km increase in the tropopause height.
+By the time the storm reached its maximum best-track intensity of 95 m s\textsuperscript{-1}, the inversion layer over the eye had disappeared almost completely (see their Fig. 4d), which was accompanied by a greater than 1-km increase in the tropopause height.
 Meanwhile over the eyewall region, the static stability increased and the tropopause remained near its initial level.
 %The mechanisms that might have led to this tropopause-layer variability will be investigated in the current paper using idealized simulations.
 
@@ -173,9 +173,9 @@ The analysis herein is based upon that of \cite{SternZhang2013}, except using a 
 
 The numerical simulations were performed using version 19.4 of Cloud Model 1 (CM1) described in \cite{BryanRotunno2009}.
 The equations of motion were integrated on a 3000-km-wide, 30-km-deep axisymmetric grid with 1-km horizontal and 250-m vertical grid spacing.
-The computations were performed on an \textit{f}-plane at 15\textdegree{N} latitude, over a sea surface with constant temperature of 30.5\textdegree C, which matches that observed near Hurricane Patricia (2015; \citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}).
+The computations were performed on an \textit{f}-plane at 15\textdegree{N} latitude, over a sea surface with constant temperature of 30.5\textdegree C, which is based on that analyzed near Hurricane Patricia (2015; \citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}).
 Horizontal turbulence was parameterized using the Smagorinsky scheme described in \citeauthor{BryanRotunno2009} (\citeyear{BryanRotunno2009}, pg. 1773), with a prescribed mixing length that varied linearly from 100 m at a surface pressure of 1015 hPa to 1000 m at a surface pressure of 900 hPa.
-Vertical turbulence was parameterized using the formulation of \citeauthor{MarkowskiBryan2016} (\citeyear{MarkowskiBryan2016}, their Eq. 6), using an asymptotic vertical mixing length of 100 m.
+Vertical turbulence was parameterized using the formulation of \citeauthor{MarkowskiBryan2016} (\citeyear{MarkowskiBryan2016}, their Eq. 6), using an asymptotic vertical mixing length of 100 m, which is the default setup for hurricane simulations in CM1.
 A Rayleigh damping layer was applied outside of the 2900-km radius and above the 25-km level to prevent spurious gravity wave reflection at the model boundaries.
 Microphysical processes were parameterized using the \cite{Thompson} scheme, and radiative heating tendencies were computed every two minutes using the Rapid Radiative Transfer Model for GCMs (RRTMG) longwave and shortwave schemes \citep{Iacono}.
 The initial temperature and humidity field was horizontally homogeneous and determined by averaging all Climate Forecast System Reanalysis (CFSR) grid points within 100 km of Patricia's center of circulation at 18 UTC 21 October 2015.
@@ -200,7 +200,7 @@ where $g$ is gravitational acceleration, $T$ is temperature, $R_d$ and $R_v$ are
       \Gamma_m = g(1+q_t)\left(\frac{1+L_vq_s/R_dT}{c_{pm}+L_v\partial q_s/\partial T}\right),
    \end {equation}
 where $L_v$ is the latent heat of vaporization and $c_{pm}$ is the specific heat of moist air at constant pressure.
-In the tropopause layer, $q_s$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
+In the tropopause layer, $q_s$, $q_t$, ${\partial q_s}/{\partial T}$, and ${\partial q_t}/{\partial z}$ approach zero. In this limiting case, Eq. \ref{eq:n2moist} reduces to:
    \begin{equation} \label{eq:n2dry}
    N^2 = \frac{g}{\theta}\frac{\partial \theta}{\partial z},
    \end{equation}
