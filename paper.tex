@@ -143,7 +143,7 @@ TCI dropsonde observations collected during this RI period revealed dramatic cha
 In particular, when Patricia was at tropical storm intensity shortly before RI commenced, a strong inversion layer existed just above the cold-point tropopause (see their Fig. 4a).
 During the first half of the RI period, this inversion layer weakened throughout Patricia's inner core, with the weakening most pronounced over the developing eye.
 By the time the storm reached its maximum best-track intensity of 95 m s\textsuperscript{-1}, the inversion layer over the eye had disappeared almost completely (see their Fig. 4d), which was accompanied by a greater than 1-km increase in the tropopause height.
-Meanwhile over the eyewall region, the static stability increased and the tropopause remained near its initial level.
+Meanwhile over the eyewall region, the static stability remained large and the tropopause stayed near its initial level.
 %The mechanisms that might have led to this tropopause-layer variability will be investigated in the current paper using idealized simulations.
 
 Despite the importance of tropopause-layer thermodynamics in theoretical models of hurricanes (\citeauthor{EmanuelRotunno2011} \citeyear{EmanuelRotunno2011}; \citeauthor{Emanuel2012} \citeyear{Emanuel2012}), most observational studies of the upper-tropospheric structure of TCs are decades old\footnote{An in-depth review of these papers can be found in \cite{DuranMolinari2018}.}.
@@ -163,7 +163,7 @@ The warming of the upper troposophere by these advective and diffusive processes
 Outside of the eye, in the presence of cirrus clouds, vertical gradients of radiative heating also can modify the tropopause-layer static stability.
 \cite{Buetal} noted the existence of a shallow region of diurnal-mean net radiative cooling at the top of the TC cirrus canopy (see their Figs. 5, 11).
 This shallow region of cooling could act to destabilize the layer just below the top of the cirrus canopy and stabilize the layer immediately above.
-If the top of the cirrus canopy lies close to the tropopause, these radiative processes could contribute to a stabilization of the lower stratosphere, as was observed in Hurricane Patricia. 
+If the top of the cirrus canopy lies close to the tropopause, these radiative processes could contribute to a stabilization of the lower stratosphere. 
 %Other processes that can modify the static stability in the upper troposphere of TCs include radiative heating within and near the top of the cirrus canopy and shear-induced turbulent mixing near the outflow jet.
 
 To our knowledge, the only paper that has examined explicitly the static stability evolution in a modeled TC is \cite{Kepertetal2016}, but their analysis was limited to the boundary layer.
@@ -208,7 +208,7 @@ where $\theta$ is the potential temperature.
 
 To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations throughout the entire domain\footnote{The validity of this approximation will be substantiated later in this section.}.
 
-Taking the time derivative of Eq. \ref{eq:n2dry} yields the static stability tendency:
+Taking the time derivative of Eq. \ref{eq:n2dry} and switching the order of differentiation yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
    \frac{\partial N^2}{\partial t} = \frac{g}{\theta}\frac{\partial}{\partial z}\frac{\partial \theta}{\partial t}-\frac{g}{\theta^2}\frac{\partial \theta}{\partial z}\frac{\partial \theta}{\partial t},
    \end{equation}
@@ -220,7 +220,7 @@ where the potential temperature tendency, $\partial \theta/\partial t$, can be w
 Each term on the right-hand side of Eq.~\ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
 
 The first term on the right-hand side of Eq. ~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown).
-Consequently, the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
+Consequently, the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in terms of a vertical gradient of each term.
 %Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
 
 Taking the vertical gradient of the first two terms on the right-hand side of Eq.~\ref{eq:dthetadt} yields the time tendency of the vertical $\theta$ gradient due to horizontal and vertical advection\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are separated from the advection terms in the CM1 version 19.4 budget output.}:
@@ -276,7 +276,7 @@ Variations in the magnitude and spatial structure of these terms drive the stati
 
  \section{Results}
 
- \subsection{Static stability evolution}
+ \subsection{Static stability and tropopause evolution}
 
 The average $N^2$ over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a weak $N^2$ maximum just above the cold-point tropopause.
 Over the subsequent 24 hours, during the RI period, the $N^2$ within and above this layer decreased within the 25-km radius (Fig.~\ref{fig:n2-24hr-avgs}b).
@@ -285,6 +285,9 @@ Outside of the eye, meanwhile, the tropopause height decreased over the eyewall 
 In this outer region, the $N^2$ maximum just above the tropopause strengthened during RI.
 These trends continued as the storm's intensity leveled off in the 48-72-hour period (Fig.~\ref{fig:n2-24hr-avgs}c).
 The tropopause height increased to nearly 21 km at the storm center and sloped sharply downward to 16.3 km on the inner edge of the eyewall, near the 30 km radius.
+A local minimum in tropopause height manifested near the eye-eyewall interface, similar to that observed in Hurricane Patricia (see \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, Figs. 4f-h), although the authors of that paper cautioned that these local minima could be quite sensitive to small fluctuations in temperature.
+%The authors cautioned that, due to the presence of a nearly isothermal layer at this location (\citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, Figs. 4b-d), the tropopause height could be quite sensitive to small fluctuations in temperature or to sensor error.
+The presence of a local minimum at this location in these 24-hour averages, however, suggests that this tropopause depression on the outer edge of the eye could be a robust, persistent feature.
 Static stability outside of the eye, meanwhile, continued to increase just above the cold-point tropopause.
 This $N^2$ evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, see their Fig. 4).
 The mechanisms that led to these $N^2$ changes will be investigated in the subsequent sections.
