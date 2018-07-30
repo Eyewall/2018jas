@@ -143,7 +143,7 @@ TCI dropsonde observations collected during this RI period revealed dramatic cha
 In particular, when Patricia was at tropical storm intensity shortly before RI commenced, a strong inversion layer existed just above the cold-point tropopause (see their Fig. 4a).
 During the first half of the RI period, this inversion layer weakened throughout Patricia's inner core, with the weakening most pronounced over the developing eye.
 By the time the storm reached its maximum best-track intensity of 95 m s\textsuperscript{-1}, the inversion layer over the eye had disappeared almost completely (see their Fig. 4d), which was accompanied by a greater than 1-km increase in the tropopause height.
-Meanwhile over the eyewall region, the static stability remained large and the tropopause stayed near its initial level.
+Meanwhile outside of the eye, the static stability remained large and the tropopause stayed near its initial level.
 %The mechanisms that might have led to this tropopause-layer variability will be investigated in the current paper using idealized simulations.
 
 Despite the importance of tropopause-layer thermodynamics in theoretical models of hurricanes (\citeauthor{EmanuelRotunno2011} \citeyear{EmanuelRotunno2011}; \citeauthor{Emanuel2012} \citeyear{Emanuel2012}), most observational studies of the upper-tropospheric structure of TCs are decades old\footnote{An in-depth review of these papers can be found in \cite{DuranMolinari2018}.}.
@@ -224,7 +224,7 @@ The first term on the right-hand side of Eq. ~\ref{eq:dn2dt} is larger than the 
 Consequently, the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in terms of a vertical gradient of each term.
 %Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
 
-Taking the vertical gradient of the first two terms on the right-hand side of Eq.~\ref{eq:dthetadt} yields the time tendency of the vertical $\theta$ gradient due to horizontal and vertical advection\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are separated from the advection terms in the CM1 version 19.4 budget output.}:
+Taking the vertical gradient of the first two terms on the right-hand side of Eq.~\ref{eq:dthetadt} yields the time tendency of the vertical $\theta$ gradient due to horizontal and vertical advection:%\footnote{These terms include the tendencies due to implicit diffusion in the fifth-order finite differencing scheme, which are separated from the advection terms in the CM1 version 19.4 budget output.}
 
    \begin{equation} \label{eq:advtend}
    \left(\frac{\partial}{\partial t}\frac{\partial \theta}{\partial z}\right)_{adv} = -u\frac{\partial}{\partial r}\frac{\partial \theta}{\partial z}-w\frac{\partial}{\partial z}\frac{\partial \theta}{\partial z}-\frac{\partial u}{\partial z}\frac{\partial \theta}{\partial r}-\frac{\partial w}{\partial z}\frac{\partial \theta}{\partial z}.
@@ -233,7 +233,7 @@ The first two terms on the right-hand side of Eq.~\ref{eq:advtend} represent adv
 These terms act to rearrange the static stability field, but cannot strengthen or weaken static stability maxima or minima.
 The third and fourth terms on the right-hand side of Eq.~\ref{eq:advtend} represent, respectively, the tilting of isentropes in the presence of vertical wind shear, and the stretching or squashing of isentropes by vertical gradients of vertical velocity.
 Since these terms involve velocity gradients, they can act to strengthen or weaken static stability maxima or minima through differential advection.
-Unless otherwise stated, any reference to "advection" in this paper indicates the sum of all of the terms in Eq.~\ref{eq:advtend}.
+Unless otherwise stated, any reference to ``advection" in this paper indicates the sum of all of the terms in Eq.~\ref{eq:advtend}.
 %For example, since the $\theta$ of the air flowing out of the eyewall into the upper-tropospheric outflow layer increases as the TC intensifies, $\theta$ increases locally within the outflow layer.
 %This acts to increase $\partial \theta/\partial z$ below the outflow maximum and decrease $\partial \theta/\partial z$ above, thereby modifying the static stability field.
 %Similarly, the decay of updrafts with height at the top of convective towers can act to increase $\partial \theta/\partial z$ through squashing of isentropes.
@@ -242,9 +242,9 @@ Returning to Eq.~\ref{eq:dthetadt}, HTURB and VTURB are the $\theta$ tendencies 
 This equation neglects Rayleigh damping, since the entire analysis domain lies outside of the regions where damping is applied.
 Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
 These terms are summed, yielding an instantaneous ``budget change" in $N^2$ every minute.
-The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period, i.e.:
+The budget changes are then averaged over 24-hour (1440-minute) periods, multiplied by the length of the time period, and compared to the total model change in $N^2$ over that same time period, i.e.:
    \begin{equation} \label{eq:budgetchange}
-   \Delta N^2_{budget} = \frac{1}{\delta t}\sum_{t=t_0}^{t_0+\delta t} \left.\frac{\partial N^2}{\partial t}\right\vert_t
+   \Delta N^2_{budget} = \frac{\delta t}{1440}\sum_{t=t_0}^{1440} \left.\frac{\partial N^2}{\partial t}\right\vert_t
    \end{equation}
    \begin{equation} \label{eq:modelchange}
    \Delta N^2_{model} = N^2_{t_0+\delta t}-N^2_{t_0}
@@ -257,7 +257,7 @@ where $t_0$ is an initial time and $\delta t$ is 24 hours.
 Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are evaluated for three consecutive 24-hour periods in Fig.~\ref{fig:mod+bud+res}.
 For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
       The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes computed using Eq.~\ref{eq:modelchange}, together with Eq.~\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in subsaturated environments.
-The center column depicts the budget changes computed using Eq. \ref{eq:budgetchange} together with Eq.~\ref{eq:n2dry} throughout the entire domain.
+The center column depicts the budget changes computed using Eq. \ref{eq:budgetchange} together with Eq.~\ref{eq:dn2dt} throughout the entire domain.
 Thus, the left column includes the effect of moisture in the $N^2$ computations, whereas the center column neglects moisture.
 The right column depicts the residuals, computed using Eq. \ref{eq:residual} (i.e. the left column minus the center column.)
 In every 24-hour period, the budget changes are nearly identical to the model changes, which is reflected in the near-zero residuals in the right column.
@@ -280,25 +280,25 @@ Variations in the magnitude and spatial structure of these terms drive the stati
  \subsection{Static stability and tropopause evolution}
 
 The average $N^2$ over the first day of the simulation (Fig.~\ref{fig:n2-24hr-avgs}a) indicates the presence of a weak $N^2$ maximum just above the cold-point tropopause.
-Over the subsequent 24 hours, during the RI period, the $N^2$ within and above this layer decreased within the 25-km radius (Fig.~\ref{fig:n2-24hr-avgs}b).
+Over the subsequent 24 hours, during the RI period, the $N^2$ maximum weakened within the 25-km radius (Fig.~\ref{fig:n2-24hr-avgs}b).
 This decreasing $N^2$ corresponded to an increase in the tropopause height within the developing eye, maximized at the storm center.
-Outside of the eye, meanwhile, the tropopause height decreased over the eyewall region (25-60-km radius) and increased only slightly outside of the 60-km radius.
-In this outer region, the $N^2$ maximum just above the tropopause strengthened during RI.
+Just outside of the eye, meanwhile, the tropopause height decreased within the 25-60-km radial band, and increased only slightly outside of the 60-km radius.
+Everywhere outside of the eye, the $N^2$ maximum just above the tropopause strengthened during RI.
 These trends continued as the storm's intensity leveled off in the 48-72-hour period (Fig.~\ref{fig:n2-24hr-avgs}c).
 The tropopause height increased to nearly 21 km at the storm center and sloped sharply downward to 16.3 km on the inner edge of the eyewall, near the 30 km radius.
 A local minimum in tropopause height manifested near the eye-eyewall interface, similar to that observed in Hurricane Patricia (see \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, Figs. 4f-h), although the authors of that paper cautioned that these local minima could be quite sensitive to small fluctuations in temperature.
 %The authors cautioned that, due to the presence of a nearly isothermal layer at this location (\citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, Figs. 4b-d), the tropopause height could be quite sensitive to small fluctuations in temperature or to sensor error.
 The presence of a local minimum at this location in these 24-hour averages, however, suggests that this tropopause depression on the outer edge of the eye could be a robust, persistent feature.
 Static stability outside of the eye, meanwhile, continued to increase just above the cold-point tropopause.
-This $N^2$ evolution closely follows that observed in Hurricane Patricia (2015; \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, see their Fig. 4).
+This $N^2$ evolution resembles that observed in Hurricane Patricia (2015; \citeauthor{DuranMolinari2018} \citeyear{DuranMolinari2018}, see their Fig. 4).
 The mechanisms that led to these $N^2$ changes will be investigated in the subsequent sections.
 
  \subsection{Static stability budget analysis}
 
 \paragraph{0-24 hours}\mbox{}\\
-\indent The initial spin-up period was characterized by a steady increase of the maximum wind speed from 11 m s\textsuperscript{-1} to 22 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}a, blue line), an intensification rate that closely matched that of TC Patricia (Fig.~\ref{fig:vmax+pmin}a, red stars).
+\indent The initial spin-up period was characterized by a steady increase of the maximum wind speed from 11 m s\textsuperscript{-1} to 22 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}a, blue line).
 The weakening of the lower-stratospheric static stability maximum during this period is reflected in the total $N^2$ budget change over this time (Fig.~\ref{fig:stab-00-24}a).
-The layer just above the cold-point tropopause was characterized by decreasing $N^2$ (purple shading), maximizing at the storm center.
+The layer just above the cold-point tropopause was characterized by decreasing $N^2$ (purple shading), maximizing in magnitude at the storm center.
 At and immediately below the tropopause, meanwhile, $N^2$ increased during this time period (green shading).
 Although these tendencies extended out to the 200-km radius, they were particularly pronounced at innermost radii.
 A comparison of the contributions of advection (Fig.~\ref{fig:stab-00-24}b), vertical turbulence (Fig.~\ref{fig:stab-00-24}c), and radiation (Fig.~\ref{fig:stab-00-24}d) reveals that advection was the primary driver of the $N^2$ tendency during this period, acting to stabilize near and just below the tropopause and destabilize above.
@@ -314,17 +314,15 @@ These tendencies at the innermost radii were driven almost entirely by advection
 Vertical turbulence (Fig.~\ref{fig:stab-24-48}c) and radiation (Fig.~\ref{fig:stab-24-48}d) contributed negligibly to the static stability tendencies in this region.
 
 Outside of the eye, the $N^2$ evolution exhibited alternating layers of positive and negative tendencies.
-Near and above 18 km existed an upward-sloping region of decreasing $N^2$ that extended out to the 180-km radius.
+Near and above 18 km existed an outward-sloping region of decreasing $N^2$ that extended out to the 180-km radius.
 In this region, neither vertical turbulence nor radiation exhibited negative $N^2$ tendencies; advection was the only forcing for this destabilization.
-Immediately below this layer, just above the cold-point tropopause, was a region of increasing $N^2$ that sloped upward from 17 km near the 30-km radius to just below 18 km outside of the 100-km radius.
+Immediately below this layer, just above the cold-point tropopause, was a region of increasing $N^2$ that sloped outward from 17 km near the 30-km radius to just below 18 km outside of the 100-km radius.
 Advection and vertical turbulence both contributed to this positive $N^2$ tendency, with advection playing an important role below about 17.5 km and and turbulence playing an important role above.
 The sum of advection and turbulence (Fig.~\ref{fig:stab-24-48}e) reveals two separate regions of increasing $N^2$ in the 17-18-km layer rather than one contiguous region.
 The addition of radiation to these two terms, however, (Fig.~\ref{fig:stab-24-48}f) provides the link between these two regions, indicating that radiation also plays a role in strengthening the stable layer just above the tropopause.
 In the 16-17-km layer, just below the cold-point tropopause, a horizontally-extensive layer of destabilization also was forced by a combination of advection, vertical turbulence, and radiation.
 The sum of advection and vertical turbulence accounts for only a portion of the decreasing $N^2$ in this layer, and actually indicates forcing for stabilization near the 50-km radius and outside of the 130-km radius.
-Radiative tendencies overcome this forcing for stabilization in both of these regions to produce the radially-extensive region of destabilization observed just below the tropopause.
-
-The sum of advection, vertical turbulence, and radiation (Fig.~\ref{fig:stab-24-48}f) once again closely follows the observed $N^2$ variability, except in the eyewall region, where the neglect of latent heating and horizontal turbulence introduces some differences.
+Radiative tendencies overcome this forcing for stabilization in both of these regions to produce the radially-extensive region of destabilization observed just below the tropopause. The sum of advection, vertical turbulence, and radiation (Fig.~\ref{fig:stab-24-48}f) once again closely follows the observed $N^2$ variability, except in the eyewall region, where the neglect of latent heating and horizontal turbulence introduces some differences.
 
 \paragraph{48-72 hours}\mbox{}\\
 \indent After the storm's maximum wind speed leveled off near 80 m s\textsuperscript{-1} (Fig.~\ref{fig:vmax+pmin}a), the magnitude of the static stability tendencies within the eye decreased to near zero (Fig.~\ref{fig:stab-48-72}a).
@@ -332,7 +330,7 @@ Outside of the eye, however, $N^2$ continued to decrease in the layer immediatel
 The sum of advection and vertical turbulence (Fig.~\ref{fig:stab-48-72}e) indicates that these two processes account for most of the destabilization near the tropopause and some of the stabilization near the 18-km altitude.
 Below the tropopause, however, these two terms provided strong forcing for stabilization that was not observed in the budget change (Fig.~\ref{fig:stab-48-72}a).
 Radiation (Fig.~\ref{fig:stab-48-72}d), which generally forced stabilization above 17 km and destabilization below, balanced out this forcing for stabilization in the upper troposphere.
-In the eyewall region (30-80-km radius), advection and vertical turbulence combined to force destabilization in the 17-18-km layer (Fig.~\ref{fig:stab-48-72}e), which was not observed in the budget change (Fig.~\ref{fig:stab-48-72}a).
+Within the 30-80-km radial band, advection and vertical turbulence combined to force destabilization in the 17-18-km layer (Fig.~\ref{fig:stab-48-72}e), which was not observed in the budget change (Fig.~\ref{fig:stab-48-72}a).
 Radiation provided strong forcing for stabilization, which outweighed this effect and produced net stabilization in a portion of this region.
 Outside of the 80-km radius, both advection (Fig.~\ref{fig:stab-48-72}b) and vertical turbulence (Fig.~\ref{fig:stab-48-72}c) provided forcing for stabilization near and just above the 18-km level.
 The sum of the two terms (Fig.~\ref{fig:stab-48-72}e) indicates increasing $N^2$ near the 18-km level everywhere outside of the 80-km radius, but this stabilization is slightly weaker in the 90-120-km radial band than the observed value.
