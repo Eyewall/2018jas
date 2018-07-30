@@ -191,7 +191,7 @@ Hurricane Patricia (red stars) exhibited a similar intensity evolution prior to 
 
  \section{Budget Computation}
 
-The static stability can be expressed as the squared Brunt-V{\"a}is{\"a}l{\"a} frequency:
+Following \cite{Bryan2017}, the static stability can be expressed as the squared Brunt-V{\"a}is{\"a}l{\"a} frequency:
    \begin{equation} \label{eq:n2moist}
    N_m^2 = \frac{g}{T}\left(\frac{\partial T}{\partial z}+\Gamma_m\right)\left(1+\frac{T}{R_d/R_v+q_s}\frac{\partial q_s}{\partial T}\right)-\frac{g}{1+q_t}\frac{\partial q_t}{\partial z},
    \end{equation}
@@ -206,7 +206,8 @@ In the tropopause layer, $q_s$, $q_t$, ${\partial q_s}/{\partial T}$, and ${\par
    \end{equation}
 where $\theta$ is the potential temperature.
 
-To compute $N^2$, CM1 uses Eq. \ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in sub-saturated environments. For simplicity, however, only Eq. \ref{eq:n2dry} will be employed for the budget computations throughout the entire domain\footnote{The validity of this approximation will be substantiated later in this section.}.
+Eq. \ref{eq:n2moist} is the appropriate expression for $N^2$ in moist environments, whereas Eq. \ref{eq:n2dry} applies strictly in the absence of moisture.
+Although the tropopause layer is not completely dry, moisture is small enough there for Eq. \ref{eq:n2dry} to be a good approximation of $N^2$ in the the budget computation\footnote{The validity of this approximation will be substantiated later in this section.}.
 
 Taking the time derivative of Eq. \ref{eq:n2dry} and switching the order of differentiation yields the static stability tendency:
    \begin{equation} \label{eq:dn2dt}
@@ -240,7 +241,7 @@ Unless otherwise stated, any reference to "advection" in this paper indicates th
 Returning to Eq.~\ref{eq:dthetadt}, HTURB and VTURB are the $\theta$ tendencies from the horizontal and vertical turbulence parameterizations, MP is the tendency from the microphysics scheme, RAD is the tendency from the radiation scheme, and DISS is the tendency due to turbulent dissipation.
 This equation neglects Rayleigh damping, since the entire analysis domain lies outside of the regions where damping is applied.
 Each term in Eq. \ref{eq:dthetadt} is substituted for ${\partial \theta}/{\partial t}$ in Eq. \ref{eq:dn2dt}, yielding the contribution of each budget term to the static stability tendency.
-These terms are summed, yielding an instantaneous "budget change" in $N^2$ every minute.
+These terms are summed, yielding an instantaneous ``budget change" in $N^2$ every minute.
 The budget changes are then averaged over 24-hour periods and compared to the total model change in $N^2$ over that same time period, i.e.:
    \begin{equation} \label{eq:budgetchange}
    \Delta N^2_{budget} = \frac{1}{\delta t}\sum_{t=t_0}^{t_0+\delta t} \left.\frac{\partial N^2}{\partial t}\right\vert_t
@@ -253,7 +254,7 @@ The budget changes are then averaged over 24-hour periods and compared to the to
    \end{equation}
 where $t_0$ is an initial time and $\delta t$ is 24 hours.
 
-Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are plotted for three consecutive 24-hour periods in Fig.~\ref{fig:mod+bud+res}.
+Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are evaluated for three consecutive 24-hour periods in Fig.~\ref{fig:mod+bud+res}.
 For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
       The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes computed using Eq.~\ref{eq:modelchange}, together with Eq.~\ref{eq:n2moist} in saturated environments and Eq. \ref{eq:n2dry} in subsaturated environments.
 The center column depicts the budget changes computed using Eq. \ref{eq:budgetchange} together with Eq.~\ref{eq:n2dry} throughout the entire domain.

@@ -9,9 +9,9 @@
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{Bryan(cited 2018)}]{Bryan2017}
-Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
-  at \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
+\bibitem[{Bryan(2017)}]{Bryan2017}
+Bryan, G.~H., 2017: {The governing equations for CM1}. {[Available online at
+  \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
 
 \bibitem[{Bryan and Rotunno(2009)Bryan, and Rotunno}]{BryanRotunno2009}
 Bryan, G.~H., and R.~Rotunno, 2009: The maximum intensity of tropical cyclones
