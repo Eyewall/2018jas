@@ -9,9 +9,9 @@
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem[{Bryan(cited 2018)}]{Bryan2017}
-Bryan, G.~H., cited 2018: {The governing equations for CM1}. {[Available online
-  at \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
+\bibitem[{Bryan(2017)}]{Bryan2017}
+Bryan, G.~H., 2017: {The governing equations for CM1}. {[Available online at
+  \url{http://www2.mmm.ucar.edu/people/bryan/cm1/cm1_equations.pdf}]}.
 
 \bibitem[{Bryan and Rotunno(2009)Bryan, and Rotunno}]{BryanRotunno2009}
 Bryan, G.~H., and R.~Rotunno, 2009: The maximum intensity of tropical cyclones
@@ -97,7 +97,7 @@ Rogers, R.~F., S.~Aberson, M.~M. Bell, D.~J. Cecil, J.~D. Doyle, J.~Morgerman,
   extraordinary intensification of {Hurricane Patricia} (2015). \textit{Bull.\
   Amer.\ Meteor.\ Soc.}, \textbf{98}, 2091--2112.
 
-\bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel}
+\bibitem[{Rotunno and Emanuel(1987)Rotunno, and Emanuel}]{RotunnoEmanuel1987}
 Rotunno, R., and K.~A. Emanuel, 1987: An air-sea interaction theory for
   tropical cyclones. {P}art {II}: Evolutionary study using a nonhydrostatic
   axisymmetric numerical model. \textit{J.\ Atmos.\ Sci.}, \textbf{44},
