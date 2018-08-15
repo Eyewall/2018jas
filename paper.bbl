@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -8,6 +8,10 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Bowman and Fowler(2015)Bowman, and Fowler}]{BowmanFowler2015}
+Bowman, K.~P., and M.~D. Fowler, 2015: {The diurnal cycle of precipitation in
+  tropical cyclones}. \textit{J.\ Climate}, \textbf{28}, 5325--5334.
 
 \bibitem[{Bryan(2017)}]{Bryan2017}
 Bryan, G.~H., 2017: {The governing equations for CM1}. {[Available online at
@@ -23,10 +27,30 @@ Bu, Y.~P., R.~G. Fovell, and K.~L. Corbosiero, 2014: Influence of
   cloud-radiative forcing on tropical cyclone structure. \textit{J.\ Atmos.\
   Sci.}, \textbf{71}, 1644--1622.
 
+\bibitem[{Chen and Gopalakrishnan(2015)Chen, and
+  Gopalakrishnan}]{ChenGopalakrishnan2015}
+Chen, H., and S.~G. Gopalakrishnan, 2015: {A study of the asymmetric rapid
+  intensification of Hurricane Earl (2010) using the HWRF system}. \textit{J.\
+  Atmos.\ Sci.}, \textbf{72}, 531--549.
+
+\bibitem[{Chen and Zhang(2013)Chen, and Zhang}]{ChenZhang2013}
+Chen, H., and D.-L. Zhang, 2013: {On the rapid intensification of Hurricane
+  Wilma (2005). Part II: Convective bursts and the upper-level warm core}.
+  \textit{J.\ Atmos.\ Sci.}, \textbf{70}, 146--162.
+
+\bibitem[{Dinh et~al.(2010)Dinh, Durran,, and Ackerman}]{Dinhetal2010}
+Dinh, T.~P., D.~R. Durran, and T.~P. Ackerman, 2010: {Maintenance of tropical
+  tropopause layer cirrus}. \textit{J.\ Geophys.\ Res.}, \textbf{115~(D02104)}.
+
 \bibitem[{Doyle et~al.(2017)}]{DoyleTCI}
 Doyle, J.~D., and Coauthors, 2017: {A view of tropical cyclones from above: The
   Tropical Cyclone Intensity (TCI) Experiment}. \textit{Bull.\ Amer.\ Meteor.\
   Soc.}, \textbf{98}, 2113--2134.
+
+\bibitem[{Dunion et~al.(2014)Dunion, Thorncroft,, and Velden}]{Dunionetal2014}
+Dunion, J.~P., C.~D. Thorncroft, and C.~S. Velden, 2014: The tropical cyclone
+  diurnal cycle of mature hurricanes. \textit{Mon.\ Wea.\ Rev.}, \textbf{142},
+  3900--3919.
 
 \bibitem[{Duran and Molinari(2016)Duran, and Molinari}]{DuranMolinari2016}
 Duran, P., and J.~Molinari, 2016: {Upper-tropospheric low Richardson number in
@@ -38,6 +62,12 @@ Duran, P., and J.~Molinari, 2018: Dramatic inner-core tropopause variability
   during the rapid intensification of {H}urricane {P}atricia (2015).
   \textit{Mon.\ Wea.\ Rev.}, \textbf{146}, 119--134.
 
+\bibitem[{Durran et~al.(2009)Durran, Dinh, Ammerman,, and
+  Ackerman}]{Durranetal2009}
+Durran, D.~R., T.~Dinh, M.~Ammerman, and T.~Ackerman, 2009: {The mesoscale
+  dynamics of thin tropical tropopause cirrus}. \textit{J.\ Atmos.\ Sci.},
+  \textbf{66}, 2859--2873.
+
 \bibitem[{Emanuel(2012)}]{Emanuel2012}
 Emanuel, K., 2012: {Self-stratification of tropical cyclone outflow. Part II:
   Implications for storm intensification}. \textit{J.\ Atmos.\ Sci.},
@@ -47,6 +77,13 @@ Emanuel, K., 2012: {Self-stratification of tropical cyclone outflow. Part II:
 Emanuel, K., and R.~Rotunno, 2011: {Self-stratification of tropical cyclone
   outflow. Part I: Implications for storm structure}. \textit{J.\ Atmos.\
   Sci.}, \textbf{68}, 2236--2249.
+
+\bibitem[{Fovell et~al.(2016)Fovell, Bu, Corbosiero, Tung, Cao, Kuo, Hsu,, and
+  Su}]{Fovelletal2016}
+Fovell, R.~G., Y.~P. Bu, K.~L. Corbosiero, W.-W. Tung, Y.~Cao, H.-C. Kuo, L.-H.
+  Hsu, and H.~Su, 2016: {Influence of cloud microphysics and radiation on
+  tropical cyclone structure and motion}. \textit{Meteor.\ Monogr.},
+  \textbf{56}, 11.1--11.27.
 
 \bibitem[{Iacono et~al.(2008)Iacono, Delamere, Mlawer, Shephard, Clough,, and
   Collins}]{Iacono}
@@ -76,6 +113,10 @@ Komaromi, W.~A., and J.~D. Doyle, 2017: Tropical cyclone outflow and warm core
   structure as revealed by {HS3} dropsonde data. \textit{Mon.\ Wea.\ Rev.},
   \textbf{145}, 1339--1359.
 
+\bibitem[{Kossin(2002)}]{Kossin2002}
+Kossin, J., 2002: {Daily hurricane variability inferred from GOES infrared
+  imagery}. \textit{Mon.\ Wea.\ Rev.}, \textbf{130}, 2260--2270.
+
 \bibitem[{Markowski and Bryan(2016)Markowski, and Bryan}]{MarkowskiBryan2016}
 Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
   potential problem for convective storm simulations. \textit{Mon.\ Wea.\
@@ -85,6 +126,11 @@ Markowski, P.~M., and G.~H. Bryan, 2016: {LES} of laminar flow in the {PBL}: A
 Molinari, J., P.~Duran, and D.~Vollaro, 2014: {Low Richardson number in the
   tropical cyclone outflow layer}. \textit{J.\ Atmos.\ Sci.}, \textbf{71},
   3164--3179.
+
+\bibitem[{Navarro and Hakim(2016)Navarro, and Hakim}]{NavarroHakim2016}
+Navarro, E.~L., and G.~J. Hakim, 2016: {Idealized numerical modeling of the
+  diurnal cycle of tropical cyclones}. \textit{J.\ Atmos.\ Sci.}, \textbf{73},
+  4189--4201.
 
 \bibitem[{Ohno and Satoh(2015)Ohno, and Satoh}]{OhnoSatoh2015}
 Ohno, T., and M.~Satoh, 2015: On the warm core of a tropical cyclone formed

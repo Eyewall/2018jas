@@ -1,50 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: paper.aux
 The style file: ametsoc2014.bst
 Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Bryan2017
 Warning--missing publisher in Kimberlainetal2016
-You've used 21 entries,
+You've used 30 entries,
             3493 wiz_defined-function locations,
-            985 strings with 10884 characters,
-and the built_in function-call counts, 22545 in all, are:
-= -- 2712
-> -- 681
-< -- 12
-+ -- 430
-- -- 171
-* -- 1127
-:= -- 2267
-add.period$ -- 42
-call.type$ -- 21
-change.case$ -- 162
-chr.to.int$ -- 21
-cite$ -- 23
-duplicate$ -- 2338
-empty$ -- 1197
-format.name$ -- 231
-if$ -- 4608
+            1038 strings with 12294 characters,
+and the built_in function-call counts, 32893 in all, are:
+= -- 3972
+> -- 1004
+< -- 17
++ -- 635
+- -- 252
+* -- 1643
+:= -- 3281
+add.period$ -- 60
+call.type$ -- 30
+change.case$ -- 234
+chr.to.int$ -- 30
+cite$ -- 32
+duplicate$ -- 3416
+empty$ -- 1729
+format.name$ -- 337
+if$ -- 6726
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 222
-newline$ -- 74
-num.names$ -- 84
-pop$ -- 1070
+missing$ -- 320
+newline$ -- 101
+num.names$ -- 120
+pop$ -- 1526
 preamble$ -- 1
-purify$ -- 140
+purify$ -- 203
 quote$ -- 0
-skip$ -- 1364
+skip$ -- 2038
 stack$ -- 0
-substring$ -- 1103
-swap$ -- 1913
+substring$ -- 1618
+swap$ -- 2814
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 189
+type$ -- 270
 warning$ -- 2
-while$ -- 99
+while$ -- 142
 width$ -- 0
-write$ -- 239
+write$ -- 338
 (There were 2 warnings)
