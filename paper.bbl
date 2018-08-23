@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \renewcommand{\UrlFont}{\rmfamily}
@@ -8,6 +8,12 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Bell(2018)}]{BellConference}
+Bell, M.~M., 2018: Potential vorticity structure and evolution of {Hurricane
+  Patricia} (2015). \textit{33rd Conf. on Hurricanes and Tropical Meteorology},
+  Ponte Vedra, FL, Amer. Meteor. Soc., 12B.3, [Available online at
+  \url{https://ams.confex.com/ams/33HURRICANE/webprogram/Paper340245.html}.].
 
 \bibitem[{Bowman and Fowler(2015)Bowman, and Fowler}]{BowmanFowler2015}
 Bowman, K.~P., and M.~D. Fowler, 2015: {The diurnal cycle of precipitation in

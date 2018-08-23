@@ -65,7 +65,7 @@
 % and Author Two\thanks{Current affiliation: American Meteorological Society, 
     % 45 Beacon St., Boston, MA 02108.}}
 
-\authors{Patrick Duran\correspondingauthor{Patrick Duran, University of Alabama in Huntsville, 320 Sparkman Dr. NW, Huntsville, AL 35805.}\thanks{Current affiliation: Earth System Science Center, University of Alabama in Huntsville} and John Molinari}
+\authors{Patrick Duran\correspondingauthor{Patrick Duran, University of Alabama in Huntsville, NSSTC \#4002, 320 Sparkman Dr. NW, Huntsville, AL 35805.}\thanks{Current affiliation: Earth System Science Center, University of Alabama in Huntsville} and John Molinari}
 
 %% Follow this form:
     % \affiliation{American Meteorological Society, 
@@ -99,30 +99,19 @@ Albany, NY}
 %
 % For BAMS authors only: If your article requires a Capsule Summary, please place the capsule text at the end of your abstract
 % and identify it as the capsule. Example: This is the end of the abstract. (Capsule Summary) This is the capsule summary. 
+
 \abstract{Large changes in tropopause-layer static stability are examined during the rapid intensification (RI) of a simulated tropical cyclone (TC).
 Over the eye, static stability near the tropopause decreases and the cold-point tropopause rises by up to 4 km at the storm center.
 Outside of the eye, static stability increases considerably just above the cold-point tropopause, and the tropopause remains near its initial level.\\
-\indent A budget analysis reveals that the advection term, which includes differential advection of potential temperature ($\theta$) and direct advection of static stability, is important throughout the upper troposphere and lower stratosphere.
-Advection is particularly important within the eye, where it acts to destabilize the layer near and above the cold-point tropopause.
-Outside of the eye, a radial-vertical circulation develops during RI, with strong outflow below the tropopause and weak inflow above.
+\indent A budget analysis reveals that the advection terms, which include differential advection of potential temperature ($\theta$) and direct advection of static stability, are important throughout the upper troposphere and lower stratosphere.
+These terms are particularly pronounced within the eye, where they act to destabilize the layer near and above the cold-point tropopause.
+Outside of the eye, a radial--vertical circulation develops during RI, with strong outflow below the tropopause and weak inflow above.
 Differential advection of $\theta$ near the outflow jet provides forcing for stabilization below the outflow maximum and destabilization above.
 Vertical wind shear induces turbulence on the flanks of the outflow maximum, which also modifies the vertical stability profile.
 Meanwhile, radiative cooling tendencies at the top of the cirrus canopy generally act to destabilize the upper troposphere and stabilize the lower stratosphere.
-%These turbulent and radiative processes combine to play an important role in the development of the strong stable layer immediately above the cold-point tropopause during RI.
-The results suggest that turbulence and radiation, alongside advection, play fundamental roles in the upper-level static stability evolution of TCs.}
+The results suggest that turbulence and radiation, alongside differential advection, play fundamental roles in the upper-level static stability evolution of TCs.
+These static stability tendencies could have implications for both the TC diurnal cycle and the tropopause-layer potential vorticity evolution in TCs.}
 
-%\abstract{Large changes in tropopause-layer static stability are examined during the rapid intensification (RI) of a tropical cyclone (TC) in an idealized, axisymmetric simulation.
-%Over the eye, static stability near the tropopause decreases and the cold-point tropopause height rises by up to 4 km at the storm center.
-%Outside of the eye, static stability increases considerably just above the cold-point tropopause, and the tropopause remains near its initial level.\\
-%\indent A budget analysis reveals that the advection term, which includes differential advection of potential temperature ($\theta$) and direct advection of static stability, is important throughout the upper troposphere and lower stratosphere.
-%Within the eye, differential advection plays a particularly important role in destabilizing the layer near and above the cold-point tropopause.
-%Outside of the eye, the upper-tropospheric outflow layer exports high-$\theta$ air from the eyewall to large radii in the upper troposphere.
-%This increase in $\theta$ forces stabilization below the outflow jet and destabilization above.
-%Vertical wind shear above and below the outflow maximum induces vertical gradients of turbulence, which also modify the vertical stability profile.
-%Meanwhile, radiative cooling tendencies at the top of the cirrus canopy generally act to destabilize the upper troposphere and stabilize the lower stratosphere.
-%These turbulent and radiative processes combine to play an important role in the development of the strong stable layer immediately above the cold-point tropopause during RI.}
-%The results suggest that turbulence and radiation, alongside advection, play fundamental roles in the upper-level static stability evolution of TCs.}
-%The conclusions are robust to changes in the initial thermodynamic profile and prescribed vertical mixing length within a reasonable range of values.}
 \begin{document}
 
 %% Necessary!
@@ -138,22 +127,15 @@ The results suggest that turbulence and radiation, alongside advection, play fun
 %%
  \section{Introduction}
 
-%Perhaps introduce upper-tropospheric static stability and its relationship to the diurnal cycle before going into Patricia? Include references to Dunion, Navarro, and O'Neill here.
-%More recently, \cite{Dunionetal2014} documented a periodic oscillation of infrared brightness temperature in hurricanes, which they call the "TC diurnal pulse."
-%There will be a whole bunch of papers cited here...
-%At some point (probably in the Discussion) mention the possible importance of static stability asymmetries, in the context of the Dunion diurnal pulse 
-
 Using a high-resolution dropsonde dataset collected during the Tropical Cyclone Intensity Experiment (TCI; \citeauthor{DoyleTCI} \citeyear{DoyleTCI}), \cite{DuranMolinari2018} observed dramatic changes in tropopause structure during the rapid intensification (RI) of Hurricane Patricia (2015).
 The goal of the present paper is to analyze the processes that might have produced the upper-tropospheric and lower-stratospheric fluctuations observed in Patricia using an idealized axisymmetric simulation.
 
 After undergoing a remarkably rapid intensification, Hurricane Patricia (2015) attained the strongest wind speed ever recorded in a tropical cyclone (TC) (\citeauthor{Kimberlainetal2016} \citeyear{Kimberlainetal2016}; \citeauthor{Rogersetal2017} \citeyear{Rogersetal2017}).
-%High-altitude dropsonde observations taken during the Tropical Cyclone Intensity (TCI) experiment captured this RI in unprecedented detail \citep{DoyleTCI}.
 TCI dropsonde observations collected during this RI period revealed dramatic changes in the cold-point tropopause height and upper-level static stability \citep{DuranMolinari2018}.
 In particular, when Patricia was at tropical storm intensity shortly before RI commenced, a strong inversion layer existed just above the cold-point tropopause (see their Fig. 4a).
 During the first half of the RI period, this inversion layer weakened throughout Patricia's inner core, with the weakening most pronounced over the developing eye.
 By the time the storm reached its maximum best-track intensity of 95 m s\textsuperscript{-1}, the inversion layer over the eye had disappeared almost completely (see their Fig. 4d), which was accompanied by a greater than 1-km increase in the tropopause height.
 Meanwhile outside of the eye, the static stability remained large and the tropopause stayed near its initial level.
-%The mechanisms that might have led to this tropopause-layer variability will be investigated in the current paper using idealized simulations.
 
 Despite the importance of tropopause-layer thermodynamics in theoretical models of hurricanes (\citeauthor{EmanuelRotunno2011} \citeyear{EmanuelRotunno2011}; \citeauthor{Emanuel2012} \citeyear{Emanuel2012}), most observational studies of the upper-tropospheric structure of TCs are decades old\footnote{An in-depth review of these papers can be found in \cite{DuranMolinari2018}.}.
 Recently, however, \cite{KomaromiDoyle2017} found that stronger TCs tended to have a higher and warmer tropopause over their inner core than weaker TCs.
@@ -167,8 +149,8 @@ Although the mechanisms that might drive this static stability evolution have no
 \cite{SternZhang2013} described the development of the TC warm core in a three-dimensional framework using a potential temperature ($\theta$) budget analysis.
 Although the warm anomaly in their simulation maximized in the mid-levels, they noted that a secondary warming maximum also existed in the 12-14-km layer.
 In the midlevels, radial and vertical advection both played important roles in the development of the warm core, with the eddy component of radial advection dominating over the mean component.
-In the upper levels, however, only the mean component of vertical advection was important for warm-core development.
-Horizontal diffusion became particularly important near the outer edge of the eye during the later stage of RI; these diffusive tendencies produced regions of warming below regions of cooling (see \citeauthor{SternZhang2013} \citeyear{SternZhang2013}, their Fig. 7t), which would act to decrease the vertical $\theta$ gradient.
+In the upper levels, however, only the mean component of vertical advection considerably affected warm-core development.
+Horizontal diffusion became particularly large near the outer edge of the eye during the later stage of RI; these diffusive tendencies produced regions of warming below regions of cooling (see \citeauthor{SternZhang2013} \citeyear{SternZhang2013}, their Fig. 7t), which would act to decrease the vertical $\theta$ gradient.
 Potential temperature tendencies associated with these advective and diffusive processes could contribute to a decrease in static stability near the tropopause within the eye.
 
 Outside of the eye, in the presence of cirrus clouds, vertical gradients of radiative heating also can modify the tropopause-layer static stability.
@@ -209,7 +191,9 @@ The initial temperature and humidity field was horizontally homogeneous and dete
 %Since relative humidity measurements were unreliable at temperatures below -40\textdegree C \citep{BellTCI}, relative humidity was set equal to 50\% above 11.5 km (the level above which temperature dropped below -40\textdegree C).
 The vortex described in \citeauthor{RotunnoEmanuel1987} (\citeyear{RotunnoEmanuel1987}, their Eq. 37) was used to initialize the wind field, setting all parameters equal to the values used therein.
 
-Although hurricanes simulated in an axisymmetric framework tend to be more intense than those observed in nature, the intensity evolution of this simulation matches reasonably well with that observed in Hurricane Patricia\footnote{Although the intensities of the storms are comparable, the simplifications inherent to this modeling framework --- particularly axisymmetry and a lack of atmosphere--ocean coupling --- mean that the processes contributing to intensification probably are quite different.}.
+
+Since ocean coupling and asymmetric forcing are present in nature, the intent of this paper is not to formally simulate Hurricane Patricia.
+Rather, the intent is to simulate a storm with a similar intensification rate and examine the processes that produced the stability variations in the simulated storm.
 After an initial spin-up period of about 20 hours, the modeled storm (Fig.~\ref{fig:vmax+pmin}, blue lines) began an RI period that lasted approximately 18 hours.
 After this RI, the storm continued to intensify more slowly until the maximum 10-m wind speed reached 89 m s\textsuperscript{-1} and the sea-level pressure reached its minimum of 846 hPa 81 hours into the simulation.
 Hurricane Patricia (red stars) exhibited a similar intensity evolution prior to its landfall, with an RI period leading to a maximum 10-m wind speed of 95 m s\textsuperscript{-1} and a minimum sea-level pressure of 872 hPa\footnote{Note that in Fig. 1, plotting of Patricia's wind speed begins when it attained tropical-storm strength at 00 UTC 21 October 2015, rather than its first best-track entry. This was done to shift Patricia's RI period in the plot so that it occurs near the same time as modeled storm's RI period.}.
@@ -245,7 +229,7 @@ where the potential temperature tendency, $\partial \theta/\partial t$, can be w
    \end{equation}
 Each term on the right-hand side of Eq.~\ref{eq:dthetadt} represents a $\theta$ budget variable, each of which is output directly by the model every minute.
 
-The first term on the right-hand side of Eq. ~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown).
+The first term on the right-hand side of Eq. ~\ref{eq:dn2dt} is an order of magnitude larger than the second term throughout most of the tropopause layer (not shown)\footnote{The magnitude of the second term is comparable to that of the first only in a radially-confined region near r=0 in the stratosphere.}.
 Consequently, the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in terms of a vertical gradient of each term.
 %Since the first term on the right-hand side of Eq.~\ref{eq:dn2dt} is larger than the second term throughout most of the tropopause layer (not shown), the contribution of each of the terms in Eq.~\ref{eq:dthetadt} to the $N^2$ tendency can be interpreted in light of a vertical gradient of each term.
 
@@ -280,7 +264,7 @@ The budget changes are then averaged over 24-hour (1440-minute) periods, multipl
 where $t_0$ is an initial time and $\delta t$ is 24 hours.
 
 Eqs. \ref{eq:budgetchange}-\ref{eq:residual} are evaluated for three consecutive 24-hour periods in Fig.~\ref{fig:mod+bud+res}.
-For this and all subsequent radial-vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
+For this and all subsequent radial--vertical cross sections, a 1-2-1 smoother is applied once in the radial direction to eliminate $2\Delta r$ noise that appears in some of the raw model output and calculated fields.
       The left column of Fig.~\ref{fig:mod+bud+res} depicts the model changes computed using Eq.~\ref{eq:modelchange}, together with Eq.~\ref{eq:n2moist} in saturated environments.
 The center column depicts the budget changes computed using Eq. \ref{eq:budgetchange}, together with Eq.~\ref{eq:dn2dt} throughout the entire domain.
 Thus, the left column includes the effect of moisture in the $N^2$ computations, whereas the center column neglects moisture.
@@ -294,11 +278,9 @@ For this figure, each of the budget terms is computed using the method described
 The absolute values of these tendencies are then averaged over the radius-height domain of the plots shown in Fig.~\ref{fig:mod+bud+res} and plotted as a time series\footnote{It will be seen in subsequent figures that each of the terms contributes both positively and negatively to the $N^2$ tendency within the analysis domain. 
 Thus, taking an average over the domain tends to wash out the positive and negative contributions.
 To circumvent this problem, the absolute value of each of the terms is averaged.}. 
-Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an important role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly.
-The remaining three processes - horizontal turbulence, microphysics, and dissipative heating -  are negligible everywhere outside of the eyewall, and do not play important roles in the mesoscale tropopause variability.
-
-The preceding analysis indicates that, at all times, three budget terms dominate the tropopause-layer static stability tendency: advection, vertical turbulence, and radiation.
+Advection (Fig.~\ref{fig:avgbudterms}, red line) plays an essential role in the mean tropopause-layer static stability tendency at all times, and vertical turbulence (Fig.~\ref{fig:avgbudterms}, blue line) and radiation (Fig.~\ref{fig:avgbudterms}, dark green line) also contribute significantly.
 Variations in the magnitude and spatial structure of these terms drive the static stability changes depicted in Fig.~\ref{fig:mod+bud+res}; subsequent sections will focus on these variations and what causes them.
+The remaining three processes - horizontal turbulence, microphysics, and dissipative heating -  are negligible everywhere outside of the eyewall, and will not be included in the analysis.
 
  \section{Results}
 
@@ -338,11 +320,13 @@ Over this time, $N^2$ within the eye generally decreased above 16 km and increas
 These tendencies at the innermost radii were driven almost entirely by advection (Fig.~\ref{fig:stab-24-48}b).
 Vertical turbulence (Fig.~\ref{fig:stab-24-48}c) and radiation (Fig.~\ref{fig:stab-24-48}d) contributed negligibly to the static stability tendencies in this region.
 
+%Outside of the eye, the turbulence and radiation terms largely offset because strong $\theta$ tendencies forced by advection produced instabilities that were then eliminated through mixing by the turbulence scheme.
+%These high-magnitude, but opposing forcings did not completely cancel, however.
 Outside of the eye, the $N^2$ evolution exhibited alternating layers of positive and negative tendencies.
 Near and above 18 km existed an outward-sloping region of decreasing $N^2$ that extended out to the 180-km radius.
 In this region, neither vertical turbulence nor radiation exhibited negative $N^2$ tendencies; advection was the only forcing for this destabilization.
 Immediately below this layer, just above the cold-point tropopause, was a region of increasing $N^2$ that sloped outward from 17 km near the 30-km radius to just below 18 km outside of the 100-km radius.
-Advection and vertical turbulence both contributed to this positive $N^2$ tendency, with advection playing an important role below about 17.5 km and and turbulence playing an important role above.
+Advection and vertical turbulence both contributed to this positive $N^2$ tendency, with advection playing an important role below about 17.5 km and and turbulence acting to stabilize the layer above 17.5 km.
 The sum of advection and turbulence (Fig.~\ref{fig:stab-24-48}e) reveals two separate regions of increasing $N^2$ in the 17-18-km layer rather than one contiguous region.
 The addition of radiation to these two terms, however, (Fig.~\ref{fig:stab-24-48}f) provides the link between these two regions, indicating that radiation also plays a role in strengthening the stable layer just above the tropopause.
 In the 16-17-km layer, just below the cold-point tropopause, a horizontally-extensive layer of destabilization also was forced by a combination of advection, vertical turbulence, and radiation.
@@ -364,9 +348,9 @@ Outside of the 120-km radius, the region of radiative forcing for stabilization 
 
   \section{Discussion}
 
-  \subsection{The role of advection}
+  \subsection{The role of the advection terms}
 
-Advection played an important role in the tropopause-layer $N^2$ evolution at all stages of intensification, but for brevity, this section will focus only on the RI (24-48-hour) period.
+Advection played an essential role in the tropopause-layer $N^2$ evolution at all stages of intensification, but for brevity, this section will focus only on the RI (24-48-hour) period.
 To investigate the advective processes more closely, the individual contributions of horizontal and vertical advection during the RI period are shown in Fig.~\ref{fig:adv-24-48}, along with the corresponding time-mean radial and vertical velocities and $\theta$.
 The $N^2$ tendencies due to the two advective components (Fig.~\ref{fig:adv-24-48}a,b) exhibited strong cancellation, consistent with flow that was nearly isentropic.
 There existed, however, a large region near the tropopause in which the total advective tendency was nonzero (Fig.~\ref{fig:stab-24-48}b).
@@ -428,12 +412,7 @@ These nonzero tendencies, which were partially canceled by turbulence tendencies
 %   \paragraph{RI period: 24-48 hours}
 During the RI period, strong radial and vertical circulations developed near the tropopause (Fig.~\ref{fig:adv-24-48}c,d), which forced high-magnitude $N^2$ tendencies due to advection (Fig.~\ref{fig:adv-24-48}a,b).
 A layer of strong outflow formed at and below the tropopause during this period, with the outflow maximum (dashed cyan line) curving from the 14-km level at the 50-km radius to just below the 16-km level outside of the 80-km radius (Fig.~\ref{fig:adv-24-48}c).
-%The cyan line, by definition, represents the level at which the vertical gradient of radial velocity switched signs, with $\partial u/\partial z>0$ below the line and $\partial u/\partial z<0$ above.
 Notably, the $N^2$ tendency due to horizontal advection (Fig.~\ref{fig:adv-24-48}a) tended to switch signs at this line, with stabilization below the outflow maximum and destabilization above.
-%This suggests that vertical wind shear above and below the outflow maximum played an important role in the $N^2$ tendency during this time.
-%Examination of the third term on the right-hand side of Eq. \ref{eq:advtend} suggests that tilting of isentropes within these shear layers contributed to the strong $N^2$ tendencies that flanked the outflow maximum.
-%This is consistent with the outflow layer carrying air with increasingly large $\theta$ from the eyewall to large radii as the storm intensified.
-%This increase in $\theta$ maximized near the outflow maximum, which acted to decrease $\partial \theta/\partial z$ above the outflow maximum and increase it below.
 Outside of the eye and eyewall, isentropes generally sloped upward with radius (Fig. \ref{fig:adv-24-48}c, black lines).
 Vertical wind shear acting on these upward-sloping isentropes should act to tilt them into the vertical above the outflow maximum, thereby decreasing $\partial \theta/\partial z$, and tilt them to be more horizontal below the outflow maximum, thereby increasing $\partial \theta/\partial z$.
 This mechanism is the same as that discussed in \cite{TrierSharman}, in which vertical wind shear in the outflow layer of a mesoscale convective system modified the upper-tropospheric static stability through differential advection of isentropes.
@@ -476,7 +455,7 @@ Below the tropopause, differential vertical advection increased $N^2$ within the
 Outside of the eyewall below 16 km, meanwhile, the vertical gradient of vertical velocity was smaller, and as a result, the $N^2$ tendencies due to vertical advection were weaker.
 
 Comparing the $N^2$ tendencies forced by horizontal (Fig.~\ref{fig:adv-24-48}a) and vertical (Fig.~\ref{fig:adv-24-48}b) advection to the total advective tendency seen in Fig.~\ref{fig:stab-24-48}b reveals that horizontal advective tendencies dominated the troposphere, while vertical advective tendencies dominated the layer near and above the tropopause.
-Thus, tilting of isentropes in the vicinity of the upper-tropospheric outflow maximum appears to be the most important advective process governing the $N^2$ tendency in the troposphere, whereas convergence of vertical velocity appears to be the most important advective process near the tropopause. 
+Thus, tilting of isentropes in the vicinity of the upper-tropospheric outflow maximum appears to be the most important advective process governing the $N^2$ tendency in the troposphere, whereas convergence of vertical velocity dominates near the tropopause. 
 
 
   \subsection{The role of radiation}
@@ -507,16 +486,7 @@ The results herein suggest that, after the cirrus canopy developed, radiative he
 At larger radii, the downward slope of these tendencies with radius produced a region of radiative forcing for stabilization just below the tropopause.
 The departure of the cirrus canopy from the tropopause at these large radii (Figs. \ref{fig:qi+radten}c,e) suggests that, in this region, the tropopause did not exert a strong control on the height of the cirrus canopy.
 Other processes, such as the precipitaton of ice particles, must have caused this lowering of the cirrus canopy.
-
-  \subsubsection{Sensitivity to cloud-radiative forcing}
-
-To analyze more closely the effect of cloud-radiative forcing on the $N^2$ evolution, a simulation identical to that described in Section 2 was run, except the interaction between condensate and radiation was prohibited (as was described in \citeauthor{Buetal} \citeyear{Buetal} and \citeauthor{Fovelletal2016} \citeyear{Fovelletal2016}).
-The intensity evolution of this simulation (Fig. \ref{fig:vmax-norad}, blue line) compares well with that of the simulation described in Section 2 (Fig. \ref{fig:vmax-norad}, red line), except the storm without cloud-radiative forcing took longer to begin its RI period.
-Twenty-four-hour averages of $N^2$ reveal a similar overall evolution in the two simulations (compare Figs. \ref{fig:n2-24hr-avgs},\ref{fig:n2-norad}), except the lower-stratospheric $N^2$ maximum does not become as strong in the simulation without cloud-radiative forcing.
-The magnitude of the sum of the advection and turbulence terms immediately surrounding the tropopause in this simulation (Fig. \ref{fig:budgetterms-norad}e) is not as large as that in the full-radiation simulation (Fig. \ref{fig:stab-48-72}e).
-This suggests that radiative heating tendencies near the cloud top affect the radial-vertical circulation there, which then feeds back on to the advection and turbulence terms.
-The smaller turbulence and advective tendencies, combined with the near-zero radiative heating tendencies (Fig. \ref{fig:budgetterms-norad}d), leads to a smaller lower-stratospheric stabilization tendency (compare Figs. \ref{fig:stab-48-72}a,\ref{fig:budgetterms-norad}a).
-These results highlight the importance of cloud-radiative interaction in the evolution of the tropopause-layer $N^2$.
+The effect of the interaction of radiation with clouds near the tropopause is further investigated in Appendix A.
 
   \subsection{The role of turbulent mixing}
 
@@ -533,15 +503,15 @@ Vertical gradients of turbulent mixing like those depicted here are quite import
 Two distinct maxima of vertical eddy diffusivity developed in the tropopause layer as the storm intensified (Fig.~\ref{fig:diff}).
 Comparison of these turbulent regions to the $N^2$ tendencies in Figs. \ref{fig:stab-24-48}c and \ref{fig:stab-48-72}c reveals that layers characterized by large vertical gradients of vertical eddy diffusivity corresponded to layers of destabilization due to vertical turbulence.
 Just outside of these layers, however, vertical turbulence acted to increase $N^2$.
-The large vertical gradient of vertical eddy diffusivity near the tropopause played an important role in developing the lower-stratospheric stable layer during RI.
+The large vertical gradient of vertical eddy diffusivity near the tropopause contributed to the development of the lower-stratospheric stable layer during RI.
 These results support the hypothesized role of turbulence in setting the outflow-layer $\theta$ stratification in \cite{EmanuelRotunno2011}, although more experiments with different turbulence parameterizations are needed to investigate this problem more closely.
 
-  \section{Conclusions}
+  \section{Conclusions and future work}
 
 The simulated $N^2$ evolution shown herein closely resembled that observed during the RI of Hurricane Patricia (2015).
 Three $N^2$ budget terms dominated in the upper troposphere and lower stratosphere: advection, radiation, and vertical turbulence.
 Advection dominated within the eye, where it provided forcing for destabilization.
-Radiation and vertical turbulence played particularly important roles in developing the strong $N^2$ maximum just above the cold-point tropopause during RI.
+Meanwhile, radiation and vertical turbulence greatly contributed to developing the strong $N^2$ maximum just above the cold-point tropopause during RI.
 
 To put the $N^2$ variability seen near the tropopause into context, Fig.~\ref{fig:fulltrop} depicts the model change in $N^2$ over the RI period (hours 24-48) from 0 to 21 km altitude, along with the vertical eddy diffusivity and the radiative heating rate.
 The largest changes in $N^2$ occurred in a relatively shallow layer immediately surrounding the tropopause (Fig.~\ref{fig:fulltrop}a).
@@ -560,9 +530,16 @@ A better understanding of the microphysical characteristics of the TC cirrus can
 %Comparison to previous work revealed that small vertical grid spacing is necessary to resolve the shallow layer of radiative cooling at the top of the cirrus canopy.
 %Increasing the vertical grid spacing decreased the magnitude of the radiative cooling and produced a weaker, but deeper lower-stratospheric stable layer.
 
+An interesting consequence of increasing $N^2$ in the tropopause layer is its effect on potential vorticity (PV) near the tropopause.
+As the simulated TC intensified, PV increased considerably inside of the eye as relative vorticity strengthened within the radius of maximum winds (Fig. \ref{fig:pv}).
+Outside of the eye in the lower stratosphere, meanwhile, PV also increased as a consequence of strengthening static stability.
+The magnitude of PV in this layer is exceptionally large, but is consistent with analyses produced using observations from Hurricane Patricia (2015) that showed values exceeding 200 PVU near the tropopause \citep{BellConference}.
+Just above and below the tropopause at larger radii, meanwhile, negative PV developed as a consequence of strong anticyclonic relative vorticity associated with the TC outflow layer.
+An investigation of the details and consequences of this tropopause-layer PV evolution are left to future work, but these results suggest that the static stability tendency near the tropopause is an important consideration in such an analysis.
+
 In this paper, all of the variables were averaged over a full diurnal cycle to eliminate the effects of diurnal variability and isolate the overall storm evolution.
-These diurnal variations, however, are potentially of interest with respect to the tropical cyclone diurnal cycle.
-A preliminary investigation using an ensemble of CM1 simulations suggests that the static stability at the top of the cirrus canopy peaks in the early afternoon and decreases overnight (Sarah Ditchek, personal communication).
+%These diurnal variations, however, are potentially of interest with respect to the tropical cyclone diurnal cycle.
+A preliminary investigation of the diurnal cycle of $N^2$ using an ensemble of CM1 simulations suggests that the static stability at the top of the cirrus canopy peaks in the early afternoon and decreases overnight (Sarah Ditchek, 2018, personal communication).
 The mechanisms that produce this diurnal cycle of static stability, and its potential consequences, are the subject of future work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -570,9 +547,9 @@ The mechanisms that produce this diurnal cycle of static stability, and its pote
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \acknowledgments
-This work constituted a portion of the lead author's Ph.D. dissertation, which benefited greatly from the guidance of committee members Kristen Corbosiero, Robert Fovell, Brian Tang, and Ryan Torn.
+This work constituted a portion of the lead author's Ph.D. dissertation, which benefited from the guidance of committee members Kristen Corbosiero, Robert Fovell, Brian Tang, and Ryan Torn.
 We thank George Bryan for his continued development and support of Cloud Model 1, and Jeffrey Kepert and Erika Duran for helpful conversations related to this work.
-Comments and recommendations from Kerry Emanuel and two anonymous reviewers considerably improved a previous version of this manuscript.
+Comments and recommendations from Kerry Emanuel and two anonymous reviewers greatly improved a previous version of this manuscript.
 This research was supported by NSF grant AGS-1636799 and Office of Naval Research Grant N000141712110 as a part of the TCI Departmental Research Initiative.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -580,32 +557,21 @@ This research was supported by NSF grant AGS-1636799 and Office of Naval Researc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Use \appendix if there is only one appendix.
-%\appendix
+\appendix
 
 % Use \appendix[A], \appendix}[B], if you have multiple appendixes.
 %\appendix[A]
 
 %% Appendix title is necessary! For appendix title:
-%\appendixtitle{Sensitivity experiments}
-%The simulations exhibited some sensitivity to the initial thermodynamic profile and the prescribed vertical mixing length.
-%Although the details of the intensification and the tropopause-layer $N^2$ evolution varied when these quantities were changed, the conclusions of the paper remain unchanged.
-%
-%%%% Appendix section numbering (note, skip \section and begin with \subsection)
-% \subsection{Sensitivity to the initial thermodynamic profile}
-%A number of sensitivity experiments were conducted using a variety of initial soundings.
-%Changing the initial temperature and humidity profiles affected the timing of the onset of organized deep convection and the rapidity of intensification.
-%In all simulations, however, convection eventually penetrated to the tropopause, at which time vertical turbulence and radiation combined with advection to adjust the $N^2$ profile toward that which was observed in the control run.
-%By the end of the RI period in every simulation, all three processes were actively modifying the $N^2$ profile near the tropopause.
-%
-%As an example, 24-hour averages of $N^2$ are plotted in Fig. A1 for a simulation that was identical to that used in this paper, except the initial sounding was determined by averaging every CFSR grid point within 1000 km of TC Patricia's storm center at 18 UTC 21 October 2015 instead of averaging only within the 100-km radius.
-%Although the lower-stratospheric stable layer developed more slowly and was weaker than that shown in Fig.~\ref{fig:n2-24hr-avgs}, the overall evolution was quite similar and the same budget terms dominated the $N^2$ evolution.
-%
-% \subsection{Sensitivity to the vertical mixing length}
-%The rate of turbulent mixing in the Smagorinsky scheme used herein is highly dependent on a prescribed length scale.
-%The vertical mixing length used in this paper (100 m) was based on the sensitivity experiments of \cite{Bryan2012}.
-%Prescribing a smaller mixing length produces smaller $\theta$ tendencies due to turbulence, but even with a mixing length on the low end of those tested by \cite{Bryan2012}, turbulence still played an important role in the tropopause-layer $N^2$ evolution.
-%Fig. A2 shows the 24-hour-averaged contributions of turbulent mixing to the $N^2$ evolution from a simulation identical to that used in this paper, except with a vertical mixing length of 50 m.
-%At all times, vertical turbulence still played an important role in the tropopause-layer $N^2$ evolution, particularly during the latter stages of RI (48-72 hours).
+\appendixtitle{Sensitivity to cloud-radiative forcing}
+
+To analyze more closely the effect of cloud-radiative forcing on the $N^2$ evolution, a simulation identical to that described in Section 2 was run, except the interaction between condensate and radiation was prohibited (as was described in \citeauthor{Buetal} \citeyear{Buetal} and \citeauthor{Fovelletal2016} \citeyear{Fovelletal2016}).
+The intensity evolution of this simulation (Fig. A1, blue line) compares well with that of the simulation described in Section 2 (Fig. A1, red line), except the storm without cloud-radiative forcing took longer to begin its RI period.
+Twenty-four-hour averages of $N^2$ reveal a similar overall evolution in the two simulations (compare Figs. \ref{fig:n2-24hr-avgs}, A2), except the lower-stratospheric $N^2$ maximum does not become as strong in the simulation without cloud-radiative forcing.
+The magnitude of the sum of the advection and turbulence terms immediately surrounding the tropopause in this simulation (Fig. A3e) is not as large as that in the full-radiation simulation (Fig. \ref{fig:stab-48-72}e).
+This suggests that radiative heating tendencies near the cloud top affect the radial--vertical circulation there, which then feeds back on to the advection and turbulence terms.
+The smaller turbulence and advective tendencies, combined with the near-zero radiative heating tendencies (Fig. A3d), leads to a smaller lower-stratospheric stabilization tendency (compare Figs. \ref{fig:stab-48-72}a, A3a).
+These results highlight the importance of cloud-radiative interaction in the evolution of the tropopause-layer $N^2$.
 
 
 % \paragraph{First tertiary heading}
@@ -719,7 +685,7 @@ Orange lines represent the cold-point tropopause height averaged over the 0-24-h
 %FIGURE 8%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{h024-h048-adv.png}}
-\caption{The contributions to the change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) by (a) horizontal advection and (b) vertical advection. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), cold-point tropopause height (orange line), and level of maximum outflow (dashed cyan line) averaged over the 24-48-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 24-48-hour period.}
+\caption{The contributions to the change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) by (a) horizontal advection term and (b) vertical advectionterm. (c) The radial velocity (m s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), cold-point tropopause height (orange line), and level of maximum outflow (dashed cyan line) averaged over the 24-48-hour period. (d) The vertical velocity (cm s\textsuperscript{-1}; filled contours), potential temperature (K; thick black contours), and cold-point tropopause height (orange line) averaged over the 24-48-hour period.}
 \label{fig:adv-24-48}
 \end{figure*}
 
@@ -732,50 +698,22 @@ Orange lines represent the cold-point tropopause height averaged over the 0-24-h
 \label{fig:qi+radten}
 \end{figure}
 
-%FIGURE 11%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=27pc]{run12+run13-vmax.png}}
-   \caption{Maximum 10-m wind speed (m s\textsuperscript{-1}) for (red) the simulation described in Section 2, and (blue) an identical simulation except condensate is not permitted to interact with radiation.}
-\label{fig:vmax-norad}
-\end{figure*}
 
-%FIGURE 12%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{n2-norad.png}}
-   \caption{As in Fig. \ref{fig:n2-24hr-avgs}, but for the simulation in which radiation is not permitted to interact with condensate.}
-\label{fig:n2-norad}
-\end{figure*}
-
-%FIGURE 13%
-%\begin{figure*}[ht]
-%\centerline{\includegraphics[width=39pc]{adv-norad.png}}
-%   \caption{As in Fig. \ref{fig:adv-24-48}, but for the 48-72--hour period of the simulation in which radiation is not permitted to interact with condensate.}
-%\label{fig:adv-norad}
-%\end{figure*}
-
-%FIGURE 13%
-\begin{figure*}[ht]
-\centerline{\includegraphics[width=39pc]{budgetterms-norad.png}}
-   \caption{As in Fig. \ref{fig:stab-48-72}, but for the simulation in which radiation is not permitted to interact with condensate.}
-\label{fig:budgetterms-norad}
-\end{figure*}
-
-
-%FIGURE 14%
+%FIGURE 10%
 \begin{figure*}[ht]
 \centerline{\includegraphics[width=39pc]{Schematic2.png}}
    \caption{Schematic diagram of the effect of turbulent mixing on the vertical profile of potential temperature ($\theta$). At the initial time (left panel), potential temperature is assumed to increase with height at a constant rate (thick black line). The imposition of turbulence within a portion of the layer (blue hatching) adjusts the potential temperature profile toward the mean initial value of that layer. After a period of mixing (right panel) the potential temperature in the mixed layer does not vary with height, but just above and just below the mixed layer, it rapidly increases with height.}
 \label{fig:schematic}
 \end{figure*}
 
-%FIGURE 15%
+%FIGURE 11%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=39pc]{khvten.png}}
 \caption{Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}; filled contours), cold-point tropopause height (cyan lines), and radial velocity (m s\textsuperscript{-1}; thick black lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
 \label{fig:diff}
 \end{figure}
 
-%FIGURE 16%
+%FIGURE 12%
 \begin{figure}[ht]
 \centerline{\includegraphics[width=19pc]{fulltrop.png}}
 \end{figure}
@@ -783,6 +721,41 @@ Orange lines represent the cold-point tropopause height averaged over the 0-24-h
 \caption{(Top panel) Change in $N^2$ over the 24-48-hour period (10\textsuperscript{-4} s\textsuperscript{-2} (24 h)\textsuperscript{-1}) directly output by the model for the 0-21-km layer. (Middle panel) Vertical eddy diffusivity (m\textsuperscript{2} s\textsuperscript{-2}) averaged over the same time period. (Bottom panel) Radiative heating rate (K h\textsuperscript{-1}) averaged over the same time period.}
 \label{fig:fulltrop}
 \end{figure}
+
+%FIGURE 13%
+\begin{figure}[ht]
+\centerline{\includegraphics[width=39pc]{pv-24hr-avgs.png}}
+\caption{Potential vorticity (PVU; 1 PVU = 10\textsuperscript{-6} K kg\textsuperscript{-1} m\textsuperscript{2} s\textsuperscript{-1}) and cold-point tropopause height (orange lines) averaged over (a) 0-24 hours, (b) 24-48 hours, and (c) 48-72 hours.}
+\label{fig:pv}
+\end{figure}
+
+%FIGURE A1%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=27pc]{run12+run13-vmax.png}}
+   \appendcaption{A1}{Maximum 10-m wind speed (m s\textsuperscript{-1}) for (red) the simulation described in Section 2, and (blue) an identical simulation except condensate is not permitted to interact with radiation.}
+\label{fig:vmax-norad}
+\end{figure*}
+
+%FIGURE A2%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{n2-norad.png}}
+   \appendcaption{A2}{As in Fig. \ref{fig:n2-24hr-avgs}, but for the simulation in which radiation is not permitted to interact with condensate.}
+\label{fig:n2-norad}
+\end{figure*}
+
+%FIGURE A3%
+%\begin{figure*}[ht]
+%\centerline{\includegraphics[width=39pc]{adv-norad.png}}
+%   \caption{As in Fig. \ref{fig:adv-24-48}, but for the 48-72--hour period of the simulation in which radiation is not permitted to interact with condensate.}
+%\label{fig:adv-norad}
+%\end{figure*}
+
+%FIGURE A3%
+\begin{figure*}[ht]
+\centerline{\includegraphics[width=39pc]{budgetterms-norad.png}}
+   \appendcaption{A3}{As in Fig. \ref{fig:stab-48-72}, but for the simulation in which radiation is not permitted to interact with condensate.}
+\label{fig:budgetterms-norad}
+\end{figure*}
 
 %%FIGURE A1%
 %\begin{figure*}[ht]

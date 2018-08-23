@@ -892,9 +892,9 @@ $^{\@fnsymbol{\the\thanksnum}}$%
 \dothanks
 \eject\fi
 \centerline{\ifdraft\normalsize\else\bigfootnotesize\fi\sc ABSTRACT}
-\vskip7pt
+\vskip2pt
 \theabstract
-\vskip17pt
+\vskip10pt
 \ifdraft\newpage\fi
 }
 
